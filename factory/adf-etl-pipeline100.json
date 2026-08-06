@@ -1,0 +1,15 @@
+{
+	"name": "adf-etl-pipeline100",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "belgiumcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fa8d397d-be41-4bd7-81a3-c278b2ceae0e",
+		"tenantId": "532c4c1b-4d1f-4285-9882-fb5248438798"
+	}
+}
