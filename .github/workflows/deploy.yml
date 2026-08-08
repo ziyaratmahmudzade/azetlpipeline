@@ -21,12 +21,14 @@ jobs:
         run: |
           curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
 
-      - name: Configure Databricks CLI
-        env:
-          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-        run: |
-          databricks configure --host $DATABRICKS_HOST --token $DATABRICKS_TOKEN
+          - name: Configure Databricks CLI
+                  env:
+                    DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+                    DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+                  run: |
+                    echo "[DEFAULT]
+                    host = $DATABRICKS_HOST
+                    token = $DATABRICKS_TOKEN" > ~/.databrickscfg
 
           - name: Deploy notebooks to Databricks
                   env:
