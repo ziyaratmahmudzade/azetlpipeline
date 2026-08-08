@@ -19,32 +19,35 @@ jobs:
 
       - name: Install Databricks CLI
         run: |
-          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+          curl -fsSL https://github.com/databricks/cli/releases/download/v0.236.0/databricks_linux_amd64.zip -o databricks.zip
+          unzip databricks.zip
+          sudo mv databricks /usr/local/bin/
+          databricks version
 
-          - name: Configure Databricks CLI
-                  env:
-                    DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-                    DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-                  run: |
-                    echo "[DEFAULT]
-                    host = $DATABRICKS_HOST
-                    token = $DATABRICKS_TOKEN" > ~/.databrickscfg
+      - name: Configure Databricks CLI
+        env:
+          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+        run: |
+          echo "[DEFAULT]
+          host = $DATABRICKS_HOST
+          token = $DATABRICKS_TOKEN" > ~/.databrickscfg
 
-          - name: Deploy notebooks to Databricks
-                  env:
-                    DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-                    DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-                  run: |
-                    for notebook in notebooks/*.py; do
-                      name=$(basename $notebook .py)
-                      echo "Deploying $notebook as $name"
-                      databricks workspace import \
-                        --file $notebook \
-                        --format SOURCE \
-                        --language PYTHON \
-                        --overwrite \
-                        /Shared/etl-pipeline/$name
-                    done
+      - name: Deploy notebooks to Databricks
+        env:
+          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+        run: |
+          for notebook in notebooks/*.py; do
+            name=$(basename $notebook .py)
+            echo "Deploying $notebook as $name"
+            databricks workspace import \
+              --file $notebook \
+              --format SOURCE \
+              --language PYTHON \
+              --overwrite \
+              /Shared/etl-pipeline/$name
+          done
 
   deploy-synapse:
     runs-on: ubuntu-latest
