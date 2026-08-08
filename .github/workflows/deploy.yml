@@ -28,8 +28,12 @@ jobs:
                     DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
                     DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
                   run: |
-                    printf '[DEFAULT]\nhost = %s\ntoken = %s\n' "$DATABRICKS_HOST" "$DATABRICKS_TOKEN" > ~/.databrickscfg
-                    cat ~/.databrickscfg
+                    python3 -c "
+                    import os
+                    config = '[DEFAULT]\nhost = {}\ntoken = {}\n'.format(os.environ['DATABRICKS_HOST'], os.environ['DATABRICKS_TOKEN'])
+                    open(os.path.expanduser('~/.databrickscfg'), 'w').write(config)
+                    print('Config written successfully')
+                    "
 
           - name: Deploy notebooks to Databricks
                   env:
