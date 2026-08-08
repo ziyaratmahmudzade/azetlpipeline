@@ -112,7 +112,7 @@
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
-							"type": "JsonReadSettings"
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
@@ -127,6 +127,12 @@
 				"inputs": [
 					{
 						"referenceName": "ds_raw_support",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "ds_sink_adls",
 						"type": "DatasetReference"
 					}
 				]
