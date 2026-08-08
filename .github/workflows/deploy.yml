@@ -33,10 +33,12 @@ jobs:
           DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
         run: |
-          databricks workspace import notebooks/nb_transform.py \
-            /Shared/etl-pipeline/nb_transform \
+          databricks workspace import \
+            --file notebooks/nb_transform.py \
+            --format SOURCE \
             --language PYTHON \
-            --overwrite
+            --overwrite \
+            /Shared/etl-pipeline/nb_transform
 
   deploy-synapse:
     runs-on: ubuntu-latest
