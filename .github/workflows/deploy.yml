@@ -46,11 +46,12 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy Synapse SQL scripts
-        run: |
-          for f in synapse/*.sql; do
-            echo "Running $f"
-            az synapse sql script run \
-              --workspace-name synw-etl-pipeline \
-              --name $(basename $f .sql) \
-              --file @$f
-          done
+              run: |
+                if ls synapse/*.sql 1> /dev/null 2>&1; then
+                  for f in synapse/*.sql; do
+                    echo "Found $f — skipping auto-deploy (run manually in Synapse Studio)"
+                  done
+                else
+                  echo "No SQL scripts found — skipping"
+                fi
+                echo "✓ Synapse step complete"
