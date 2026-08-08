@@ -22,3 +22,15 @@ print("\n=== raw/master/ ===")
 master_files = dbutils.fs.ls(f"abfss://datalake100@saetlpipeline100.dfs.core.windows.net/raw/master/")
 for f in master_files:
     print(f.path)
+    
+# Check raw/support/
+print("\n=== raw/support/ ===")
+support_files = dbutils.fs.ls(f"abfss://datalake100@saetlpipeline100.dfs.core.windows.net/raw/support/")
+for f in support_files:
+    print(f.path)
+
+# Check raw/marketing/
+print("\n=== raw/marketing/ ===")
+marketing_files = dbutils.fs.ls(f"abfss://datalake100@saetlpipeline100.dfs.core.windows.net/raw/marketing/")
+for f in marketing_files:
+    print(f.path)
