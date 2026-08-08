@@ -32,21 +32,22 @@ jobs:
           host = $DATABRICKS_HOST
           token = $DATABRICKS_TOKEN" > ~/.databrickscfg
 
-      - name: Deploy notebooks to Databricks
-        env:
-          DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-        run: |
-          for notebook in notebooks/*.py; do
-            name=$(basename $notebook .py)
-            echo "Deploying $notebook as $name"
-            databricks workspace import \
-              --file $notebook \
-              --format SOURCE \
-              --language PYTHON \
-              --overwrite \
-              /Shared/etl-pipeline/$name
-          done
+          - name: Deploy notebooks to Databricks
+                  env:
+                    DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+                    DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+                  run: |
+                    databricks workspace mkdirs /Shared/etl-pipeline
+                    for notebook in notebooks/*.py; do
+                      name=$(basename $notebook .py)
+                      echo "Deploying $notebook as $name"
+                      databricks workspace import \
+                        --file $notebook \
+                        --format SOURCE \
+                        --language PYTHON \
+                        --overwrite \
+                        /Shared/etl-pipeline/$name
+                    done
 
   deploy-synapse:
     runs-on: ubuntu-latest
