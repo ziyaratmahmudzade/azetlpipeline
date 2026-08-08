@@ -1,0 +1,19 @@
+{
+	"name": "ds_raw_support",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "support_tickets.json",
+				"folderPath": "raw/support",
+				"fileSystem": "datalake100"
+			}
+		}
+	}
+}
