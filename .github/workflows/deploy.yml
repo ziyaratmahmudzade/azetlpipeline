@@ -8,49 +8,30 @@ on:
 jobs:
   deploy-notebooks:
     runs-on: ubuntu-latest
+    env:
+      DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+      DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-
       - name: Install Databricks CLI
         run: |
-          pip install databricks-sdk
-          curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/v0.221.0/install.sh | sh
-          databricks version
+          pip install databricks-cli
 
-          - name: Configure Databricks CLI
-                  env:
-                    DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-                    DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-                  run: |
-                    python3 -c "
-                    import os
-                    config = '[DEFAULT]\nhost = {}\ntoken = {}\n'.format(os.environ['DATABRICKS_HOST'], os.environ['DATABRICKS_TOKEN'])
-                    open(os.path.expanduser('~/.databrickscfg'), 'w').write(config)
-                    print('Config written successfully')
-                    "
-
-          - name: Deploy notebooks to Databricks
-                  env:
-                    DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
-                    DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
-                  run: |
-                    databricks workspace mkdirs /Shared/etl-pipeline
-                    for notebook in notebooks/*.py; do
-                      name=$(basename $notebook .py)
-                      echo "Deploying $notebook as $name"
-                      databricks workspace import \
-                        --file $notebook \
-                        --format SOURCE \
-                        --language PYTHON \
-                        --overwrite \
-                        /Shared/etl-pipeline/$name
-                    done
+      - name: Deploy notebooks to Databricks
+        run: |
+          databricks workspace mkdirs /Shared/etl-pipeline
+          for notebook in notebooks/*.py; do
+            name=$(basename $notebook .py)
+            echo "Deploying $name"
+            databricks workspace import \
+              --language PYTHON \
+              --format SOURCE \
+              --overwrite \
+              $notebook \
+              /Shared/etl-pipeline/$name
+          done
 
   deploy-synapse:
     runs-on: ubuntu-latest
