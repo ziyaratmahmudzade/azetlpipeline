@@ -23,7 +23,7 @@
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
-							"type": "DelimitedTextReadSettings"
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
@@ -83,12 +83,6 @@
 						"referenceName": "ds_raw_master",
 						"type": "DatasetReference"
 					}
-				],
-				"outputs": [
-					{
-						"referenceName": "ds_sink_adls",
-						"type": "DatasetReference"
-					}
 				]
 			},
 			{
@@ -129,12 +123,6 @@
 						"referenceName": "ds_raw_support",
 						"type": "DatasetReference"
 					}
-				],
-				"outputs": [
-					{
-						"referenceName": "ds_sink_adls",
-						"type": "DatasetReference"
-					}
 				]
 			},
 			{
@@ -173,12 +161,6 @@
 				"inputs": [
 					{
 						"referenceName": "ds_raw_marketing",
-						"type": "DatasetReference"
-					}
-				],
-				"outputs": [
-					{
-						"referenceName": "ds_sink_adls",
 						"type": "DatasetReference"
 					}
 				]
