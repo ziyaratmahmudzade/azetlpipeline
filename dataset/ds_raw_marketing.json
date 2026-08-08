@@ -1,0 +1,93 @@
+{
+	"name": "ds_raw_marketing",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "marketing_campaigns.csv",
+				"folderPath": "raw/marketing",
+				"fileSystem": "datalake100"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "campaign_id",
+				"type": "String"
+			},
+			{
+				"name": "campaign_name",
+				"type": "String"
+			},
+			{
+				"name": "campaign_type",
+				"type": "String"
+			},
+			{
+				"name": "objective",
+				"type": "String"
+			},
+			{
+				"name": "platform",
+				"type": "String"
+			},
+			{
+				"name": "target_segment",
+				"type": "String"
+			},
+			{
+				"name": "target_region",
+				"type": "String"
+			},
+			{
+				"name": "start_date",
+				"type": "String"
+			},
+			{
+				"name": "end_date",
+				"type": "String"
+			},
+			{
+				"name": "duration_days",
+				"type": "String"
+			},
+			{
+				"name": "budget_usd",
+				"type": "String"
+			},
+			{
+				"name": "spent_usd",
+				"type": "String"
+			},
+			{
+				"name": "impressions",
+				"type": "String"
+			},
+			{
+				"name": "clicks",
+				"type": "String"
+			},
+			{
+				"name": "ctr_pct",
+				"type": "String"
+			},
+			{
+				"name": "leads_generated",
+				"type": "String"
+			},
+			{
+				"name": "conversions",
+				"type": "String"
+			}
+		]
+	}
+}
