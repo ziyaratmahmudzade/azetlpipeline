@@ -1,0 +1,72 @@
+{
+	"name": "ds_raw_support",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "support_tickets.json",
+				"folderPath": "raw/support",
+				"fileSystem": "datalake100"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"ticket_id": {
+					"type": "string"
+				},
+				"customer_id": {
+					"type": "string"
+				},
+				"customer_name": {
+					"type": "string"
+				},
+				"segment": {
+					"type": "string"
+				},
+				"region": {
+					"type": "string"
+				},
+				"ticket_type": {
+					"type": "string"
+				},
+				"severity": {
+					"type": "string"
+				},
+				"status": {
+					"type": "string"
+				},
+				"subject": {
+					"type": "string"
+				},
+				"created_date": {
+					"type": "string"
+				},
+				"resolved_date": {
+					"type": "string"
+				},
+				"resolution_days": {
+					"type": "integer"
+				},
+				"assigned_agent": {
+					"type": "string"
+				},
+				"satisfaction_score": {
+					"type": "integer"
+				},
+				"channel": {
+					"type": "string"
+				},
+				"related_product_id": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
