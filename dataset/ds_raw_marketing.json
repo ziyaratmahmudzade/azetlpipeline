@@ -1,0 +1,19 @@
+{
+	"name": "ds_raw_marketing",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "master_data (1).xlsx",
+				"folderPath": "raw/master",
+				"fileSystem": "datalake100"
+			}
+		}
+	}
+}
