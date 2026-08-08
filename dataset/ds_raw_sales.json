@@ -1,0 +1,19 @@
+{
+	"name": "ds_raw_sales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "sales_transactions (1).csv",
+				"folderPath": "raw/sales",
+				"fileSystem": "datalake100"
+			}
+		}
+	}
+}
