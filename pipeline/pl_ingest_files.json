@@ -158,7 +158,7 @@
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
-							"type": "DelimitedTextReadSettings"
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
@@ -173,6 +173,12 @@
 				"inputs": [
 					{
 						"referenceName": "ds_raw_marketing",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "ds_sink_adls",
 						"type": "DatasetReference"
 					}
 				]
