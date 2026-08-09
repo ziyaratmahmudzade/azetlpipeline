@@ -27,13 +27,14 @@ Synapse Serverless SQL views
 ↓
 Power BI · 6 dashboards
 
+
 ### Medallion Architecture — Bronze → Silver → Gold
 
 | Layer | Zone | Folder | What happens |
 |---|---|---|---|
-| Bronze | Raw | `raw/` | Original files land here unchanged via ADF |
-| Silver | Clean | `clean/` | Cleaned, validated, typed correctly |
-| Gold | Curated | `curated/` | Joined, enriched, business-ready Delta tables |
+| Bronze | Raw | `raw/` | Original files land here unchanged via ADF daily at 06:00 UTC |
+| Silver | Clean | `cleaned/` | Cleaned, validated, typed correctly by nb_clean.py |
+| Gold | Curated | `curated/` | Joined, enriched, business-ready Delta tables by nb_transform.py |
 
 ---
 
@@ -53,6 +54,7 @@ Power BI · 6 dashboards
 ---
 
 ## Repository Structure
+
 azetlpipeline/
 │
 ├── .github/
@@ -68,7 +70,7 @@ azetlpipeline/
 ├── notebooks/ # Databricks PySpark notebooks
 │ ├── nb_ingest.py # Reads all 4 source files from Bronze zone
 │ ├── nb_clean.py # Bronze → Silver: cleans and validates
-│ ├── nb_tranform.py # Silver → Gold: joins, enriches, writes
+│ ├── nb_transform.py # Silver → Gold: joins, enriches, writes
 │ ├── nb_validate.py # 19 automated data quality checks on Gold
 │ └── nb_mount_adls.py # ADLS Gen2 mount utility
 │
@@ -83,8 +85,9 @@ azetlpipeline/
 │ └── marketing_campaigns.csv # 820 rows, 17 columns
 │
 ├── tests/ # Unit tests
-├── .gitignore # Excludes sensitive data files
-└── README.md # This file
+├── .gitignore
+└── README.md
+
 
 ---
 
@@ -164,10 +167,10 @@ Scheduled refresh daily at 07:00 UTC via Synapse Serverless SQL.
 | Resource | Name | Notes |
 |---|---|---|
 | Resource Group | `rg-etl-pipeline` | All resources in same region |
-| Storage Account | `saetlpipeline` | Hierarchical namespace ON |
+| Storage Account | `saetlpipeline` | Hierarchical namespace ON · 3 zones: raw/, cleaned/, curated/ |
 | Key Vault | `kv-etl-pipeline` | Store `adls-storage-key` secret |
 | Data Factory | `adf-etl-pipeline` | Connect to this GitHub repo |
-| Databricks | `dbw-etl-pipeline` | Runtime 13.3 LTS, link Key Vault as `kv-scope` |
+| Databricks | `dbw-etl-pipeline` | Runtime 13.3 LTS · link Key Vault as `kv-scope` |
 | Synapse Analytics | `synw-etl-pipeline` | Linked to storage account |
 
 ### 2. Permissions
@@ -176,14 +179,15 @@ Scheduled refresh daily at 07:00 UTC via Synapse Serverless SQL.
 - Grant `Storage Blob Data Reader` to Synapse managed identity
 
 ### 3. Run the Pipeline
-1. Upload source files to ADLS raw zone
-2. Run ADF pipeline pl_ingest_files
-3. Run notebooks in order:
-nb_mount_adls.py → nb_ingest.py → nb_clean.py → nb_transform.py → nb_validate.py
-4. Run synapse/curated_zone.sql then the cz_vw... in series and select_curated_zone_views.sql for verification in Synapse Studio
-5. Connect Power BI to Synapse Serverless endpoint
+Upload source files to ADLS raw zone
+ADF pipeline pl_ingest_files runs daily at 06:00 UTC
+Notebooks run in order automatically:
+nb_clean.py → nb_transform.py → nb_validate.py
+Run synapse/create_views.sql in Synapse Studio
+Connect Power BI to Synapse Serverless endpoint
 
 ### 4. Monitoring
+
 Create Azure Monitor alert on ADF — condition `Failed pipeline runs > 0` — with email notification via Action Group.
 
 ---
