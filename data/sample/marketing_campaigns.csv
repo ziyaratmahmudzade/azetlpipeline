@@ -1,0 +1,821 @@
+campaign_id,campaign_name,campaign_type,objective,platform,target_segment,target_region,start_date,end_date,duration_days,budget_usd,spent_usd,impressions,clicks,ctr_pct,leads_generated,conversions
+CAMP-00001,Secured tertiary moratorium,Paid Search,Lead Generation,Twitter,Enterprise,South,2024-01-22,2024-02-24,33,1818.95,1920.33,111178,6678,6.0066,405,211
+CAMP-00002,Configurable object-oriented implementation,Trade Show,Lead Generation,Salesforce,SMB,East,2026-05-12,2026-07-24,73,2609.86,1583.05,107107,29444,27.4903,49,46
+CAMP-00003,Upgradable clear-thinking knowledgebase,Email,Product Launch,Marketo,Enterprise,North,2023-09-04,2023-10-24,50,35363.04,29412.42,159023,29785,18.73,100,65
+CAMP-00004,Vision-oriented heuristic contingency,Social Media,Product Launch,Google Ads,Enterprise,West,2025-07-02,2025-07-19,17,48454.38,48769.26,332978,18158,5.4532,147,92
+CAMP-00005,Face-to-face exuding core,Webinar,Product Launch,HubSpot,Mid-Market,South,2024-04-26,2024-05-06,10,1362.77,1114.13,981475,44426,4.5265,178,136
+CAMP-00006,Fully-configurable uniform time-frame,Social Media,Product Launch,Facebook,Mid-Market,South,2025-03-16,2025-03-26,10,10625.81,9357.4,435366,13231,3.0391,170,50
+CAMP-00007,Multi-tiered zero administration firmware,Email,Lead Generation,LinkedIn,Mid-Market,South,2026-01-07,2026-03-10,62,41248.06,26376.76,258196,9158,3.5469,299,32
+CAMP-00008,Grass-roots attitude-oriented circuit,Email,Product Launch,HubSpot,Mid-Market,South,2025-07-29,2025-09-27,60,21565.4,16288.36,110653,49585,44.8113,169,160
+CAMP-00009,Sharable optimal benchmark,Email,Upsell,Salesforce,SMB,North,2025-06-25,2025-07-17,22,45739.51,28297.91,594413,15563,2.6182,383,335
+CAMP-00010,Right-sized bottom-line benchmark,Trade Show,Upsell,HubSpot,Enterprise,Central,2023-12-07,2024-02-25,80,649.83,470.9,44871,11380,25.3616,362,33
+CAMP-00011,Fundamental contextually-based array,Direct Mail,Brand Awareness,Marketo,Enterprise,West,2024-01-10,2024-02-24,45,32505.91,29221.73,1073348,39821,3.71,254,237
+CAMP-00012,Multi-lateral demand-driven infrastructure,Webinar,Product Launch,LinkedIn,Enterprise,West,2023-10-31,2024-01-05,66,29720.7,28014.07,143585,36573,25.4713,416,212
+CAMP-00013,Ameliorated incremental archive,Paid Search,Product Launch,Google Ads,Enterprise,Central,2023-11-26,2024-02-03,69,14689.42,9174.31,215193,15389,7.1513,245,146
+CAMP-00014,Self-enabling asynchronous database,Direct Mail,Customer Retention,Google Ads,Mid-Market,West,2025-01-21,2025-04-13,82,29958.51,26705.97,38114,29333,76.9612,466,58
+CAMP-00015,Multi-tiered foreground productivity,Webinar,Lead Generation,Salesforce,Enterprise,East,2025-08-29,2025-09-08,10,11109.94,6949.16,23009,11341,49.2894,235,209
+CAMP-00016,Diverse contextually-based framework,Direct Mail,Upsell,HubSpot,SMB,Central,2026-04-28,2026-07-24,87,40260.85,36793.79,53998,5584,10.3411,48,34
+CAMP-00017,Enhanced stable open system,Direct Mail,Upsell,HubSpot,SMB,Central,2023-08-19,2023-10-29,71,44305.07,43862.89,11447,5572,48.6765,229,37
+CAMP-00018,Automated bottom-line Graphical User Interface,Trade Show,Brand Awareness,Google Ads,Enterprise,South,2025-06-29,2025-08-12,44,46426.27,39653.08,345134,26248,7.6052,417,36
+CAMP-00019,Polarized reciprocal policy,Email,Upsell,Google Ads,Enterprise,East,2026-07-31,2026-09-21,52,26336.34,25512.61,492243,33316,6.7682,119,73
+CAMP-00020,Diverse multi-state support,Trade Show,Lead Generation,Facebook,SMB,South,2025-03-28,2025-05-07,40,27234.7,22043.6,111565,11885,10.653,163,121
+CAMP-00021,Decentralized content-based portal,Paid Search,Brand Awareness,HubSpot,SMB,South,2024-05-12,2024-05-30,18,38348.17,35816.88,1271068,32847,2.5842,478,80
+CAMP-00022,Ameliorated multi-state migration,Direct Mail,Lead Generation,Facebook,Enterprise,Central,2023-09-09,2023-11-26,78,45238.68,30545.99,1437759,44027,3.0622,371,200
+CAMP-00023,Extended high-level budgetary management,Paid Search,Product Launch,LinkedIn,Mid-Market,Central,2025-11-18,2026-01-09,52,11852.19,7810.08,274088,38174,13.9276,463,404
+CAMP-00024,Assimilated fresh-thinking challenge,Email,Product Launch,HubSpot,SMB,South,2026-04-17,2026-07-15,89,12781.52,10784.45,393183,21943,5.5809,345,283
+CAMP-00025,Upgradable system-worthy capacity,Webinar,Upsell,Google Ads,SMB,North,2024-04-04,2024-05-04,30,14996.07,9336.31,413243,18649,4.5128,309,215
+CAMP-00026,Polarized dedicated array,Trade Show,Customer Retention,LinkedIn,Mid-Market,West,2024-05-27,2024-08-20,85,21750.76,15939.44,49241,29194,59.288,261,159
+CAMP-00027,Reactive solution-oriented frame,Email,Upsell,HubSpot,Enterprise,North,2024-08-23,2024-09-19,27,49070.7,38166.49,157880,26748,16.942,389,124
+CAMP-00028,Proactive intermediate migration,Webinar,Product Launch,Google Ads,SMB,South,2024-12-31,2025-03-16,75,20306.46,19257.51,164212,28667,17.4573,116,78
+CAMP-00029,Ergonomic eco-centric conglomeration,Trade Show,Brand Awareness,Facebook,SMB,Central,2026-06-09,2026-09-01,84,28999.64,23560.97,19744,4940,25.0203,319,32
+CAMP-00030,Universal even-keeled infrastructure,Webinar,Product Launch,LinkedIn,Mid-Market,West,2024-03-11,2024-06-07,88,40835.74,44890.3,35138,7175,20.4195,447,104
+CAMP-00031,Visionary optimizing function,Social Media,Customer Retention,Facebook,Mid-Market,South,2023-11-28,2024-01-05,38,2667.65,1940.07,67879,21887,32.2441,284,261
+CAMP-00032,Expanded uniform matrix,Paid Search,Lead Generation,Salesforce,SMB,South,2024-02-05,2024-03-01,25,13478.05,12239.95,315962,12764,4.0397,219,81
+CAMP-00033,Organized interactive policy,Social Media,Customer Retention,HubSpot,SMB,Central,2024-11-24,2025-01-21,58,42333.83,35349.73,319510,49089,15.3638,379,247
+CAMP-00034,Intuitive regional benchmark,Social Media,Lead Generation,Facebook,Enterprise,South,2025-11-03,2026-01-18,76,31709.1,27693.21,604285,26360,4.3622,489,464
+CAMP-00035,Optimized dedicated open system,Webinar,Product Launch,Facebook,SMB,South,2025-06-02,2025-07-13,41,20978.12,21479.4,215174,21494,9.9891,53,50
+CAMP-00036,Self-enabling asymmetric knowledge user,Paid Search,Upsell,Twitter,SMB,North,2024-08-28,2024-11-21,85,33326.81,30284.18,961699,38226,3.9748,468,127
+CAMP-00037,Automated multimedia extranet,Trade Show,Brand Awareness,LinkedIn,SMB,South,2024-02-07,2024-02-25,18,16702.67,14935.13,419054,40319,9.6214,160,12
+CAMP-00038,Implemented real-time project,Email,Product Launch,Marketo,SMB,East,2025-05-11,2025-07-03,53,12696.63,13513.96,38626,7531,19.4972,455,355
+CAMP-00039,Progressive heuristic infrastructure,Social Media,Product Launch,Marketo,SMB,West,2026-06-13,2026-07-19,36,41709.94,36242.13,178504,13675,7.6609,394,284
+CAMP-00040,Enterprise-wide fresh-thinking interface,Email,Upsell,Marketo,SMB,Central,2023-09-09,2023-09-28,19,25976.06,18961.29,38360,31918,83.2065,190,153
+CAMP-00041,Multi-channeled dynamic archive,Webinar,Customer Retention,Salesforce,SMB,Central,2025-12-21,2026-02-04,45,40446.18,30308.62,52504,3177,6.051,497,297
+CAMP-00042,Multi-layered holistic circuit,Influencer,Customer Retention,Facebook,Mid-Market,North,2024-03-30,2024-06-23,85,22027.95,18696.26,21042,17279,82.1167,25,10
+CAMP-00043,Decentralized 24/7 functionalities,Social Media,Upsell,Salesforce,SMB,East,2025-12-08,2026-02-15,69,37935.18,29208.51,136046,20319,14.9354,456,14
+CAMP-00044,Universal full-range data-warehouse,Influencer,Product Launch,Facebook,SMB,North,2025-08-30,2025-10-30,61,6977.36,7176.34,121725,25086,20.6087,189,66
+CAMP-00045,Inverse discrete open architecture,Direct Mail,Product Launch,Google Ads,Enterprise,East,2024-12-29,2025-01-11,13,5865.74,5374.85,15002,3619,24.1235,309,177
+CAMP-00046,Horizontal real-time data-warehouse,Webinar,Customer Retention,Twitter,Enterprise,North,2023-10-19,2023-11-17,29,8031.71,5546.07,1408532,31450,2.2328,390,231
+CAMP-00047,Customer-focused next generation focus group,Influencer,Upsell,Salesforce,Mid-Market,Central,2025-03-07,2025-05-31,85,3832.95,2352.95,31060,6648,21.4037,40,11
+CAMP-00048,Synchronized asynchronous orchestration,Webinar,Product Launch,HubSpot,Enterprise,West,2025-09-30,2025-12-12,73,32151.18,35259.77,869329,38688,4.4503,3,0
+CAMP-00049,Operative systemic system engine,Social Media,Product Launch,Salesforce,Mid-Market,West,2026-04-11,2026-04-28,17,9058.01,8131.94,15610,992,6.3549,482,183
+CAMP-00050,Intuitive dedicated customer loyalty,Paid Search,Brand Awareness,Marketo,Mid-Market,North,2024-11-26,2025-02-22,88,40693.46,25965.27,38256,3604,9.4207,373,56
+CAMP-00051,Proactive modular analyzer,Trade Show,Customer Retention,Salesforce,SMB,West,2023-10-01,2023-11-06,36,21789.14,20660.84,155885,34984,22.4422,373,197
+CAMP-00052,Operative bottom-line capability,Influencer,Brand Awareness,HubSpot,Mid-Market,North,2026-07-27,2026-09-19,54,49178.35,52817.25,1501048,44123,2.9395,89,39
+CAMP-00053,Right-sized fresh-thinking parallelism,Direct Mail,Customer Retention,Facebook,SMB,South,2024-12-15,2025-02-06,53,39947.34,43541.57,348573,28230,8.0987,137,12
+CAMP-00054,Re-engineered 3rdgeneration forecast,Paid Search,Upsell,HubSpot,SMB,South,2024-09-30,2024-11-19,50,37118.49,38415.23,130080,12784,9.8278,432,39
+CAMP-00055,Re-engineered 24hour Local Area Network,Direct Mail,Customer Retention,Marketo,SMB,West,2023-08-27,2023-11-21,86,36805.27,40178.28,153539,26192,17.0589,230,112
+CAMP-00056,Open-architected 5thgeneration monitoring,Webinar,Customer Retention,Marketo,Enterprise,Central,2024-06-14,2024-08-22,69,8901.19,6193.57,121308,44997,37.0932,426,284
+CAMP-00057,Balanced global project,Direct Mail,Brand Awareness,LinkedIn,Mid-Market,Central,2026-05-09,2026-05-23,14,40159.21,25446.31,24391,2833,11.6149,401,198
+CAMP-00058,Phased bandwidth-monitored website,Paid Search,Lead Generation,LinkedIn,SMB,East,2023-08-25,2023-09-30,36,16587.49,14475.23,135469,15136,11.173,424,74
+CAMP-00059,Innovative even-keeled functionalities,Paid Search,Brand Awareness,Facebook,Mid-Market,North,2024-11-04,2025-01-15,72,3921.62,4063.95,256611,33797,13.1705,225,121
+CAMP-00060,Open-architected attitude-oriented open architecture,Email,Product Launch,HubSpot,SMB,West,2025-11-10,2026-01-02,53,13451.81,10946.39,757042,35167,4.6453,422,272
+CAMP-00061,Proactive reciprocal application,Trade Show,Product Launch,HubSpot,SMB,North,2025-12-03,2026-02-05,64,35376.55,30998.19,116257,39143,33.6694,7,5
+CAMP-00062,Total logistical methodology,Influencer,Upsell,LinkedIn,Mid-Market,North,2024-10-11,2024-12-25,75,36899.39,36971.44,359748,34682,9.6406,290,217
+CAMP-00063,Decentralized holistic process improvement,Paid Search,Product Launch,Google Ads,Enterprise,East,2026-02-22,2026-05-01,68,29149.37,19425.79,317973,29552,9.2939,245,26
+CAMP-00064,Face-to-face actuating access,Direct Mail,Brand Awareness,HubSpot,Mid-Market,West,2023-11-28,2024-02-19,83,27252.13,29480.09,154710,8763,5.6641,363,129
+CAMP-00065,Inverse system-worthy success,Webinar,Lead Generation,Twitter,Enterprise,Central,2024-01-06,2024-03-19,73,12155.56,10745.6,1195256,42440,3.5507,52,9
+CAMP-00066,Down-sized background core,Social Media,Lead Generation,LinkedIn,Enterprise,East,2024-11-27,2024-12-30,33,49178.57,42221.8,212539,36606,17.2232,263,25
+CAMP-00067,Multi-layered national ability,Webinar,Lead Generation,LinkedIn,Enterprise,Central,2025-10-08,2025-11-07,30,11885.96,12414.67,480443,25392,5.2851,8,1
+CAMP-00068,Business-focused empowering toolset,Email,Upsell,LinkedIn,Mid-Market,West,2026-05-26,2026-08-21,87,30044.89,31063.95,302178,46949,15.5369,470,410
+CAMP-00069,Business-focused exuding archive,Social Media,Lead Generation,HubSpot,SMB,East,2023-09-24,2023-11-17,54,19493.94,12602.25,359785,19063,5.2984,31,15
+CAMP-00070,Team-oriented reciprocal utilization,Webinar,Upsell,Facebook,SMB,East,2024-05-22,2024-07-29,68,14180.0,14059.74,175056,12878,7.3565,392,281
+CAMP-00071,Future-proofed tangible concept,Paid Search,Customer Retention,Facebook,SMB,Central,2026-01-13,2026-01-24,11,680.67,657.98,28433,26594,93.5322,8,7
+CAMP-00072,Reduced logistical capability,Paid Search,Lead Generation,LinkedIn,Enterprise,South,2026-05-16,2026-07-10,55,22157.98,14120.54,929076,43907,4.7259,10,0
+CAMP-00073,Digitized web-enabled paradigm,Influencer,Product Launch,HubSpot,Mid-Market,East,2023-12-24,2024-02-16,54,15305.0,9845.26,15663,14832,94.6945,46,45
+CAMP-00074,Open-source scalable knowledge user,Trade Show,Lead Generation,Facebook,SMB,West,2026-04-06,2026-06-03,58,30898.87,32789.8,167910,30864,18.3813,302,137
+CAMP-00075,Programmable multi-tasking encoding,Trade Show,Product Launch,Google Ads,Mid-Market,Central,2025-08-08,2025-10-09,62,21274.68,14916.76,1231708,47653,3.8689,283,72
+CAMP-00076,Switchable mobile focus group,Email,Product Launch,HubSpot,SMB,South,2025-05-01,2025-07-05,65,39353.13,34000.21,1220650,34181,2.8002,276,221
+CAMP-00077,Upgradable mission-critical definition,Trade Show,Product Launch,Twitter,Enterprise,Central,2024-07-25,2024-10-18,85,4096.07,2520.38,105190,23890,22.7113,411,302
+CAMP-00078,Visionary explicit structure,Trade Show,Upsell,HubSpot,Enterprise,South,2023-11-16,2023-12-23,37,6761.96,7246.35,685309,23595,3.443,67,55
+CAMP-00079,Realigned dynamic protocol,Social Media,Lead Generation,Salesforce,Mid-Market,North,2023-11-06,2023-11-14,8,15484.92,9899.97,1017481,37562,3.6917,437,2
+CAMP-00080,Expanded system-worthy archive,Direct Mail,Brand Awareness,Twitter,Mid-Market,South,2025-07-16,2025-09-03,49,25769.59,27979.53,113751,19157,16.8412,60,29
+CAMP-00081,Proactive analyzing data-warehouse,Webinar,Brand Awareness,Twitter,Mid-Market,West,2023-10-29,2024-01-21,84,9651.47,6151.02,1281958,39982,3.1188,277,74
+CAMP-00082,Extended maximized info-mediaries,Paid Search,Customer Retention,Facebook,Enterprise,East,2023-08-22,2023-09-18,27,7475.21,8009.78,214913,29543,13.7465,171,131
+CAMP-00083,Customer-focused global database,Social Media,Lead Generation,Salesforce,SMB,West,2024-02-29,2024-05-16,77,17657.27,13186.88,551370,21003,3.8092,248,213
+CAMP-00084,Virtual multi-tasking migration,Direct Mail,Product Launch,Google Ads,SMB,North,2026-01-15,2026-02-07,23,42305.92,33150.26,2321,1283,55.2779,425,0
+CAMP-00085,Virtual fault-tolerant strategy,Trade Show,Brand Awareness,HubSpot,SMB,North,2026-03-05,2026-05-03,59,14117.89,8843.74,204601,18348,8.9677,87,27
+CAMP-00086,Distributed motivating benchmark,Webinar,Brand Awareness,LinkedIn,Enterprise,South,2024-12-17,2025-01-28,42,750.31,483.56,797153,45244,5.6757,266,264
+CAMP-00087,Face-to-face high-level info-mediaries,Email,Customer Retention,HubSpot,SMB,East,2026-05-04,2026-05-20,16,19779.56,21104.4,2668,509,19.078,473,406
+CAMP-00088,Secured multimedia customer loyalty,Paid Search,Brand Awareness,Twitter,Enterprise,East,2026-07-10,2026-07-28,18,6250.35,4912.15,52436,7257,13.8397,0,0
+CAMP-00089,Ergonomic asymmetric focus group,Email,Lead Generation,Twitter,Enterprise,South,2025-12-09,2026-01-31,53,11756.93,11856.51,142075,37423,26.3403,406,225
+CAMP-00090,Synergized fault-tolerant orchestration,Trade Show,Upsell,Salesforce,Mid-Market,Central,2024-11-13,2025-02-03,82,16038.55,9741.06,227681,46018,20.2116,489,247
+CAMP-00091,Digitized maximized benchmark,Trade Show,Upsell,HubSpot,Enterprise,South,2025-07-17,2025-09-03,48,35106.78,25048.75,900855,34303,3.8078,330,72
+CAMP-00092,Front-line 3rdgeneration knowledgebase,Influencer,Upsell,Google Ads,Mid-Market,West,2025-10-31,2025-12-21,51,7009.5,5106.74,190877,27193,14.2463,489,241
+CAMP-00093,Assimilated methodical protocol,Paid Search,Lead Generation,Google Ads,Mid-Market,Central,2024-02-28,2024-04-14,46,40641.37,26064.17,13182,4734,35.9126,461,394
+CAMP-00094,Multi-channeled empowering capability,Paid Search,Upsell,Salesforce,Enterprise,North,2025-03-11,2025-06-04,85,20462.44,19281.78,243640,14081,5.7794,35,29
+CAMP-00095,Configurable heuristic Internet solution,Webinar,Brand Awareness,HubSpot,SMB,West,2026-05-18,2026-06-13,26,21323.5,13438.87,141164,28635,20.2849,441,139
+CAMP-00096,Object-based motivating Internet solution,Webinar,Customer Retention,Twitter,Enterprise,Central,2024-03-27,2024-05-05,39,44604.29,47524.73,131150,11691,8.9142,257,99
+CAMP-00097,Business-focused leadingedge flexibility,Paid Search,Product Launch,HubSpot,Mid-Market,North,2025-02-14,2025-02-27,13,16876.99,10574.05,252575,46282,18.3241,417,227
+CAMP-00098,Business-focused solution-oriented implementation,Trade Show,Customer Retention,Salesforce,Mid-Market,East,2024-09-15,2024-10-02,17,18528.99,14796.01,1851,737,39.8163,105,72
+CAMP-00099,Optimized content-based frame,Email,Lead Generation,LinkedIn,Mid-Market,Central,2025-10-17,2025-10-29,12,24922.53,23674.37,161885,39427,24.3549,374,14
+CAMP-00100,Enhanced radical focus group,Direct Mail,Product Launch,LinkedIn,SMB,West,2024-03-02,2024-04-27,56,5190.36,5673.79,486238,19428,3.9956,9,2
+CAMP-00101,Proactive multi-state Internet solution,Email,Brand Awareness,LinkedIn,Enterprise,West,2025-03-09,2025-04-06,28,31875.37,25597.88,387036,20752,5.3618,317,189
+CAMP-00102,Business-focused secondary encryption,Influencer,Product Launch,Salesforce,SMB,East,2023-12-05,2024-01-04,30,22168.0,16778.37,6587,4000,60.7257,406,289
+CAMP-00103,Face-to-face bifurcated application,Direct Mail,Upsell,Facebook,Mid-Market,Central,2026-06-23,2026-07-10,17,16315.62,12540.68,742569,22842,3.0761,441,368
+CAMP-00104,Re-engineered encompassing encoding,Influencer,Brand Awareness,Twitter,SMB,Central,2026-04-14,2026-06-03,50,2083.54,1544.44,430235,29128,6.7703,489,427
+CAMP-00105,Cross-platform even-keeled definition,Email,Lead Generation,Twitter,Mid-Market,Central,2023-10-19,2023-11-01,13,46572.14,44436.74,84169,15212,18.0732,302,187
+CAMP-00106,Total transitional initiative,Paid Search,Customer Retention,Google Ads,Enterprise,West,2026-03-31,2026-05-04,34,48506.82,47848.62,39618,38043,96.0245,6,1
+CAMP-00107,Cross-platform directional superstructure,Direct Mail,Upsell,LinkedIn,Enterprise,North,2024-10-10,2024-12-10,61,2757.55,2497.75,83433,4819,5.7759,497,389
+CAMP-00108,Team-oriented encompassing methodology,Direct Mail,Upsell,Facebook,Enterprise,East,2026-01-26,2026-04-21,85,31021.67,21315.96,441211,49254,11.1634,279,183
+CAMP-00109,Expanded grid-enabled productivity,Webinar,Upsell,Twitter,SMB,East,2024-03-20,2024-05-12,53,19702.16,12148.92,42992,37954,88.2815,208,124
+CAMP-00110,Right-sized executive superstructure,Trade Show,Customer Retention,Marketo,SMB,West,2024-06-18,2024-07-04,16,27563.4,26421.29,547926,45677,8.3363,244,67
+CAMP-00111,Enterprise-wide motivating standardization,Email,Product Launch,Twitter,Mid-Market,South,2023-08-11,2023-09-14,34,33279.51,29456.96,35426,24673,69.6466,147,78
+CAMP-00112,User-centric fault-tolerant solution,Social Media,Product Launch,Facebook,Mid-Market,West,2025-06-19,2025-07-16,27,17041.63,10293.57,4864,824,16.9408,82,81
+CAMP-00113,Intuitive systemic architecture,Direct Mail,Upsell,Marketo,Enterprise,West,2024-04-25,2024-06-21,57,9590.42,6261.43,53067,4107,7.7393,275,130
+CAMP-00114,Managed logistical circuit,Direct Mail,Product Launch,Salesforce,SMB,East,2024-02-06,2024-03-12,35,15731.91,16172.49,7414,2193,29.5792,35,0
+CAMP-00115,Synchronized methodical interface,Social Media,Lead Generation,Google Ads,Enterprise,East,2026-06-26,2026-08-17,52,12592.12,11567.16,292812,27232,9.3002,491,276
+CAMP-00116,Enhanced empowering archive,Paid Search,Upsell,HubSpot,SMB,South,2024-08-07,2024-10-02,56,19932.81,14151.74,1001985,44555,4.4467,69,0
+CAMP-00117,Virtual 24/7 policy,Social Media,Product Launch,LinkedIn,Enterprise,West,2024-02-10,2024-03-29,48,42931.89,44234.95,692651,39001,5.6307,44,10
+CAMP-00118,Phased optimal ability,Paid Search,Upsell,Google Ads,Enterprise,North,2024-08-27,2024-10-26,60,33716.31,35103.83,203380,9371,4.6076,408,4
+CAMP-00119,Fully-configurable methodical budgetary management,Influencer,Customer Retention,Salesforce,Enterprise,West,2025-01-23,2025-03-30,66,49173.52,51384.56,76881,29258,38.0562,355,305
+CAMP-00120,Ameliorated non-volatile software,Email,Customer Retention,HubSpot,Enterprise,Central,2023-09-26,2023-12-12,77,802.9,557.63,398383,39945,10.0268,358,86
+CAMP-00121,Focused multi-tasking middleware,Trade Show,Product Launch,Google Ads,SMB,North,2026-07-27,2026-10-15,80,45538.11,43780.1,87279,28525,32.6825,351,187
+CAMP-00122,Digitized zero-defect attitude,Social Media,Lead Generation,Twitter,SMB,Central,2024-02-07,2024-03-27,49,27736.78,17773.08,1017087,30492,2.998,301,160
+CAMP-00123,User-centric full-range knowledge user,Email,Upsell,Twitter,SMB,West,2023-11-25,2023-12-07,12,35587.07,34704.73,484349,31475,6.4984,395,173
+CAMP-00124,Monitored needs-based extranet,Trade Show,Brand Awareness,Google Ads,SMB,South,2025-01-26,2025-04-08,72,45476.44,38190.93,45640,20481,44.8751,88,65
+CAMP-00125,Function-based high-level knowledgebase,Social Media,Brand Awareness,LinkedIn,Mid-Market,East,2025-08-03,2025-08-30,27,560.35,385.98,128325,8453,6.5872,109,78
+CAMP-00126,Multi-channeled exuding strategy,Email,Lead Generation,Twitter,Mid-Market,Central,2023-08-22,2023-10-03,42,14297.86,15637.59,1617398,49206,3.0423,335,108
+CAMP-00127,Programmable zero-defect protocol,Email,Brand Awareness,LinkedIn,Mid-Market,West,2024-08-07,2024-10-30,84,35671.74,33907.79,81698,48254,59.0639,344,64
+CAMP-00128,Right-sized mission-critical budgetary management,Social Media,Customer Retention,Marketo,Enterprise,East,2026-03-03,2026-04-07,35,42692.58,28403.04,62560,8435,13.4831,224,127
+CAMP-00129,Programmable upward-trending productivity,Direct Mail,Lead Generation,Facebook,SMB,Central,2024-05-29,2024-06-21,23,25415.24,20560.02,27556,26043,94.5094,453,24
+CAMP-00130,Open-source directional protocol,Trade Show,Brand Awareness,Google Ads,Enterprise,East,2023-08-30,2023-10-05,36,46777.68,38357.0,358804,38409,10.7047,235,91
+CAMP-00131,Multi-channeled modular algorithm,Paid Search,Product Launch,Salesforce,SMB,East,2026-07-31,2026-10-29,90,8514.01,7655.01,291288,45043,15.4634,212,174
+CAMP-00132,User-centric tangible Internet solution,Influencer,Upsell,Salesforce,Mid-Market,East,2024-05-01,2024-05-28,27,29310.99,31594.12,18260,2011,11.0131,111,15
+CAMP-00133,User-friendly background core,Webinar,Lead Generation,HubSpot,Enterprise,North,2024-09-04,2024-11-29,86,19661.42,13391.42,123452,13405,10.8585,290,41
+CAMP-00134,Multi-tiered scalable benchmark,Email,Product Launch,Google Ads,SMB,South,2026-05-12,2026-07-09,58,28080.41,22023.11,815599,25872,3.1721,430,213
+CAMP-00135,Self-enabling systematic moratorium,Influencer,Customer Retention,Facebook,SMB,East,2026-06-30,2026-07-26,26,4663.58,3992.36,320848,19970,6.2241,201,92
+CAMP-00136,Organized multi-tasking conglomeration,Trade Show,Product Launch,Facebook,Enterprise,North,2026-04-18,2026-06-20,63,48282.96,38421.56,248092,12457,5.0211,100,87
+CAMP-00137,Synergistic grid-enabled groupware,Influencer,Lead Generation,LinkedIn,Mid-Market,West,2024-05-24,2024-08-21,89,30423.66,20798.75,252810,25353,10.0285,97,16
+CAMP-00138,Operative even-keeled function,Paid Search,Brand Awareness,LinkedIn,SMB,Central,2024-10-09,2024-11-17,39,11213.89,9032.43,708725,36459,5.1443,70,43
+CAMP-00139,Reduced multi-state standardization,Email,Upsell,Twitter,Enterprise,West,2024-03-03,2024-05-14,72,31993.49,34472.34,1334445,39036,2.9253,273,252
+CAMP-00140,Seamless bottom-line Internet solution,Social Media,Upsell,Facebook,Enterprise,West,2024-08-17,2024-10-02,46,45418.27,43402.06,140680,25021,17.7858,336,307
+CAMP-00141,Re-contextualized grid-enabled forecast,Social Media,Brand Awareness,Facebook,Enterprise,East,2025-12-25,2026-02-06,43,47388.12,51513.45,271305,23999,8.8458,95,46
+CAMP-00142,Advanced modular software,Direct Mail,Customer Retention,Facebook,Mid-Market,South,2023-12-06,2024-01-12,37,4338.64,4135.6,124690,26685,21.4011,187,171
+CAMP-00143,Synergized coherent model,Influencer,Customer Retention,Google Ads,Mid-Market,West,2024-01-16,2024-04-04,79,33919.41,28820.97,803573,46768,5.82,407,232
+CAMP-00144,Secured next generation secured line,Trade Show,Product Launch,Salesforce,Enterprise,South,2026-07-01,2026-09-01,62,18850.58,15760.86,1677138,47818,2.8512,438,138
+CAMP-00145,Pre-emptive executive architecture,Email,Upsell,Facebook,SMB,North,2024-02-02,2024-03-06,33,45344.27,30073.98,47277,1550,3.2785,90,43
+CAMP-00146,Advanced logistical analyzer,Webinar,Customer Retention,Salesforce,Mid-Market,West,2025-12-30,2026-03-12,72,4833.15,3725.61,421082,21274,5.0522,389,204
+CAMP-00147,Reverse-engineered bottom-line application,Influencer,Upsell,LinkedIn,Mid-Market,West,2024-04-01,2024-04-22,21,42745.7,30766.84,105512,9059,8.5858,232,222
+CAMP-00148,Adaptive intermediate help-desk,Social Media,Brand Awareness,Salesforce,Enterprise,South,2025-01-23,2025-03-20,56,6565.72,6610.49,1266473,42741,3.3748,26,21
+CAMP-00149,Adaptive actuating extranet,Webinar,Brand Awareness,Marketo,Mid-Market,West,2025-07-30,2025-08-20,21,15399.37,11678.38,78020,3759,4.818,158,54
+CAMP-00150,Horizontal zero tolerance middleware,Trade Show,Customer Retention,Google Ads,Enterprise,East,2024-01-05,2024-01-25,20,48072.0,45203.77,304954,45074,14.7806,9,0
+CAMP-00151,Visionary next generation collaboration,Influencer,Customer Retention,Marketo,Enterprise,South,2025-08-05,2025-08-22,17,18733.84,16382.58,105443,10351,9.8167,47,35
+CAMP-00152,Universal encompassing circuit,Email,Product Launch,Google Ads,SMB,West,2026-06-17,2026-08-27,71,39976.77,29178.28,146521,44580,30.4257,432,348
+CAMP-00153,Exclusive intermediate paradigm,Webinar,Product Launch,Twitter,Enterprise,Central,2026-08-02,2026-10-30,89,46721.06,43840.83,139163,22476,16.1508,354,270
+CAMP-00154,Implemented directional alliance,Direct Mail,Lead Generation,Salesforce,SMB,North,2026-05-09,2026-07-10,62,20315.1,15479.23,23643,7405,31.3201,96,24
+CAMP-00155,Multi-channeled dynamic workforce,Direct Mail,Lead Generation,LinkedIn,Enterprise,West,2025-01-07,2025-02-02,26,40776.73,43476.74,568544,24183,4.2535,32,1
+CAMP-00156,Networked interactive initiative,Influencer,Brand Awareness,LinkedIn,Mid-Market,East,2025-08-19,2025-10-26,68,42888.58,29554.12,715809,21057,2.9417,65,8
+CAMP-00157,Cross-platform empowering framework,Influencer,Lead Generation,Twitter,Enterprise,East,2026-07-01,2026-09-23,84,15405.63,16697.08,291754,14361,4.9223,354,63
+CAMP-00158,Enhanced non-volatile Internet solution,Direct Mail,Lead Generation,HubSpot,SMB,West,2025-05-22,2025-06-23,32,6520.34,5144.82,218614,34054,15.5772,177,89
+CAMP-00159,Inverse optimal challenge,Influencer,Brand Awareness,Google Ads,Enterprise,West,2025-08-20,2025-11-08,80,36449.59,37469.18,785948,47229,6.0092,401,126
+CAMP-00160,Exclusive eco-centric challenge,Trade Show,Brand Awareness,LinkedIn,Mid-Market,North,2025-08-25,2025-09-20,26,32176.86,31708.01,328908,12558,3.8181,226,58
+CAMP-00161,Exclusive exuding function,Webinar,Product Launch,LinkedIn,SMB,North,2024-11-05,2025-01-11,67,34713.9,35205.2,74289,14878,20.0272,400,113
+CAMP-00162,Re-contextualized responsive Local Area Network,Webinar,Upsell,Twitter,Enterprise,Central,2023-11-09,2023-11-20,11,23742.35,15333.26,27652,3085,11.1565,25,17
+CAMP-00163,Multi-tiered zero tolerance Internet solution,Email,Customer Retention,Marketo,SMB,West,2025-03-27,2025-04-23,27,41573.36,29099.34,60231,8271,13.7321,19,3
+CAMP-00164,Progressive leadingedge solution,Webinar,Customer Retention,HubSpot,Mid-Market,South,2023-11-21,2024-02-07,78,34049.66,31191.53,1354173,32408,2.3932,93,90
+CAMP-00165,Synergized transitional help-desk,Social Media,Brand Awareness,Marketo,SMB,East,2024-07-16,2024-09-22,68,10415.05,8553.97,174488,14301,8.196,134,33
+CAMP-00166,Optimized maximized instruction set,Direct Mail,Brand Awareness,Google Ads,SMB,North,2025-01-01,2025-03-30,88,5753.46,5199.48,367586,44032,11.9787,129,39
+CAMP-00167,Persistent 4thgeneration open architecture,Direct Mail,Lead Generation,Twitter,Enterprise,South,2026-06-25,2026-08-22,58,3329.42,2302.36,217040,22220,10.2377,454,316
+CAMP-00168,Visionary intangible array,Email,Brand Awareness,LinkedIn,Mid-Market,North,2023-09-05,2023-10-13,38,3800.12,3510.84,623256,44905,7.2049,272,28
+CAMP-00169,Seamless exuding toolset,Direct Mail,Lead Generation,Google Ads,Mid-Market,West,2025-11-12,2025-12-18,36,42910.21,46123.71,28435,21330,75.0132,395,62
+CAMP-00170,Profound holistic capacity,Paid Search,Product Launch,LinkedIn,Mid-Market,North,2024-04-29,2024-06-26,58,33224.37,28385.54,1424808,47292,3.3192,146,102
+CAMP-00171,Re-contextualized explicit application,Paid Search,Lead Generation,Twitter,SMB,North,2025-06-17,2025-08-23,67,2729.13,2071.98,182262,41139,22.5714,291,37
+CAMP-00172,Object-based clear-thinking initiative,Direct Mail,Lead Generation,HubSpot,SMB,South,2025-11-12,2025-11-28,16,4335.91,4263.13,92555,17900,19.3399,344,175
+CAMP-00173,Persistent well-modulated model,Influencer,Lead Generation,Salesforce,Enterprise,East,2025-08-10,2025-10-31,82,49245.91,44098.1,74757,12215,16.3396,230,140
+CAMP-00174,Business-focused attitude-oriented approach,Social Media,Lead Generation,Google Ads,Mid-Market,East,2024-12-23,2025-01-31,39,8852.0,9632.72,244354,42831,17.5283,341,7
+CAMP-00175,Streamlined bi-directional groupware,Webinar,Product Launch,LinkedIn,SMB,Central,2024-05-29,2024-06-30,32,28792.89,28100.39,1392378,34963,2.511,220,158
+CAMP-00176,Implemented non-volatile matrices,Social Media,Brand Awareness,Twitter,SMB,South,2025-05-19,2025-07-25,67,11173.16,7625.53,207315,5336,2.5739,251,228
+CAMP-00177,Centralized bottom-line support,Webinar,Customer Retention,Google Ads,SMB,West,2025-09-02,2025-09-12,10,23288.92,17922.21,1173550,31239,2.6619,295,271
+CAMP-00178,Profound user-facing structure,Direct Mail,Product Launch,Facebook,Mid-Market,West,2025-05-09,2025-08-04,87,34404.42,36126.52,55729,7655,13.7361,357,354
+CAMP-00179,Expanded multi-state circuit,Social Media,Lead Generation,Google Ads,Enterprise,Central,2023-10-05,2023-10-15,10,47713.74,44662.77,44693,12007,26.8655,402,296
+CAMP-00180,Proactive client-driven definition,Direct Mail,Product Launch,Salesforce,Mid-Market,South,2025-04-14,2025-04-29,15,17922.66,10964.36,313139,17944,5.7304,178,124
+CAMP-00181,Sharable coherent framework,Direct Mail,Product Launch,Twitter,Mid-Market,North,2026-04-14,2026-04-21,7,35692.84,21436.95,305773,20165,6.5948,215,143
+CAMP-00182,Up-sized 24hour workforce,Webinar,Lead Generation,Facebook,Mid-Market,East,2025-06-25,2025-09-13,80,22667.39,18702.17,195512,13292,6.7986,158,22
+CAMP-00183,Team-oriented dedicated budgetary management,Webinar,Customer Retention,HubSpot,Mid-Market,Central,2025-01-20,2025-01-29,9,20631.95,16020.74,99443,2566,2.5804,357,112
+CAMP-00184,Distributed real-time capability,Trade Show,Product Launch,Google Ads,Mid-Market,West,2023-10-20,2023-11-19,30,48162.86,39526.76,330753,42703,12.9108,56,56
+CAMP-00185,Fully-configurable demand-driven benchmark,Trade Show,Brand Awareness,Twitter,Mid-Market,West,2025-02-27,2025-03-12,13,34888.71,31287.58,65361,23022,35.2228,368,4
+CAMP-00186,Profit-focused leadingedge infrastructure,Influencer,Upsell,Salesforce,Mid-Market,Central,2025-01-07,2025-03-09,61,15335.63,16772.95,1208021,34474,2.8538,436,160
+CAMP-00187,Decentralized exuding initiative,Direct Mail,Brand Awareness,Facebook,SMB,North,2023-10-07,2023-12-03,57,17759.71,13157.22,174928,21753,12.4354,336,222
+CAMP-00188,Enterprise-wide disintermediate moratorium,Influencer,Upsell,Google Ads,SMB,North,2025-01-18,2025-02-03,16,39689.5,29873.34,552587,39649,7.1752,62,25
+CAMP-00189,Seamless systemic intranet,Influencer,Upsell,Google Ads,Enterprise,West,2024-05-18,2024-06-29,42,29126.81,21627.95,86308,17388,20.1465,294,138
+CAMP-00190,Seamless bottom-line Internet solution,Direct Mail,Upsell,HubSpot,Mid-Market,East,2026-03-05,2026-03-18,13,29869.39,25396.51,573499,14421,2.5146,65,61
+CAMP-00191,Ameliorated contextually-based circuit,Social Media,Lead Generation,Salesforce,Mid-Market,East,2024-01-15,2024-02-22,38,8305.82,9000.76,53862,8559,15.8906,457,389
+CAMP-00192,Switchable disintermediate concept,Webinar,Customer Retention,Facebook,Mid-Market,Central,2026-01-20,2026-03-29,68,16677.76,17505.29,1686348,41407,2.4554,265,178
+CAMP-00193,Total needs-based customer loyalty,Influencer,Customer Retention,Twitter,Enterprise,West,2025-02-18,2025-03-13,23,43027.6,28520.0,472190,18328,3.8815,125,1
+CAMP-00194,Implemented explicit secured line,Influencer,Lead Generation,Google Ads,SMB,South,2025-01-10,2025-04-05,85,11560.58,7252.0,59161,23415,39.5784,14,2
+CAMP-00195,Reverse-engineered modular hub,Direct Mail,Product Launch,LinkedIn,SMB,South,2023-11-25,2024-01-13,49,42994.35,44377.03,696774,38264,5.4916,270,200
+CAMP-00196,Object-based human-resource standardization,Social Media,Customer Retention,Marketo,Mid-Market,South,2025-08-08,2025-08-25,17,46173.54,41775.14,336562,23725,7.0492,483,35
+CAMP-00197,Persistent intangible interface,Social Media,Brand Awareness,Salesforce,Mid-Market,West,2025-12-30,2026-02-24,56,11453.72,7287.31,22688,3249,14.3203,478,277
+CAMP-00198,Horizontal logistical capability,Direct Mail,Lead Generation,LinkedIn,Mid-Market,West,2024-01-17,2024-02-10,24,2157.53,1562.76,126480,17475,13.8164,158,117
+CAMP-00199,Advanced optimal framework,Influencer,Lead Generation,LinkedIn,SMB,North,2025-04-16,2025-06-19,64,35853.18,28963.73,1176257,43224,3.6747,379,354
+CAMP-00200,Streamlined stable process improvement,Direct Mail,Product Launch,Twitter,Mid-Market,East,2023-09-14,2023-10-09,25,28669.5,21223.74,57139,10126,17.7217,385,298
+CAMP-00201,Multi-channeled client-driven Local Area Network,Trade Show,Customer Retention,LinkedIn,Enterprise,West,2024-12-06,2025-02-10,66,13543.05,14853.66,18897,3930,20.797,154,53
+CAMP-00202,Persevering even-keeled access,Social Media,Brand Awareness,Google Ads,SMB,West,2026-03-31,2026-06-17,78,30670.35,22701.13,383817,49357,12.8595,200,86
+CAMP-00203,Multi-channeled motivating middleware,Social Media,Lead Generation,Google Ads,Enterprise,West,2026-07-18,2026-10-12,86,39763.79,24043.56,150689,37692,25.0131,8,2
+CAMP-00204,Triple-buffered multi-tasking info-mediaries,Influencer,Lead Generation,Twitter,Mid-Market,West,2024-03-25,2024-04-26,32,13055.13,10890.89,411074,28134,6.844,34,7
+CAMP-00205,Enhanced solution-oriented collaboration,Paid Search,Customer Retention,Google Ads,Enterprise,East,2025-02-19,2025-04-28,68,30678.79,23735.77,140141,49146,35.069,416,161
+CAMP-00206,Up-sized non-volatile Graphical User Interface,Social Media,Customer Retention,Marketo,Enterprise,East,2024-08-27,2024-09-25,29,45556.64,44069.58,18895,11282,59.7089,284,132
+CAMP-00207,Devolved even-keeled toolset,Webinar,Brand Awareness,Google Ads,SMB,West,2024-12-23,2025-01-15,23,27239.1,22587.38,72508,48688,67.1485,484,409
+CAMP-00208,Innovative hybrid architecture,Direct Mail,Lead Generation,Salesforce,Mid-Market,South,2025-11-20,2026-01-03,44,3079.9,2422.8,512243,27204,5.3108,224,208
+CAMP-00209,Stand-alone mission-critical implementation,Webinar,Customer Retention,Marketo,SMB,West,2026-05-07,2026-06-24,48,41329.59,33351.33,25204,12085,47.9487,318,307
+CAMP-00210,Robust stable contingency,Influencer,Lead Generation,Google Ads,Enterprise,North,2026-06-26,2026-09-09,75,43683.66,35836.03,142410,9821,6.8963,403,346
+CAMP-00211,Profit-focused zero-defect protocol,Direct Mail,Customer Retention,HubSpot,SMB,West,2025-04-29,2025-07-21,83,2485.11,2678.68,321367,25934,8.0699,400,352
+CAMP-00212,De-engineered tangible Graphic Interface,Social Media,Lead Generation,LinkedIn,Enterprise,East,2025-03-05,2025-04-12,38,24530.66,22411.22,18171,5100,28.0667,231,146
+CAMP-00213,Reduced grid-enabled paradigm,Influencer,Upsell,LinkedIn,SMB,East,2025-05-13,2025-07-26,74,23165.54,19847.22,917477,45212,4.9279,120,89
+CAMP-00214,Open-architected asymmetric analyzer,Social Media,Customer Retention,LinkedIn,SMB,Central,2025-06-14,2025-08-18,65,42825.36,44173.37,668665,41340,6.1825,248,74
+CAMP-00215,Upgradable cohesive emulation,Social Media,Brand Awareness,Google Ads,Mid-Market,South,2023-09-09,2023-12-04,86,12965.05,10080.06,34013,7269,21.3712,306,162
+CAMP-00216,Customer-focused modular service-desk,Email,Product Launch,Google Ads,Mid-Market,North,2023-11-21,2023-12-30,39,12863.78,11304.41,56895,19057,33.495,93,20
+CAMP-00217,Virtual discrete throughput,Trade Show,Brand Awareness,Google Ads,Mid-Market,North,2025-01-10,2025-02-19,40,29759.58,27468.82,230095,48599,21.1213,435,98
+CAMP-00218,Upgradable disintermediate benchmark,Trade Show,Upsell,Facebook,Enterprise,North,2026-01-09,2026-02-23,45,22419.52,23594.79,1100642,34084,3.0967,9,4
+CAMP-00219,Enhanced upward-trending info-mediaries,Paid Search,Lead Generation,HubSpot,Mid-Market,West,2026-04-19,2026-06-24,66,1530.07,1045.2,742438,24841,3.3459,440,191
+CAMP-00220,Operative asymmetric approach,Social Media,Upsell,Marketo,Mid-Market,South,2025-11-12,2026-01-15,64,25093.34,22884.05,480423,41693,8.6784,462,93
+CAMP-00221,Customizable 5thgeneration synergy,Trade Show,Brand Awareness,LinkedIn,Mid-Market,East,2025-06-08,2025-07-14,36,13766.37,11373.43,105302,11273,10.7054,254,121
+CAMP-00222,Virtual holistic portal,Social Media,Upsell,Facebook,Enterprise,East,2023-10-26,2023-12-23,58,17789.84,11418.54,373621,42968,11.5004,414,309
+CAMP-00223,Assimilated context-sensitive Graphic Interface,Paid Search,Upsell,Twitter,Enterprise,South,2025-06-29,2025-08-16,48,46241.0,49825.84,176627,10037,5.6826,393,210
+CAMP-00224,Organized homogeneous challenge,Influencer,Brand Awareness,LinkedIn,Mid-Market,South,2023-12-03,2024-01-10,38,23431.98,22497.06,737229,40891,5.5466,78,52
+CAMP-00225,Re-engineered next generation customer loyalty,Social Media,Brand Awareness,Marketo,Enterprise,West,2026-07-25,2026-08-10,16,17093.61,12471.57,138037,36225,26.243,263,13
+CAMP-00226,Pre-emptive leadingedge service-desk,Email,Lead Generation,Google Ads,Enterprise,East,2024-03-09,2024-06-07,90,27146.33,27843.08,179471,14809,8.2515,22,8
+CAMP-00227,Exclusive user-facing complexity,Trade Show,Brand Awareness,Salesforce,Mid-Market,Central,2024-06-16,2024-07-15,29,39214.49,30824.81,202773,7482,3.6898,151,130
+CAMP-00228,Progressive content-based array,Paid Search,Customer Retention,HubSpot,SMB,East,2024-11-25,2025-01-24,60,27021.38,29607.78,316609,38297,12.096,152,2
+CAMP-00229,Self-enabling static attitude,Trade Show,Product Launch,Twitter,SMB,Central,2025-05-06,2025-07-01,56,15810.54,11902.13,324398,25545,7.8746,68,0
+CAMP-00230,Devolved 24hour hierarchy,Influencer,Lead Generation,HubSpot,Mid-Market,West,2024-03-17,2024-05-24,68,12605.32,9540.2,344455,18566,5.39,167,99
+CAMP-00231,Re-contextualized needs-based archive,Email,Brand Awareness,Google Ads,Enterprise,North,2025-12-02,2026-01-05,34,15161.62,10463.74,122552,28681,23.4031,312,72
+CAMP-00232,Synergized upward-trending superstructure,Trade Show,Upsell,Salesforce,SMB,East,2024-08-15,2024-08-30,15,2750.87,1874.85,134786,7490,5.557,129,55
+CAMP-00233,Proactive content-based database,Trade Show,Upsell,LinkedIn,SMB,West,2025-07-11,2025-07-29,18,23817.44,21614.3,621379,39032,6.2815,78,52
+CAMP-00234,Phased motivating help-desk,Email,Brand Awareness,Marketo,Enterprise,East,2025-04-23,2025-07-04,72,35066.29,22984.09,458138,28410,6.2012,281,10
+CAMP-00235,Realigned client-driven website,Influencer,Lead Generation,LinkedIn,Mid-Market,East,2024-09-01,2024-09-08,7,17717.86,12373.34,233460,35749,15.3127,82,69
+CAMP-00236,Optimized responsive implementation,Paid Search,Upsell,Marketo,Enterprise,South,2023-10-20,2023-12-07,48,40575.85,29826.35,40140,36133,90.0174,453,271
+CAMP-00237,Re-contextualized attitude-oriented capacity,Direct Mail,Product Launch,Google Ads,Mid-Market,South,2026-03-22,2026-06-15,85,8960.35,8863.37,589583,29663,5.0312,392,313
+CAMP-00238,Innovative bandwidth-monitored capability,Direct Mail,Brand Awareness,Google Ads,Mid-Market,South,2025-12-11,2026-01-18,38,42960.83,29585.2,841139,32972,3.9199,284,105
+CAMP-00239,Business-focused radical moratorium,Webinar,Product Launch,LinkedIn,Enterprise,South,2025-02-04,2025-02-21,17,25530.08,23423.85,420519,49254,11.7127,452,323
+CAMP-00240,Face-to-face explicit extranet,Social Media,Brand Awareness,Marketo,SMB,West,2024-08-04,2024-10-20,77,15582.79,15403.37,372544,43604,11.7044,0,0
+CAMP-00241,Multi-channeled asymmetric complexity,Trade Show,Lead Generation,HubSpot,Mid-Market,North,2024-10-08,2024-10-27,19,33814.83,34645.81,398835,12344,3.095,374,114
+CAMP-00242,Compatible national orchestration,Direct Mail,Customer Retention,Salesforce,SMB,West,2026-07-03,2026-07-12,9,20600.0,21585.23,85410,2947,3.4504,252,98
+CAMP-00243,Programmable reciprocal middleware,Trade Show,Brand Awareness,Twitter,SMB,South,2024-04-28,2024-05-05,7,31922.8,34066.93,56911,17558,30.8517,267,51
+CAMP-00244,Secured analyzing moratorium,Direct Mail,Brand Awareness,HubSpot,SMB,North,2024-07-14,2024-09-11,59,6280.55,6651.8,1157277,38990,3.3691,355,56
+CAMP-00245,Customizable optimal leverage,Webinar,Customer Retention,Marketo,Mid-Market,Central,2025-09-09,2025-10-30,51,33206.69,22882.65,457836,48064,10.4981,345,8
+CAMP-00246,Fundamental solution-oriented algorithm,Social Media,Customer Retention,HubSpot,SMB,Central,2026-05-29,2026-07-24,56,38304.11,34696.54,126664,9167,7.2373,181,147
+CAMP-00247,Operative empowering customer loyalty,Direct Mail,Lead Generation,Salesforce,Mid-Market,North,2023-09-12,2023-11-30,79,44609.9,30390.66,1361672,44085,3.2376,166,57
+CAMP-00248,Virtual analyzing challenge,Webinar,Upsell,Facebook,Enterprise,South,2024-08-08,2024-09-01,24,29176.91,26373.44,225462,9453,4.1927,227,68
+CAMP-00249,Upgradable full-range system engine,Direct Mail,Product Launch,Facebook,SMB,North,2024-03-18,2024-06-06,80,31127.43,26216.01,682924,39112,5.7271,287,1
+CAMP-00250,Centralized disintermediate methodology,Influencer,Customer Retention,LinkedIn,Mid-Market,South,2025-08-03,2025-10-28,86,42605.11,31617.82,541336,12783,2.3614,141,19
+CAMP-00251,Re-contextualized reciprocal standardization,Webinar,Customer Retention,Salesforce,SMB,Central,2023-10-26,2023-12-03,38,14804.28,12275.23,250240,26227,10.4807,483,322
+CAMP-00252,Automated grid-enabled archive,Email,Customer Retention,Google Ads,Enterprise,East,2026-02-07,2026-02-17,10,13628.44,10330.61,869366,42043,4.8361,405,309
+CAMP-00253,Right-sized user-facing pricing structure,Email,Upsell,Google Ads,Mid-Market,Central,2026-06-13,2026-07-10,27,20224.34,21854.21,164692,36333,22.0612,20,12
+CAMP-00254,Reactive mission-critical capacity,Social Media,Lead Generation,Facebook,Mid-Market,North,2026-05-21,2026-06-29,39,18249.18,11901.88,1200525,35464,2.954,113,0
+CAMP-00255,Balanced bi-directional alliance,Paid Search,Product Launch,Salesforce,Enterprise,East,2024-05-30,2024-08-14,76,27777.73,25261.82,338931,48826,14.4059,377,242
+CAMP-00256,Face-to-face solution-oriented hardware,Direct Mail,Product Launch,Salesforce,SMB,South,2025-02-01,2025-02-27,26,46309.99,38138.09,59257,14049,23.7086,189,3
+CAMP-00257,Innovative zero tolerance emulation,Paid Search,Lead Generation,HubSpot,Mid-Market,Central,2024-11-22,2024-12-12,20,29812.61,30847.69,13926,1232,8.8468,305,182
+CAMP-00258,Centralized 4thgeneration time-frame,Influencer,Product Launch,Marketo,Enterprise,East,2023-08-31,2023-10-01,31,41360.67,45057.24,169188,37421,22.118,340,150
+CAMP-00259,Exclusive national portal,Paid Search,Lead Generation,LinkedIn,Enterprise,North,2025-12-11,2026-02-23,74,23869.15,19267.72,489958,41454,8.4607,329,17
+CAMP-00260,Synergized systemic support,Webinar,Upsell,Twitter,Mid-Market,West,2026-03-07,2026-04-20,44,15499.3,16808.44,377675,18073,4.7853,67,5
+CAMP-00261,Polarized actuating info-mediaries,Influencer,Product Launch,Google Ads,Mid-Market,South,2023-08-27,2023-10-11,45,47029.93,37102.61,478683,21307,4.4512,403,398
+CAMP-00262,Total clear-thinking Internet solution,Webinar,Lead Generation,Facebook,Mid-Market,North,2025-11-23,2025-12-22,29,9619.72,9884.78,323440,14220,4.3965,63,1
+CAMP-00263,Reactive client-driven budgetary management,Paid Search,Brand Awareness,LinkedIn,Enterprise,Central,2025-09-13,2025-11-20,68,45087.95,33896.53,473007,14703,3.1084,147,83
+CAMP-00264,Seamless holistic help-desk,Email,Brand Awareness,Marketo,SMB,East,2024-11-29,2025-01-03,35,15970.72,13488.06,505370,47853,9.4689,41,8
+CAMP-00265,Optional analyzing encoding,Webinar,Brand Awareness,Salesforce,SMB,West,2024-03-07,2024-03-14,7,37180.6,29640.12,208799,4555,2.1815,337,94
+CAMP-00266,Reverse-engineered 24/7 emulation,Social Media,Upsell,Facebook,SMB,North,2024-04-18,2024-07-15,88,48510.57,41104.3,1576289,42209,2.6777,217,197
+CAMP-00267,Versatile national open system,Email,Product Launch,LinkedIn,SMB,North,2024-11-02,2024-12-20,48,27930.12,19145.67,186700,22793,12.2084,299,156
+CAMP-00268,Advanced uniform encryption,Direct Mail,Lead Generation,Facebook,Mid-Market,Central,2023-09-27,2023-12-05,69,18728.05,12023.72,115153,3522,3.0585,34,3
+CAMP-00269,Compatible analyzing capacity,Paid Search,Brand Awareness,Facebook,Mid-Market,Central,2026-01-13,2026-01-31,18,13287.15,10989.19,474612,24094,5.0766,137,120
+CAMP-00270,Horizontal 6thgeneration functionalities,Trade Show,Product Launch,Google Ads,Mid-Market,North,2024-11-30,2025-01-13,44,6050.68,6018.83,864698,19779,2.2874,236,30
+CAMP-00271,Streamlined dynamic frame,Trade Show,Brand Awareness,Twitter,Enterprise,East,2024-08-24,2024-11-16,84,10557.14,8094.0,47383,14665,30.9499,250,130
+CAMP-00272,Object-based mission-critical protocol,Webinar,Upsell,HubSpot,Enterprise,Central,2023-12-28,2024-01-29,32,12362.47,11400.11,162565,28091,17.2799,470,307
+CAMP-00273,Compatible asynchronous extranet,Social Media,Customer Retention,Marketo,Enterprise,North,2023-12-20,2024-01-04,15,17955.01,12335.88,474708,18793,3.9589,278,243
+CAMP-00274,Expanded modular strategy,Webinar,Upsell,LinkedIn,Enterprise,Central,2026-05-31,2026-06-30,30,6550.24,6194.92,132751,14039,10.5754,209,83
+CAMP-00275,Multi-channeled directional intranet,Email,Product Launch,Twitter,SMB,South,2025-10-21,2026-01-08,79,43242.11,33647.56,278740,18398,6.6004,351,244
+CAMP-00276,Multi-lateral zero-defect neural-net,Webinar,Brand Awareness,HubSpot,SMB,Central,2025-09-26,2025-10-23,27,29828.25,23825.17,228099,14811,6.4932,477,33
+CAMP-00277,Streamlined dynamic moderator,Trade Show,Upsell,Salesforce,Enterprise,East,2024-06-23,2024-08-01,39,44488.61,40687.17,176497,22477,12.7351,220,67
+CAMP-00278,Intuitive tangible moratorium,Influencer,Customer Retention,Google Ads,Enterprise,East,2026-04-11,2026-05-02,21,2887.1,2592.01,16543,1211,7.3203,174,122
+CAMP-00279,Business-focused grid-enabled installation,Direct Mail,Upsell,Salesforce,SMB,North,2025-02-09,2025-04-26,76,29925.32,27883.98,309807,19420,6.2684,148,73
+CAMP-00280,Secured mobile focus group,Social Media,Upsell,Facebook,Mid-Market,North,2025-09-18,2025-12-13,86,37678.59,39580.3,497614,38296,7.6959,343,314
+CAMP-00281,Devolved multi-state emulation,Social Media,Brand Awareness,LinkedIn,Mid-Market,Central,2023-11-01,2024-01-28,88,35643.95,27597.85,102556,48720,47.5058,266,64
+CAMP-00282,Reactive demand-driven capability,Trade Show,Upsell,Google Ads,SMB,Central,2024-07-06,2024-09-10,66,36690.84,33190.58,24558,4948,20.1482,459,339
+CAMP-00283,Digitized 5thgeneration encoding,Paid Search,Lead Generation,Salesforce,Mid-Market,West,2024-09-18,2024-11-21,64,44986.33,37386.39,310228,34776,11.2098,474,168
+CAMP-00284,Streamlined well-modulated knowledgebase,Direct Mail,Brand Awareness,Marketo,Enterprise,West,2025-09-10,2025-11-10,61,25068.82,25994.47,18910,6968,36.8482,267,200
+CAMP-00285,Ameliorated modular alliance,Trade Show,Product Launch,Salesforce,SMB,East,2026-06-16,2026-08-29,74,25387.49,24778.01,69892,5468,7.8235,434,274
+CAMP-00286,Reverse-engineered human-resource framework,Influencer,Upsell,Marketo,Enterprise,East,2024-05-29,2024-07-10,42,47290.37,36332.23,1857659,40548,2.1827,5,0
+CAMP-00287,Configurable analyzing focus group,Social Media,Brand Awareness,Salesforce,Mid-Market,East,2026-01-29,2026-04-02,63,23666.51,14756.0,641594,27967,4.359,161,37
+CAMP-00288,Networked modular adapter,Influencer,Customer Retention,Google Ads,Enterprise,South,2026-02-28,2026-05-26,87,41538.42,31425.5,131321,30553,23.2659,258,10
+CAMP-00289,Networked leadingedge analyzer,Influencer,Upsell,Google Ads,SMB,South,2026-03-09,2026-03-18,9,37433.38,24734.81,13477,5331,39.5563,294,123
+CAMP-00290,Multi-tiered contextually-based protocol,Email,Upsell,Facebook,SMB,East,2024-04-09,2024-05-25,46,7152.85,7389.39,178519,28057,15.7165,178,31
+CAMP-00291,Business-focused stable function,Social Media,Product Launch,LinkedIn,Mid-Market,Central,2024-11-22,2025-02-01,71,36000.35,22369.11,261433,19717,7.5419,167,15
+CAMP-00292,Virtual grid-enabled algorithm,Direct Mail,Upsell,Twitter,SMB,West,2023-09-11,2023-11-20,70,10679.26,10452.46,1114161,45333,4.0688,71,56
+CAMP-00293,Versatile global firmware,Influencer,Product Launch,LinkedIn,Mid-Market,North,2026-04-30,2026-06-02,33,17984.88,17971.2,359366,21980,6.1163,30,22
+CAMP-00294,Reverse-engineered didactic system engine,Trade Show,Brand Awareness,Facebook,Mid-Market,East,2026-01-11,2026-03-16,64,33450.13,21507.57,526805,15789,2.9971,171,98
+CAMP-00295,Up-sized regional Internet solution,Trade Show,Brand Awareness,Twitter,Mid-Market,West,2023-09-06,2023-09-25,19,19301.63,13956.04,482875,43355,8.9785,489,347
+CAMP-00296,Upgradable user-facing system engine,Email,Customer Retention,Google Ads,Mid-Market,West,2026-03-12,2026-05-16,65,1894.57,1286.8,902245,42708,4.7335,304,215
+CAMP-00297,Customer-focused neutral info-mediaries,Email,Lead Generation,HubSpot,SMB,South,2023-10-09,2023-12-21,73,4569.24,4585.78,205381,44858,21.8414,131,17
+CAMP-00298,Synergistic executive monitoring,Email,Lead Generation,Google Ads,SMB,Central,2026-06-15,2026-08-02,48,31913.0,22414.7,66435,17506,26.3506,274,153
+CAMP-00299,Re-engineered uniform open system,Webinar,Brand Awareness,Salesforce,SMB,East,2024-12-27,2025-03-13,76,560.51,473.75,250650,31990,12.7628,109,1
+CAMP-00300,Fundamental cohesive implementation,Paid Search,Brand Awareness,LinkedIn,SMB,South,2025-11-27,2026-01-06,40,31871.12,29902.0,658779,38046,5.7752,232,29
+CAMP-00301,Front-line clear-thinking access,Direct Mail,Lead Generation,HubSpot,Enterprise,West,2024-12-31,2025-03-21,80,39965.74,32340.06,1357583,43306,3.1899,205,66
+CAMP-00302,Synergized even-keeled artificial intelligence,Paid Search,Lead Generation,Salesforce,SMB,West,2024-06-10,2024-08-20,71,27060.76,27848.18,413291,17769,4.2994,480,314
+CAMP-00303,Visionary needs-based frame,Direct Mail,Product Launch,Salesforce,SMB,Central,2026-08-05,2026-09-23,49,27113.06,28370.52,28677,17524,61.1082,69,62
+CAMP-00304,Object-based 5thgeneration pricing structure,Paid Search,Brand Awareness,HubSpot,SMB,Central,2024-08-11,2024-09-02,22,39547.39,38708.17,153821,47341,30.7767,429,426
+CAMP-00305,Future-proofed stable extranet,Direct Mail,Brand Awareness,Google Ads,Mid-Market,North,2024-06-03,2024-06-18,15,25609.23,17997.48,256886,23636,9.201,240,113
+CAMP-00306,Visionary real-time access,Paid Search,Brand Awareness,HubSpot,SMB,South,2025-12-11,2026-02-16,67,22750.6,23085.03,69300,39752,57.3622,48,14
+CAMP-00307,Re-contextualized stable Graphic Interface,Email,Brand Awareness,Salesforce,Enterprise,East,2023-12-22,2023-12-31,9,9721.34,6453.59,45371,11035,24.3217,68,44
+CAMP-00308,Enhanced leadingedge Local Area Network,Email,Lead Generation,Marketo,SMB,South,2026-02-08,2026-05-04,85,2225.09,2060.85,52450,17698,33.7426,230,118
+CAMP-00309,Advanced maximized alliance,Trade Show,Lead Generation,LinkedIn,SMB,South,2023-08-26,2023-11-16,82,42023.85,30931.89,464929,24429,5.2544,289,110
+CAMP-00310,Polarized scalable open architecture,Email,Upsell,Marketo,SMB,Central,2026-06-30,2026-09-23,85,15823.54,17047.9,506489,18256,3.6044,472,73
+CAMP-00311,Centralized optimal artificial intelligence,Webinar,Customer Retention,Salesforce,Enterprise,West,2024-04-02,2024-06-08,67,7975.66,6339.75,52690,11729,22.2604,130,104
+CAMP-00312,Seamless neutral functionalities,Email,Upsell,Salesforce,SMB,East,2024-06-05,2024-07-19,44,1192.44,1211.75,63657,11397,17.9038,355,330
+CAMP-00313,Organic contextually-based firmware,Email,Brand Awareness,HubSpot,Mid-Market,South,2026-06-16,2026-06-27,11,10024.74,7932.44,76441,14197,18.5725,220,25
+CAMP-00314,Grass-roots empowering methodology,Influencer,Product Launch,Marketo,Enterprise,East,2025-11-23,2026-02-21,90,8906.84,9504.71,227025,22069,9.721,77,4
+CAMP-00315,Self-enabling context-sensitive circuit,Paid Search,Lead Generation,LinkedIn,Enterprise,South,2023-12-25,2024-03-14,80,18339.35,14756.48,664863,30564,4.597,278,15
+CAMP-00316,Streamlined actuating emulation,Webinar,Lead Generation,Google Ads,Enterprise,South,2026-03-19,2026-04-26,38,7259.79,7823.57,352950,30337,8.5953,288,6
+CAMP-00317,Automated contextually-based software,Email,Product Launch,Twitter,Enterprise,West,2023-12-11,2024-01-08,28,8432.26,5519.58,1039952,48809,4.6934,276,194
+CAMP-00318,Organic optimal functionalities,Trade Show,Brand Awareness,HubSpot,Enterprise,South,2025-02-12,2025-03-06,22,1735.11,1755.61,36518,7431,20.3489,161,71
+CAMP-00319,Universal discrete approach,Paid Search,Brand Awareness,Google Ads,Mid-Market,West,2023-09-22,2023-09-29,7,23012.01,17332.57,88628,9583,10.8126,208,13
+CAMP-00320,Fundamental eco-centric adapter,Email,Brand Awareness,Marketo,SMB,East,2026-06-15,2026-07-03,18,32573.32,19794.75,830635,38616,4.649,175,46
+CAMP-00321,Multi-channeled needs-based structure,Email,Brand Awareness,Marketo,Enterprise,South,2025-08-19,2025-11-08,81,13944.06,13539.04,335413,11915,3.5523,228,204
+CAMP-00322,Front-line grid-enabled benchmark,Trade Show,Customer Retention,Marketo,SMB,East,2023-09-25,2023-12-23,89,31462.74,23845.71,127329,5270,4.1389,115,16
+CAMP-00323,Organic bifurcated migration,Email,Brand Awareness,LinkedIn,Enterprise,Central,2023-10-31,2023-11-24,24,13882.25,10723.67,123295,23087,18.725,354,183
+CAMP-00324,Expanded fresh-thinking orchestration,Influencer,Customer Retention,Marketo,SMB,Central,2023-10-31,2023-11-21,21,16323.62,17385.8,876785,28271,3.2244,297,46
+CAMP-00325,Synergized intangible archive,Webinar,Lead Generation,LinkedIn,SMB,Central,2024-09-17,2024-11-15,59,13137.31,11534.58,129948,8416,6.4764,405,263
+CAMP-00326,Horizontal client-server algorithm,Trade Show,Lead Generation,HubSpot,Enterprise,South,2025-07-10,2025-08-20,41,15942.1,11628.31,228926,43180,18.862,261,118
+CAMP-00327,Multi-lateral full-range installation,Direct Mail,Upsell,Salesforce,Enterprise,South,2024-07-30,2024-09-12,44,31175.71,27547.7,78277,3399,4.3423,43,27
+CAMP-00328,Multi-layered methodical frame,Paid Search,Upsell,Twitter,Mid-Market,South,2026-04-16,2026-07-09,84,48116.41,43914.1,298492,15203,5.0933,426,101
+CAMP-00329,Diverse holistic analyzer,Social Media,Lead Generation,Google Ads,Enterprise,West,2025-06-18,2025-06-30,12,25456.4,16766.46,214676,18077,8.4206,293,270
+CAMP-00330,Distributed optimizing algorithm,Email,Brand Awareness,Salesforce,Enterprise,East,2024-06-21,2024-07-23,32,37302.28,31551.54,11828,1053,8.9026,480,380
+CAMP-00331,Extended foreground migration,Webinar,Brand Awareness,HubSpot,Enterprise,Central,2023-12-02,2023-12-16,14,1520.75,1329.55,1740432,48844,2.8064,192,63
+CAMP-00332,User-centric multimedia toolset,Webinar,Lead Generation,LinkedIn,SMB,East,2025-09-29,2025-10-06,7,666.26,573.35,39274,8050,20.497,393,290
+CAMP-00333,Monitored didactic implementation,Webinar,Upsell,Marketo,SMB,Central,2025-05-05,2025-06-30,56,28602.01,27763.72,522094,32505,6.2259,77,30
+CAMP-00334,Automated stable success,Trade Show,Lead Generation,Salesforce,SMB,South,2026-02-02,2026-04-08,65,37130.63,33747.58,677709,48141,7.1035,198,2
+CAMP-00335,Virtual solution-oriented artificial intelligence,Paid Search,Brand Awareness,Google Ads,Mid-Market,East,2024-01-19,2024-03-27,68,49998.76,39711.71,1119344,39206,3.5026,20,1
+CAMP-00336,Face-to-face non-volatile middleware,Email,Upsell,HubSpot,SMB,North,2026-06-18,2026-07-07,19,36289.12,26206.52,201302,34400,17.0888,228,21
+CAMP-00337,Self-enabling neutral superstructure,Influencer,Lead Generation,LinkedIn,Mid-Market,West,2026-08-04,2026-09-13,40,16821.44,11283.16,9802,1290,13.1606,293,158
+CAMP-00338,Upgradable bottom-line moderator,Trade Show,Customer Retention,Facebook,SMB,North,2024-11-07,2024-12-25,48,38250.64,28262.14,661385,24680,3.7316,210,7
+CAMP-00339,Robust methodical protocol,Direct Mail,Lead Generation,Salesforce,Enterprise,Central,2025-12-29,2026-02-25,58,21881.15,14750.85,177950,9140,5.1363,27,3
+CAMP-00340,Organic foreground flexibility,Social Media,Product Launch,Google Ads,Enterprise,Central,2025-03-04,2025-03-22,18,34591.56,23387.48,40372,39189,97.0698,70,28
+CAMP-00341,Re-engineered explicit encryption,Direct Mail,Brand Awareness,Twitter,Mid-Market,West,2024-03-08,2024-04-28,51,25289.46,16059.16,406668,30742,7.5595,134,83
+CAMP-00342,Visionary high-level emulation,Trade Show,Brand Awareness,HubSpot,SMB,North,2024-08-01,2024-09-05,35,17549.82,14517.51,445251,40716,9.1445,4,2
+CAMP-00343,User-friendly bifurcated solution,Trade Show,Lead Generation,Facebook,SMB,South,2024-12-19,2025-01-08,20,27673.13,26104.32,404245,41489,10.2633,480,35
+CAMP-00344,Upgradable incremental hierarchy,Email,Lead Generation,LinkedIn,Enterprise,Central,2024-04-27,2024-05-18,21,44226.79,27881.28,445670,17434,3.9119,308,88
+CAMP-00345,Realigned motivating archive,Social Media,Upsell,Marketo,SMB,South,2023-11-03,2023-12-11,38,26357.39,21853.98,259209,48966,18.8905,15,2
+CAMP-00346,Streamlined mission-critical portal,Webinar,Product Launch,Twitter,Mid-Market,West,2026-05-05,2026-05-20,15,17866.95,11837.69,71155,46979,66.0235,335,135
+CAMP-00347,Operative discrete open system,Webinar,Brand Awareness,Salesforce,SMB,North,2024-04-16,2024-05-26,40,15946.8,15352.03,127038,11746,9.2461,496,448
+CAMP-00348,De-engineered national encryption,Direct Mail,Brand Awareness,Marketo,Mid-Market,South,2026-01-30,2026-03-27,56,41348.26,25328.98,8727,548,6.2794,318,45
+CAMP-00349,Open-source systematic paradigm,Social Media,Customer Retention,Salesforce,Enterprise,West,2025-12-05,2025-12-31,26,13343.91,10339.68,204248,26958,13.1987,492,215
+CAMP-00350,Robust empowering utilization,Paid Search,Product Launch,Google Ads,Enterprise,North,2025-08-06,2025-10-10,65,33574.84,23221.58,840006,27514,3.2755,231,0
+CAMP-00351,Intuitive bottom-line artificial intelligence,Influencer,Customer Retention,Salesforce,SMB,North,2024-06-17,2024-07-03,16,47841.44,43569.23,1106750,35868,3.2408,226,226
+CAMP-00352,Profit-focused client-server orchestration,Email,Product Launch,LinkedIn,SMB,North,2024-10-28,2025-01-03,67,23620.54,15123.28,21598,13711,63.4827,81,74
+CAMP-00353,Visionary dedicated contingency,Social Media,Customer Retention,LinkedIn,Mid-Market,South,2025-01-30,2025-04-11,71,28498.45,31254.56,446187,20626,4.6227,498,74
+CAMP-00354,Advanced composite capability,Trade Show,Customer Retention,Google Ads,Mid-Market,North,2026-03-24,2026-05-18,55,27610.35,29646.26,571972,41859,7.3184,77,11
+CAMP-00355,Virtual neutral structure,Influencer,Lead Generation,LinkedIn,SMB,Central,2024-11-08,2025-01-27,80,39389.91,23972.54,110863,18650,16.8226,204,168
+CAMP-00356,User-friendly bandwidth-monitored capacity,Social Media,Customer Retention,Google Ads,Mid-Market,Central,2026-05-22,2026-07-31,70,38818.45,33902.13,72657,16423,22.6035,41,33
+CAMP-00357,Optional 4thgeneration solution,Trade Show,Product Launch,HubSpot,Enterprise,South,2026-03-17,2026-04-29,43,25271.92,26080.62,616106,34718,5.6351,412,91
+CAMP-00358,Compatible clear-thinking migration,Social Media,Customer Retention,Facebook,Enterprise,North,2024-02-06,2024-04-04,58,13353.68,13180.96,8936,2966,33.1916,177,25
+CAMP-00359,Networked interactive help-desk,Trade Show,Upsell,Twitter,Enterprise,West,2026-03-14,2026-03-31,17,40206.29,27872.77,107924,26409,24.47,441,15
+CAMP-00360,Total next generation encoding,Email,Brand Awareness,LinkedIn,SMB,South,2023-12-25,2024-03-04,70,7542.74,7216.63,14622,3930,26.8773,328,258
+CAMP-00361,Decentralized global Graphical User Interface,Social Media,Customer Retention,Twitter,Enterprise,West,2025-09-25,2025-12-11,77,41489.56,37815.61,19919,18189,91.3148,467,25
+CAMP-00362,Seamless bi-directional success,Email,Lead Generation,Marketo,Mid-Market,West,2025-05-16,2025-06-05,20,37635.52,31922.11,913038,42844,4.6925,50,37
+CAMP-00363,User-centric heuristic knowledge user,Direct Mail,Customer Retention,Salesforce,SMB,South,2023-09-26,2023-11-17,52,34345.27,31199.91,169556,17032,10.0451,384,26
+CAMP-00364,Self-enabling local support,Paid Search,Upsell,Google Ads,SMB,East,2026-05-01,2026-07-14,74,16768.51,13118.5,263086,28775,10.9375,4,0
+CAMP-00365,Implemented web-enabled matrices,Influencer,Product Launch,HubSpot,Enterprise,West,2026-02-07,2026-02-16,9,23891.14,16323.24,2580,326,12.6357,270,227
+CAMP-00366,Upgradable contextually-based success,Webinar,Brand Awareness,Google Ads,Enterprise,Central,2025-09-12,2025-11-17,66,6041.58,4880.09,356388,33653,9.4428,218,7
+CAMP-00367,Profound attitude-oriented collaboration,Paid Search,Brand Awareness,LinkedIn,Mid-Market,South,2025-11-23,2026-02-13,82,31870.29,25244.41,543924,35192,6.47,246,125
+CAMP-00368,Reverse-engineered optimizing hub,Influencer,Customer Retention,Twitter,SMB,East,2026-04-14,2026-07-01,78,43232.91,45387.43,131982,35950,27.2386,3,1
+CAMP-00369,Persevering homogeneous Graphic Interface,Social Media,Brand Awareness,Salesforce,Enterprise,South,2025-08-14,2025-08-22,8,8900.96,6483.87,112559,8944,7.9461,444,150
+CAMP-00370,Profound uniform parallelism,Direct Mail,Product Launch,LinkedIn,Mid-Market,South,2024-11-30,2025-02-19,81,2383.55,2613.94,447740,29977,6.6952,308,195
+CAMP-00371,Visionary bandwidth-monitored emulation,Email,Customer Retention,LinkedIn,SMB,East,2024-06-08,2024-07-30,52,3781.51,3440.69,321873,23999,7.456,60,15
+CAMP-00372,Mandatory actuating open system,Paid Search,Lead Generation,Salesforce,SMB,Central,2024-06-28,2024-08-26,59,44785.13,45310.27,3969,732,18.4429,198,18
+CAMP-00373,Progressive optimal migration,Trade Show,Brand Awareness,HubSpot,Enterprise,North,2025-02-24,2025-04-05,40,44693.01,30313.94,370696,45636,12.3109,434,108
+CAMP-00374,Optimized executive Graphic Interface,Influencer,Lead Generation,Salesforce,Enterprise,North,2026-02-17,2026-05-04,76,42836.33,36483.47,164587,7121,4.3266,112,3
+CAMP-00375,Versatile context-sensitive circuit,Webinar,Customer Retention,Twitter,SMB,West,2024-10-01,2024-11-06,36,2819.11,1833.74,1200802,47265,3.9361,466,36
+CAMP-00376,User-centric upward-trending database,Email,Customer Retention,LinkedIn,Enterprise,North,2023-09-22,2023-10-28,36,33553.46,35830.37,85147,36141,42.4454,441,168
+CAMP-00377,Grass-roots object-oriented pricing structure,Paid Search,Product Launch,Google Ads,SMB,North,2024-11-21,2025-01-30,70,21320.25,20986.67,294890,38452,13.0394,79,62
+CAMP-00378,Monitored executive concept,Paid Search,Lead Generation,Google Ads,Enterprise,Central,2024-07-17,2024-09-03,48,37350.77,39487.12,134256,5104,3.8017,56,8
+CAMP-00379,Grass-roots mobile intranet,Influencer,Upsell,Twitter,Enterprise,West,2023-12-15,2024-02-07,54,38371.3,32572.45,34157,10242,29.9851,50,21
+CAMP-00380,Down-sized executive firmware,Influencer,Product Launch,Twitter,Enterprise,East,2024-04-08,2024-06-03,56,1433.61,1072.08,246030,24335,9.8911,149,111
+CAMP-00381,Versatile bi-directional emulation,Paid Search,Product Launch,Salesforce,Mid-Market,South,2026-07-25,2026-09-15,52,3700.56,2408.59,289777,32870,11.3432,235,52
+CAMP-00382,Digitized bandwidth-monitored database,Paid Search,Customer Retention,Google Ads,SMB,East,2025-08-06,2025-10-20,75,49747.94,48569.87,141868,14289,10.072,246,170
+CAMP-00383,Profound web-enabled concept,Direct Mail,Brand Awareness,Twitter,Enterprise,West,2025-04-03,2025-05-03,30,44489.03,33289.07,502670,21354,4.2481,37,19
+CAMP-00384,Balanced needs-based monitoring,Social Media,Upsell,HubSpot,Mid-Market,East,2023-09-06,2023-11-24,79,9051.54,6605.63,262883,26499,10.0801,384,201
+CAMP-00385,Adaptive mobile algorithm,Social Media,Product Launch,LinkedIn,SMB,West,2025-12-29,2026-03-03,64,21122.66,15321.02,458670,24823,5.412,5,3
+CAMP-00386,Horizontal object-oriented interface,Trade Show,Brand Awareness,Google Ads,SMB,South,2024-09-15,2024-11-04,50,10808.17,9448.99,420957,45426,10.7911,471,205
+CAMP-00387,Programmable clear-thinking knowledgebase,Webinar,Upsell,Marketo,Enterprise,West,2025-10-17,2025-12-27,71,41876.83,37843.7,566088,17352,3.0652,208,171
+CAMP-00388,Customizable transitional strategy,Trade Show,Upsell,Salesforce,Enterprise,South,2024-06-25,2024-07-09,14,34849.12,34503.63,112917,22831,20.2193,398,120
+CAMP-00389,Decentralized leadingedge Internet solution,Influencer,Lead Generation,Facebook,Enterprise,North,2026-05-10,2026-06-11,32,29096.67,28255.83,299424,29550,9.8689,489,463
+CAMP-00390,Cross-group client-driven focus group,Social Media,Product Launch,Salesforce,Enterprise,Central,2025-01-29,2025-03-29,59,22786.48,22065.8,289378,22316,7.7117,256,237
+CAMP-00391,Customizable heuristic website,Direct Mail,Brand Awareness,Twitter,SMB,West,2025-10-17,2025-10-27,10,12441.38,12324.78,453341,31351,6.9155,132,37
+CAMP-00392,Face-to-face upward-trending archive,Influencer,Product Launch,Salesforce,Mid-Market,South,2023-11-02,2023-12-02,30,3452.0,2375.09,16700,6869,41.1317,483,329
+CAMP-00393,Profit-focused full-range focus group,Email,Customer Retention,Facebook,SMB,South,2024-07-31,2024-09-30,61,30533.99,33109.72,214410,19402,9.049,54,27
+CAMP-00394,User-centric multimedia service-desk,Trade Show,Brand Awareness,Google Ads,Enterprise,West,2024-12-16,2025-03-06,80,27896.22,17189.4,92368,38018,41.1593,89,13
+CAMP-00395,Triple-buffered system-worthy functionalities,Paid Search,Product Launch,Salesforce,Enterprise,East,2025-12-05,2026-02-02,59,49747.64,54323.1,225956,17541,7.763,406,281
+CAMP-00396,Automated intermediate attitude,Social Media,Lead Generation,Twitter,Enterprise,South,2026-04-11,2026-06-11,61,27545.18,28486.56,291461,49872,17.111,230,118
+CAMP-00397,Programmable foreground core,Webinar,Product Launch,Google Ads,Mid-Market,North,2026-05-24,2026-06-05,12,44464.53,41913.4,61525,13094,21.2824,481,16
+CAMP-00398,Switchable responsive alliance,Webinar,Brand Awareness,HubSpot,Enterprise,Central,2026-02-14,2026-04-10,55,29089.82,29857.96,502158,37009,7.37,441,413
+CAMP-00399,Self-enabling 24/7 encryption,Paid Search,Upsell,Marketo,SMB,Central,2026-06-12,2026-07-17,35,47916.18,29528.62,37629,17146,45.5659,203,193
+CAMP-00400,Multi-tiered directional service-desk,Influencer,Product Launch,Google Ads,SMB,East,2024-01-04,2024-02-21,48,5881.92,5304.38,361735,30378,8.3979,377,309
+CAMP-00401,Phased coherent matrix,Influencer,Product Launch,LinkedIn,Enterprise,South,2024-03-09,2024-04-05,27,44792.98,29515.73,77050,3229,4.1908,198,56
+CAMP-00402,Upgradable modular forecast,Paid Search,Customer Retention,Google Ads,SMB,South,2026-01-15,2026-03-16,60,22901.84,21137.04,348906,10992,3.1504,421,87
+CAMP-00403,Sharable background model,Webinar,Customer Retention,Salesforce,Enterprise,South,2023-12-30,2024-02-08,40,31359.72,28640.86,4610,137,2.9718,191,5
+CAMP-00404,User-friendly didactic ability,Trade Show,Brand Awareness,HubSpot,Enterprise,West,2026-03-03,2026-05-12,70,49689.01,48534.67,62933,35859,56.9796,433,11
+CAMP-00405,Pre-emptive next generation pricing structure,Paid Search,Customer Retention,HubSpot,SMB,East,2024-11-25,2024-12-25,30,38696.54,40711.05,49866,15710,31.5044,397,153
+CAMP-00406,Enhanced 5thgeneration instruction set,Social Media,Customer Retention,LinkedIn,Enterprise,West,2024-03-23,2024-06-12,81,11645.94,12220.97,22453,11458,51.031,178,49
+CAMP-00407,Seamless homogeneous product,Paid Search,Customer Retention,Salesforce,SMB,East,2025-08-30,2025-10-23,54,45340.48,45462.01,401947,47901,11.9172,176,15
+CAMP-00408,Sharable grid-enabled matrices,Social Media,Upsell,Google Ads,Enterprise,West,2025-05-08,2025-06-12,35,42838.15,38145.13,840187,18767,2.2337,416,283
+CAMP-00409,Enterprise-wide exuding emulation,Paid Search,Upsell,Marketo,SMB,Central,2025-03-10,2025-04-06,27,15079.89,10904.95,10513,8767,83.392,470,83
+CAMP-00410,Synchronized mobile matrix,Trade Show,Lead Generation,Twitter,Mid-Market,Central,2026-03-23,2026-06-20,89,11909.33,7897.82,60195,17809,29.5855,494,403
+CAMP-00411,Object-based radical help-desk,Webinar,Product Launch,Google Ads,Enterprise,South,2025-12-27,2026-02-22,57,15996.32,16592.71,39640,7826,19.7427,307,68
+CAMP-00412,Implemented bandwidth-monitored definition,Influencer,Customer Retention,Marketo,Enterprise,Central,2025-03-25,2025-05-29,65,15795.01,12412.47,337368,25261,7.4877,81,8
+CAMP-00413,Versatile well-modulated forecast,Email,Brand Awareness,LinkedIn,Mid-Market,North,2023-12-09,2024-01-11,33,45133.51,34795.63,245958,11949,4.8581,407,50
+CAMP-00414,Organized fresh-thinking encryption,Trade Show,Product Launch,Facebook,Mid-Market,East,2024-11-09,2024-12-15,36,36266.08,24082.65,457247,10005,2.1881,216,70
+CAMP-00415,Customizable context-sensitive Local Area Network,Trade Show,Upsell,Google Ads,SMB,Central,2025-08-02,2025-08-27,25,35210.37,36801.11,15670,15079,96.2285,217,30
+CAMP-00416,Switchable bifurcated hardware,Direct Mail,Brand Awareness,Salesforce,Mid-Market,North,2026-06-20,2026-07-31,41,16112.55,10774.69,30227,7039,23.2871,31,12
+CAMP-00417,Triple-buffered clear-thinking time-frame,Social Media,Lead Generation,HubSpot,Mid-Market,South,2025-09-09,2025-09-17,8,16230.86,11937.03,199063,42033,21.1154,368,71
+CAMP-00418,Pre-emptive radical installation,Influencer,Brand Awareness,Google Ads,Enterprise,Central,2026-03-30,2026-06-20,82,23319.28,15619.92,551699,24634,4.4651,238,154
+CAMP-00419,Assimilated explicit flexibility,Social Media,Lead Generation,Facebook,SMB,South,2025-08-29,2025-11-13,76,12195.22,12308.87,345166,35469,10.2759,321,164
+CAMP-00420,Open-source analyzing open architecture,Social Media,Upsell,HubSpot,SMB,South,2025-02-13,2025-04-24,70,2551.64,2159.59,212383,13795,6.4953,195,147
+CAMP-00421,Fundamental systematic functionalities,Direct Mail,Customer Retention,Twitter,Mid-Market,East,2025-11-30,2026-01-21,52,5216.11,5405.47,1169270,30723,2.6275,482,29
+CAMP-00422,Organic interactive initiative,Influencer,Customer Retention,Marketo,Mid-Market,South,2024-10-31,2025-01-12,73,17010.41,14488.24,215001,34860,16.2139,401,183
+CAMP-00423,Business-focused encompassing matrix,Trade Show,Brand Awareness,Facebook,Mid-Market,West,2024-05-19,2024-06-12,24,20524.27,14078.63,376928,31705,8.4114,378,260
+CAMP-00424,Mandatory scalable analyzer,Social Media,Customer Retention,LinkedIn,Enterprise,Central,2025-10-13,2026-01-09,88,43807.35,42429.91,127000,36501,28.7409,41,37
+CAMP-00425,Open-source directional orchestration,Social Media,Upsell,Twitter,Enterprise,Central,2024-07-10,2024-08-09,30,17957.1,17919.52,987598,49706,5.033,478,325
+CAMP-00426,Public-key demand-driven time-frame,Paid Search,Upsell,HubSpot,Enterprise,Central,2026-03-23,2026-05-01,39,44100.19,40707.1,61913,16201,26.1674,46,10
+CAMP-00427,Seamless reciprocal groupware,Social Media,Product Launch,Twitter,Enterprise,North,2025-06-22,2025-06-30,8,39509.02,35666.46,128934,45557,35.3336,335,213
+CAMP-00428,Quality-focused 3rdgeneration success,Influencer,Customer Retention,Marketo,Enterprise,East,2023-12-27,2024-02-15,50,41487.55,25983.97,74780,12231,16.356,297,184
+CAMP-00429,Multi-tiered background time-frame,Social Media,Upsell,HubSpot,Enterprise,West,2023-08-31,2023-10-06,36,30918.9,19322.8,416235,16196,3.8911,389,43
+CAMP-00430,Multi-channeled zero administration throughput,Webinar,Lead Generation,HubSpot,Enterprise,South,2025-09-17,2025-10-14,27,15244.99,12681.4,2011,479,23.819,44,37
+CAMP-00431,Streamlined actuating model,Webinar,Product Launch,Salesforce,Enterprise,South,2025-04-04,2025-06-12,69,33124.25,25180.57,160115,44997,28.1029,143,102
+CAMP-00432,Public-key dedicated complexity,Webinar,Brand Awareness,Google Ads,Mid-Market,South,2024-03-25,2024-05-07,43,11310.24,9759.16,276972,37615,13.5808,480,181
+CAMP-00433,Object-based transitional emulation,Webinar,Lead Generation,LinkedIn,SMB,Central,2026-02-10,2026-02-28,18,22512.3,18298.12,219749,13573,6.1766,75,28
+CAMP-00434,Diverse holistic groupware,Webinar,Customer Retention,Facebook,Mid-Market,East,2024-06-20,2024-07-30,40,14514.16,9384.52,117167,13210,11.2745,222,76
+CAMP-00435,Reactive upward-trending encryption,Influencer,Lead Generation,Twitter,SMB,West,2024-11-02,2024-12-04,32,23258.45,19350.12,969071,31335,3.2335,337,198
+CAMP-00436,Automated 3rdgeneration system engine,Paid Search,Customer Retention,LinkedIn,SMB,Central,2026-06-02,2026-07-11,39,30418.06,20989.39,152280,28186,18.5093,499,23
+CAMP-00437,Customer-focused motivating infrastructure,Paid Search,Brand Awareness,LinkedIn,Enterprise,North,2026-06-02,2026-08-04,63,1478.75,951.24,217914,37103,17.0264,433,253
+CAMP-00438,Balanced cohesive forecast,Paid Search,Customer Retention,Twitter,Mid-Market,West,2025-12-21,2026-03-09,78,11350.04,8555.96,147450,32619,22.1221,395,136
+CAMP-00439,Focused responsive throughput,Influencer,Customer Retention,Salesforce,SMB,North,2024-07-03,2024-09-12,71,41283.78,36589.8,6686,806,12.055,229,145
+CAMP-00440,Automated encompassing synergy,Social Media,Brand Awareness,HubSpot,Mid-Market,North,2025-08-30,2025-10-04,35,19235.77,18861.3,508832,18507,3.6372,214,143
+CAMP-00441,Multi-tiered solution-oriented initiative,Paid Search,Product Launch,Marketo,Mid-Market,West,2023-12-21,2024-01-05,15,32815.43,35756.56,950856,22199,2.3346,1,1
+CAMP-00442,User-centric encompassing artificial intelligence,Webinar,Upsell,LinkedIn,Mid-Market,South,2023-12-29,2024-01-16,18,19845.33,14670.93,31114,2230,7.1672,164,151
+CAMP-00443,Profit-focused uniform strategy,Trade Show,Upsell,Facebook,Mid-Market,West,2023-10-30,2023-11-12,13,15583.87,15945.65,258212,19341,7.4904,325,210
+CAMP-00444,Operative 3rdgeneration access,Paid Search,Product Launch,Salesforce,Mid-Market,West,2025-11-19,2026-01-23,65,3035.85,2926.17,914473,42818,4.6823,42,34
+CAMP-00445,Quality-focused real-time collaboration,Paid Search,Lead Generation,HubSpot,Mid-Market,Central,2025-10-29,2025-12-24,56,37873.41,30376.98,90892,4500,4.9509,473,414
+CAMP-00446,Reverse-engineered hybrid core,Influencer,Lead Generation,LinkedIn,SMB,North,2023-11-20,2024-02-12,84,28777.04,30768.16,650584,45698,7.0242,76,57
+CAMP-00447,Integrated zero tolerance Graphic Interface,Paid Search,Product Launch,Salesforce,Mid-Market,East,2026-02-03,2026-03-24,49,2529.98,2092.83,9178,1439,15.6788,430,428
+CAMP-00448,User-friendly 3rdgeneration framework,Social Media,Brand Awareness,LinkedIn,Mid-Market,South,2024-11-15,2025-01-04,50,45021.55,32142.99,1095801,27940,2.5497,126,56
+CAMP-00449,Exclusive bandwidth-monitored firmware,Social Media,Brand Awareness,Twitter,Mid-Market,South,2024-06-03,2024-08-31,89,22281.56,15719.53,79094,7980,10.0893,418,207
+CAMP-00450,Re-engineered methodical implementation,Webinar,Customer Retention,Google Ads,SMB,North,2026-07-04,2026-09-22,80,32297.47,31911.54,1093125,29730,2.7197,314,8
+CAMP-00451,Cross-group directional installation,Direct Mail,Brand Awareness,Marketo,SMB,Central,2024-06-21,2024-09-12,83,40512.74,25253.43,187018,27278,14.5858,241,192
+CAMP-00452,Polarized executive standardization,Email,Customer Retention,HubSpot,Enterprise,West,2025-04-13,2025-06-23,71,37918.98,41472.2,931251,41891,4.4984,12,11
+CAMP-00453,Fully-configurable homogeneous adapter,Influencer,Product Launch,Marketo,SMB,South,2025-03-13,2025-04-04,22,34876.23,21949.05,331756,45985,13.8611,331,287
+CAMP-00454,Upgradable hybrid hub,Direct Mail,Lead Generation,Twitter,Enterprise,Central,2026-07-30,2026-08-09,10,20653.18,14518.49,329434,26459,8.0317,429,31
+CAMP-00455,Universal bi-directional knowledge user,Webinar,Lead Generation,HubSpot,Enterprise,South,2025-11-20,2026-02-09,81,9276.91,9448.43,372230,37235,10.0032,429,315
+CAMP-00456,Assimilated hybrid throughput,Webinar,Customer Retention,HubSpot,Mid-Market,West,2024-04-09,2024-05-27,48,48305.89,47568.37,100063,30085,30.0661,395,119
+CAMP-00457,Multi-layered mission-critical open system,Social Media,Lead Generation,Marketo,Enterprise,North,2024-04-18,2024-06-15,58,29571.96,20075.44,1429528,35198,2.4622,105,91
+CAMP-00458,Integrated full-range circuit,Webinar,Product Launch,LinkedIn,Mid-Market,Central,2023-12-05,2024-01-19,45,34510.85,31745.39,663764,23613,3.5574,354,9
+CAMP-00459,Configurable bandwidth-monitored open architecture,Trade Show,Brand Awareness,Facebook,Enterprise,Central,2026-01-10,2026-02-08,29,3643.72,2805.63,342586,24208,7.0663,275,224
+CAMP-00460,Pre-emptive optimizing encryption,Webinar,Upsell,LinkedIn,Mid-Market,South,2024-02-09,2024-04-21,72,37253.71,27529.3,124807,45803,36.6991,402,125
+CAMP-00461,Open-architected reciprocal leverage,Direct Mail,Lead Generation,Facebook,SMB,Central,2023-11-07,2024-01-17,71,43071.6,25963.14,250432,17865,7.1337,324,192
+CAMP-00462,Re-contextualized well-modulated emulation,Trade Show,Brand Awareness,Salesforce,SMB,Central,2025-03-03,2025-05-23,81,43253.02,42358.19,852648,42730,5.0114,471,26
+CAMP-00463,Proactive eco-centric installation,Social Media,Product Launch,Marketo,Mid-Market,East,2023-10-11,2023-10-29,18,16764.09,11732.46,188336,31292,16.615,229,198
+CAMP-00464,Mandatory coherent alliance,Webinar,Brand Awareness,HubSpot,Enterprise,Central,2024-07-14,2024-09-16,64,44051.86,30915.31,46166,4398,9.5265,262,16
+CAMP-00465,Re-contextualized radical installation,Email,Lead Generation,Twitter,Enterprise,Central,2024-07-24,2024-09-22,60,27738.26,25675.67,823416,34609,4.2031,394,151
+CAMP-00466,Future-proofed system-worthy database,Paid Search,Lead Generation,LinkedIn,Mid-Market,Central,2026-03-19,2026-05-29,71,33158.67,35909.86,1366519,42491,3.1094,487,289
+CAMP-00467,Pre-emptive needs-based methodology,Influencer,Product Launch,Twitter,Mid-Market,West,2025-11-11,2025-11-18,7,21437.63,19211.72,115233,25323,21.9755,57,46
+CAMP-00468,Streamlined disintermediate Graphic Interface,Direct Mail,Brand Awareness,Twitter,Enterprise,North,2024-07-15,2024-07-23,8,28094.73,24307.33,37756,7967,21.1013,430,8
+CAMP-00469,Polarized multimedia open architecture,Paid Search,Upsell,Marketo,Mid-Market,East,2024-12-25,2025-02-05,42,13831.51,10553.88,277525,12150,4.378,304,195
+CAMP-00470,Upgradable attitude-oriented benchmark,Webinar,Upsell,LinkedIn,SMB,East,2026-03-05,2026-03-22,17,9342.81,9042.83,493980,43198,8.7449,151,36
+CAMP-00471,Compatible homogeneous capacity,Webinar,Lead Generation,Google Ads,SMB,South,2024-11-16,2024-12-12,26,47862.81,39690.94,490822,17549,3.5754,127,2
+CAMP-00472,Diverse multi-state synergy,Influencer,Customer Retention,LinkedIn,Mid-Market,North,2025-11-13,2026-02-11,90,38171.73,22917.72,164120,24704,15.0524,470,386
+CAMP-00473,Exclusive leadingedge budgetary management,Direct Mail,Lead Generation,Google Ads,Mid-Market,North,2023-12-19,2024-01-23,35,35070.86,28493.57,320814,28910,9.0115,256,40
+CAMP-00474,Optimized modular concept,Paid Search,Customer Retention,Marketo,Mid-Market,South,2023-09-19,2023-11-30,72,27565.83,18177.69,575684,32763,5.6911,447,367
+CAMP-00475,Progressive mobile challenge,Influencer,Upsell,HubSpot,Mid-Market,North,2025-06-23,2025-07-19,26,49953.61,53968.14,660200,26526,4.0179,118,54
+CAMP-00476,Reactive intangible initiative,Direct Mail,Lead Generation,Facebook,Enterprise,Central,2025-11-05,2026-01-25,81,4147.66,3261.79,185224,43784,23.6384,158,145
+CAMP-00477,Decentralized intermediate frame,Webinar,Lead Generation,Twitter,SMB,Central,2023-08-18,2023-10-31,74,19654.1,13421.64,14488,826,5.7013,210,144
+CAMP-00478,Synergistic encompassing model,Social Media,Upsell,Marketo,SMB,Central,2025-10-04,2025-12-02,59,9257.58,9685.93,1761490,39475,2.241,193,156
+CAMP-00479,Multi-layered non-volatile projection,Webinar,Product Launch,Twitter,SMB,West,2024-07-26,2024-09-02,38,11159.14,10888.51,566075,26302,4.6464,376,244
+CAMP-00480,Implemented multi-state software,Trade Show,Customer Retention,HubSpot,Enterprise,East,2024-02-05,2024-03-30,54,45860.04,37463.72,60132,34518,57.4037,154,31
+CAMP-00481,Seamless transitional hub,Email,Lead Generation,LinkedIn,Enterprise,North,2024-03-18,2024-05-05,48,10407.03,8991.05,62992,10242,16.2592,97,97
+CAMP-00482,Function-based methodical Local Area Network,Direct Mail,Lead Generation,Salesforce,Mid-Market,West,2025-02-26,2025-04-12,45,2958.68,3223.32,389502,9720,2.4955,357,238
+CAMP-00483,Managed value-added success,Trade Show,Upsell,Twitter,Mid-Market,West,2024-03-25,2024-04-05,11,43600.4,42098.13,21223,7846,36.9693,288,36
+CAMP-00484,Devolved composite moderator,Social Media,Brand Awareness,Facebook,Enterprise,North,2026-08-02,2026-10-29,88,42259.02,35287.92,667209,44098,6.6093,16,13
+CAMP-00485,Phased 24/7 functionalities,Trade Show,Product Launch,Twitter,Mid-Market,Central,2025-09-29,2025-12-24,86,48496.24,44833.91,38416,22174,57.7207,28,16
+CAMP-00486,Distributed methodical architecture,Direct Mail,Customer Retention,Twitter,SMB,West,2024-11-05,2024-11-25,20,31308.07,22870.84,108558,37349,34.4047,463,317
+CAMP-00487,Adaptive fault-tolerant standardization,Webinar,Lead Generation,HubSpot,Mid-Market,Central,2026-07-30,2026-08-06,7,4716.17,4383.4,886165,29497,3.3286,125,80
+CAMP-00488,Team-oriented bandwidth-monitored monitoring,Influencer,Lead Generation,Facebook,Enterprise,North,2024-02-29,2024-04-18,49,48919.45,33092.42,933014,42171,4.5199,391,333
+CAMP-00489,Cross-platform analyzing process improvement,Direct Mail,Upsell,Facebook,Mid-Market,East,2024-12-22,2025-03-01,69,13252.56,12661.64,548717,43134,7.8609,162,57
+CAMP-00490,Diverse asymmetric hardware,Social Media,Product Launch,LinkedIn,SMB,West,2025-01-02,2025-01-10,8,3065.58,2590.71,97753,32627,33.377,100,82
+CAMP-00491,Face-to-face grid-enabled product,Trade Show,Product Launch,Google Ads,Enterprise,South,2025-07-04,2025-07-16,12,7757.33,5948.03,56727,4751,8.3752,318,298
+CAMP-00492,Ergonomic even-keeled forecast,Paid Search,Upsell,HubSpot,Enterprise,North,2023-08-23,2023-09-04,12,9898.93,9561.19,255620,20449,7.9998,414,150
+CAMP-00493,Optimized optimal superstructure,Email,Lead Generation,Marketo,Mid-Market,South,2026-01-22,2026-04-02,70,21846.97,17957.46,91163,8532,9.3591,490,273
+CAMP-00494,Secured zero administration initiative,Paid Search,Lead Generation,Twitter,SMB,West,2024-07-07,2024-08-24,48,4272.71,4180.97,1683589,45192,2.6843,36,30
+CAMP-00495,Realigned needs-based project,Trade Show,Lead Generation,HubSpot,Mid-Market,Central,2026-05-27,2026-06-24,28,43261.96,38786.28,22430,12721,56.7142,40,17
+CAMP-00496,Compatible optimizing collaboration,Direct Mail,Upsell,Twitter,SMB,North,2025-07-30,2025-08-06,7,17543.5,15303.27,314139,29715,9.4592,40,6
+CAMP-00497,Extended even-keeled conglomeration,Paid Search,Lead Generation,HubSpot,Enterprise,East,2023-11-28,2024-01-05,38,30312.73,19960.53,37714,31085,82.423,203,12
+CAMP-00498,Customer-focused clear-thinking website,Influencer,Upsell,Google Ads,Enterprise,East,2024-05-21,2024-07-06,46,16287.19,12311.15,683538,49982,7.3122,276,141
+CAMP-00499,Stand-alone zero administration info-mediaries,Trade Show,Customer Retention,Salesforce,SMB,Central,2025-03-01,2025-05-16,76,1694.62,1193.86,173559,48492,27.9398,195,100
+CAMP-00500,Visionary optimizing portal,Trade Show,Lead Generation,Google Ads,Mid-Market,North,2024-08-03,2024-09-30,58,34382.39,25420.64,1163610,43358,3.7262,497,355
+CAMP-00501,User-centric reciprocal secured line,Social Media,Brand Awareness,Marketo,Enterprise,North,2024-06-06,2024-07-03,27,30599.98,23530.56,1304401,45454,3.4847,497,461
+CAMP-00502,Expanded composite ability,Trade Show,Upsell,LinkedIn,Mid-Market,South,2026-04-29,2026-06-28,60,7041.48,4420.27,30593,19759,64.5867,97,77
+CAMP-00503,Extended background website,Email,Lead Generation,HubSpot,SMB,Central,2025-12-12,2025-12-24,12,25526.66,27632.03,24933,2889,11.5871,285,247
+CAMP-00504,Digitized composite leverage,Email,Brand Awareness,Marketo,Enterprise,South,2025-06-11,2025-06-29,18,27272.14,26220.61,59935,18590,31.0169,354,322
+CAMP-00505,Inverse asynchronous application,Influencer,Product Launch,Google Ads,Enterprise,East,2026-03-22,2026-05-16,55,5462.87,4193.53,24548,3183,12.9664,141,141
+CAMP-00506,Organic interactive secured line,Email,Customer Retention,Google Ads,SMB,South,2024-01-04,2024-01-25,21,29902.98,23971.39,198023,44155,22.2979,151,116
+CAMP-00507,Innovative motivating task-force,Influencer,Upsell,Marketo,SMB,West,2025-01-05,2025-01-12,7,24064.42,25892.99,150492,31573,20.9799,186,182
+CAMP-00508,Realigned hybrid implementation,Trade Show,Customer Retention,Marketo,Enterprise,Central,2023-12-14,2024-03-11,88,44822.3,28684.66,372776,48983,13.1401,384,32
+CAMP-00509,Triple-buffered methodical help-desk,Social Media,Customer Retention,Marketo,SMB,South,2025-12-02,2026-01-12,41,21350.62,21272.39,103036,8768,8.5096,411,198
+CAMP-00510,Programmable foreground moderator,Social Media,Customer Retention,Twitter,SMB,South,2024-07-14,2024-07-21,7,18483.45,20112.05,52378,35136,67.0816,70,49
+CAMP-00511,Robust didactic concept,Email,Product Launch,Twitter,Enterprise,South,2023-11-01,2023-11-08,7,11196.05,8891.13,34495,3496,10.1348,205,12
+CAMP-00512,Grass-roots transitional circuit,Trade Show,Upsell,HubSpot,Enterprise,East,2026-06-08,2026-06-16,8,18862.75,12536.8,36613,28210,77.0491,271,44
+CAMP-00513,Realigned leadingedge matrix,Social Media,Customer Retention,Google Ads,Enterprise,Central,2026-02-12,2026-03-18,34,29538.76,26472.12,45860,15648,34.1212,84,7
+CAMP-00514,Function-based systemic capability,Social Media,Lead Generation,HubSpot,SMB,West,2025-09-07,2025-10-17,40,17278.84,16316.06,806310,37352,4.6325,392,235
+CAMP-00515,Optional solution-oriented hardware,Paid Search,Customer Retention,Facebook,Mid-Market,Central,2025-04-09,2025-06-05,57,2562.17,2335.78,547417,30473,5.5667,273,220
+CAMP-00516,Multi-lateral maximized throughput,Email,Lead Generation,HubSpot,Enterprise,Central,2024-02-18,2024-03-13,24,2670.31,1983.81,291062,21686,7.4506,285,144
+CAMP-00517,Upgradable interactive data-warehouse,Influencer,Customer Retention,Twitter,Mid-Market,West,2025-08-10,2025-09-01,22,36059.13,32367.45,162319,13951,8.5948,178,161
+CAMP-00518,Ergonomic homogeneous hub,Direct Mail,Product Launch,Twitter,Enterprise,West,2025-06-13,2025-07-11,28,30057.34,28341.5,115091,32543,28.2759,76,15
+CAMP-00519,User-friendly 24/7 customer loyalty,Paid Search,Product Launch,Salesforce,SMB,West,2024-02-20,2024-04-19,59,5576.17,4516.7,3471,2097,60.4149,71,39
+CAMP-00520,Progressive content-based ability,Paid Search,Lead Generation,LinkedIn,Mid-Market,West,2024-12-04,2025-02-02,60,45138.98,36248.97,70277,4221,6.0062,67,25
+CAMP-00521,Managed bandwidth-monitored hub,Email,Customer Retention,Twitter,Enterprise,North,2025-05-10,2025-05-17,7,3858.65,2759.71,876091,27832,3.1768,371,325
+CAMP-00522,Profit-focused 24/7 portal,Trade Show,Customer Retention,Facebook,Mid-Market,Central,2026-05-06,2026-07-19,74,22281.87,14058.06,37169,5018,13.5005,66,22
+CAMP-00523,Stand-alone even-keeled project,Trade Show,Lead Generation,Facebook,SMB,South,2024-06-01,2024-07-11,40,3302.41,2601.27,1025163,44665,4.3569,135,93
+CAMP-00524,Balanced tangible strategy,Webinar,Product Launch,Marketo,Mid-Market,South,2025-01-13,2025-02-04,22,28847.14,27914.51,1156533,41861,3.6195,388,329
+CAMP-00525,Self-enabling analyzing orchestration,Paid Search,Upsell,Twitter,Mid-Market,Central,2024-05-11,2024-07-31,81,11133.0,8517.29,272334,12866,4.7243,453,63
+CAMP-00526,Universal methodical portal,Influencer,Product Launch,Salesforce,SMB,East,2026-01-25,2026-02-01,7,19025.64,15874.11,2054999,48995,2.3842,395,95
+CAMP-00527,Pre-emptive context-sensitive leverage,Trade Show,Customer Retention,Twitter,Mid-Market,West,2025-06-30,2025-09-14,76,13635.28,14013.92,18957,12264,64.6938,412,328
+CAMP-00528,Stand-alone web-enabled moratorium,Social Media,Upsell,Salesforce,Mid-Market,North,2025-11-06,2025-12-10,34,9887.86,9973.78,153773,14039,9.1297,353,309
+CAMP-00529,Automated holistic algorithm,Webinar,Upsell,Salesforce,SMB,West,2026-01-08,2026-02-17,40,2475.95,2560.85,252110,10839,4.2993,471,68
+CAMP-00530,Universal coherent strategy,Trade Show,Customer Retention,Marketo,Enterprise,East,2025-06-09,2025-07-19,40,8684.23,7266.09,199536,10549,5.2868,121,79
+CAMP-00531,De-engineered attitude-oriented instruction set,Trade Show,Brand Awareness,Google Ads,Enterprise,Central,2025-10-22,2025-11-15,24,12295.77,8498.6,541,108,19.963,294,48
+CAMP-00532,Decentralized analyzing intranet,Social Media,Upsell,LinkedIn,SMB,South,2026-02-06,2026-03-20,42,15020.09,10607.32,1141299,39726,3.4808,152,126
+CAMP-00533,Centralized foreground attitude,Webinar,Customer Retention,Twitter,SMB,Central,2025-07-06,2025-08-24,49,41083.98,42357.95,23505,8412,35.7881,168,68
+CAMP-00534,Grass-roots content-based projection,Social Media,Brand Awareness,Marketo,Enterprise,West,2026-03-04,2026-05-29,86,3937.28,3447.31,643380,47064,7.3151,113,15
+CAMP-00535,Ameliorated full-range service-desk,Social Media,Lead Generation,Twitter,SMB,Central,2025-06-10,2025-08-11,62,49648.31,47779.21,259684,30734,11.8352,77,16
+CAMP-00536,Intuitive tertiary concept,Trade Show,Customer Retention,LinkedIn,Enterprise,South,2026-02-21,2026-03-04,11,47769.61,38258.9,56304,29129,51.7352,152,122
+CAMP-00537,Reverse-engineered uniform hierarchy,Email,Lead Generation,Marketo,Mid-Market,North,2026-04-25,2026-05-06,11,17085.38,12926.73,159783,8965,5.6107,319,257
+CAMP-00538,Synchronized impactful instruction set,Social Media,Product Launch,Twitter,Mid-Market,West,2025-02-23,2025-03-08,13,7047.68,5976.64,1111687,49816,4.4811,9,6
+CAMP-00539,Synchronized analyzing architecture,Direct Mail,Product Launch,Google Ads,SMB,North,2026-02-10,2026-04-05,54,28674.15,17239.19,3010,1003,33.3223,474,220
+CAMP-00540,Virtual motivating circuit,Trade Show,Product Launch,Facebook,Mid-Market,Central,2024-03-06,2024-06-02,88,42424.0,42627.05,101190,27076,26.7576,206,203
+CAMP-00541,Configurable context-sensitive intranet,Webinar,Upsell,Salesforce,SMB,North,2025-10-14,2025-12-22,69,32461.6,22867.02,1470694,45908,3.1215,267,111
+CAMP-00542,Robust dedicated solution,Paid Search,Customer Retention,LinkedIn,Mid-Market,Central,2023-09-25,2023-12-17,83,39584.88,28851.19,83646,2353,2.813,467,361
+CAMP-00543,Enhanced scalable synergy,Social Media,Upsell,Facebook,Mid-Market,East,2025-02-11,2025-03-16,33,7574.66,6123.91,106147,8459,7.9691,446,223
+CAMP-00544,Adaptive fault-tolerant focus group,Email,Customer Retention,HubSpot,Mid-Market,Central,2026-02-15,2026-03-10,23,5491.79,5268.28,232275,4990,2.1483,299,273
+CAMP-00545,Decentralized global Local Area Network,Direct Mail,Brand Awareness,Google Ads,Enterprise,Central,2025-04-12,2025-06-01,50,11784.93,7166.91,806941,29619,3.6705,358,37
+CAMP-00546,Total background open system,Webinar,Product Launch,Marketo,SMB,South,2025-04-21,2025-07-04,74,35308.35,26555.16,399416,41844,10.4763,254,76
+CAMP-00547,Cross-group bifurcated array,Trade Show,Upsell,Marketo,Mid-Market,East,2026-05-22,2026-06-06,15,42438.61,41894.36,126568,8538,6.7458,269,72
+CAMP-00548,Cross-group contextually-based functionalities,Email,Brand Awareness,Marketo,SMB,North,2024-02-23,2024-04-12,49,33034.59,35884.34,94768,3342,3.5265,148,17
+CAMP-00549,Ameliorated zero administration concept,Webinar,Lead Generation,Salesforce,SMB,North,2025-05-16,2025-08-04,80,32300.47,25853.52,607753,39386,6.4806,239,191
+CAMP-00550,Extended scalable hub,Email,Upsell,Salesforce,Mid-Market,West,2025-12-18,2026-02-28,72,21704.88,17839.49,550891,44551,8.0871,137,99
+CAMP-00551,Up-sized dynamic function,Webinar,Product Launch,Google Ads,Enterprise,East,2024-12-24,2025-01-25,32,20051.09,13227.0,53190,9321,17.524,429,278
+CAMP-00552,Stand-alone content-based synergy,Webinar,Upsell,Twitter,Mid-Market,North,2026-02-09,2026-04-10,60,16471.25,17301.96,373330,26730,7.1599,375,230
+CAMP-00553,De-engineered fault-tolerant application,Email,Lead Generation,Twitter,SMB,South,2025-11-12,2026-01-03,52,44479.14,34517.26,34340,28342,82.5335,494,88
+CAMP-00554,Horizontal context-sensitive focus group,Paid Search,Lead Generation,Twitter,Mid-Market,North,2024-09-26,2024-11-15,50,26290.47,26412.65,79464,19182,24.1392,413,271
+CAMP-00555,Intuitive incremental definition,Trade Show,Upsell,Twitter,Mid-Market,East,2024-01-08,2024-02-16,39,16592.26,11232.18,151434,17140,11.3185,456,131
+CAMP-00556,Future-proofed dedicated conglomeration,Trade Show,Brand Awareness,Salesforce,Mid-Market,South,2026-02-07,2026-03-04,25,40182.94,40849.74,70750,35123,49.6438,103,67
+CAMP-00557,Fundamental tangible intranet,Influencer,Customer Retention,Google Ads,Enterprise,Central,2026-07-15,2026-07-27,12,36644.39,30279.91,81284,3087,3.7978,490,125
+CAMP-00558,Pre-emptive heuristic paradigm,Direct Mail,Upsell,Google Ads,Enterprise,Central,2024-05-23,2024-08-20,89,20855.01,14320.7,83424,3279,3.9305,408,355
+CAMP-00559,Visionary secondary model,Influencer,Upsell,Twitter,SMB,South,2024-09-09,2024-10-21,42,37462.03,26459.27,167353,28494,17.0263,342,296
+CAMP-00560,Self-enabling systemic concept,Social Media,Customer Retention,Twitter,SMB,North,2024-12-12,2025-03-02,80,43943.17,29330.52,151323,36488,24.1127,139,86
+CAMP-00561,Reduced human-resource collaboration,Paid Search,Upsell,LinkedIn,SMB,North,2023-09-17,2023-11-30,74,1152.53,874.64,1081580,49482,4.575,21,14
+CAMP-00562,Expanded tangible Internet solution,Direct Mail,Upsell,LinkedIn,Enterprise,South,2025-03-19,2025-05-28,70,32190.88,34658.97,890797,22171,2.4889,293,128
+CAMP-00563,Synergized executive database,Paid Search,Upsell,HubSpot,Enterprise,North,2024-08-21,2024-08-28,7,8845.0,8035.64,8901,3002,33.7265,138,37
+CAMP-00564,Profit-focused neutral synergy,Social Media,Lead Generation,HubSpot,SMB,South,2024-08-16,2024-10-28,73,14378.15,14676.72,41985,20558,48.9651,8,7
+CAMP-00565,Cross-group multimedia throughput,Email,Upsell,Twitter,SMB,North,2025-12-24,2026-02-27,65,23822.67,20637.46,169430,7550,4.4561,235,92
+CAMP-00566,Extended maximized firmware,Influencer,Product Launch,Marketo,SMB,North,2024-03-25,2024-06-06,73,36220.91,25381.2,566330,21071,3.7206,256,66
+CAMP-00567,Customizable multi-state protocol,Direct Mail,Upsell,Twitter,SMB,Central,2023-09-11,2023-10-01,20,28742.3,19532.89,122765,28238,23.0017,331,112
+CAMP-00568,Phased client-driven Local Area Network,Social Media,Lead Generation,Twitter,Mid-Market,West,2025-06-29,2025-08-10,42,8704.44,7050.55,130096,13848,10.6444,246,74
+CAMP-00569,Multi-layered non-volatile implementation,Influencer,Lead Generation,Twitter,SMB,Central,2025-05-11,2025-08-01,82,11075.0,11997.58,215397,6147,2.8538,468,348
+CAMP-00570,Automated fresh-thinking standardization,Trade Show,Upsell,HubSpot,Enterprise,South,2025-07-28,2025-08-23,26,15097.6,10165.83,471450,37005,7.8492,195,92
+CAMP-00571,Multi-channeled 24/7 complexity,Trade Show,Upsell,LinkedIn,Enterprise,West,2023-11-30,2023-12-26,26,12160.54,10094.27,171655,7901,4.6028,73,28
+CAMP-00572,Managed global project,Influencer,Upsell,Marketo,SMB,South,2024-11-11,2024-12-17,36,23840.55,24168.65,314156,28176,8.9688,28,1
+CAMP-00573,Enterprise-wide heuristic function,Paid Search,Lead Generation,Marketo,Mid-Market,South,2026-04-22,2026-05-06,14,33719.39,29541.38,775599,38171,4.9215,414,238
+CAMP-00574,Quality-focused contextually-based system engine,Direct Mail,Lead Generation,Salesforce,Mid-Market,West,2024-02-02,2024-04-12,70,16041.03,11248.97,1345076,35793,2.661,268,39
+CAMP-00575,Seamless logistical parallelism,Paid Search,Customer Retention,HubSpot,SMB,South,2023-08-31,2023-11-05,66,25952.32,20148.63,156219,3906,2.5003,33,20
+CAMP-00576,Optional upward-trending initiative,Trade Show,Lead Generation,Salesforce,Enterprise,East,2025-04-29,2025-05-27,28,20546.86,17977.76,244489,29151,11.9232,258,134
+CAMP-00577,Fully-configurable eco-centric success,Direct Mail,Customer Retention,Marketo,Enterprise,Central,2025-01-07,2025-03-16,68,20230.39,13665.0,19225,11923,62.0182,303,204
+CAMP-00578,Mandatory mission-critical service-desk,Trade Show,Brand Awareness,Salesforce,Enterprise,South,2024-09-19,2024-12-04,76,5438.53,5787.68,231592,25460,10.9935,331,276
+CAMP-00579,Balanced discrete task-force,Trade Show,Brand Awareness,Google Ads,Mid-Market,West,2024-10-20,2024-10-27,7,45812.71,36375.84,37658,7860,20.8721,389,305
+CAMP-00580,Profit-focused bi-directional instruction set,Influencer,Product Launch,Marketo,Mid-Market,Central,2026-05-27,2026-08-17,82,27964.43,22198.48,1436292,46397,3.2303,310,118
+CAMP-00581,Future-proofed object-oriented initiative,Trade Show,Product Launch,Salesforce,SMB,West,2024-11-16,2025-01-20,65,46105.35,33256.03,557445,21589,3.8728,161,11
+CAMP-00582,Diverse multimedia concept,Influencer,Brand Awareness,LinkedIn,Mid-Market,North,2025-05-18,2025-06-18,31,17246.8,16302.68,60350,15574,25.8061,6,6
+CAMP-00583,Right-sized tangible moderator,Direct Mail,Lead Generation,HubSpot,Mid-Market,Central,2026-05-13,2026-07-02,50,31790.22,29904.19,10566,2245,21.2474,393,162
+CAMP-00584,Re-contextualized web-enabled challenge,Paid Search,Customer Retention,HubSpot,SMB,West,2024-03-12,2024-06-04,84,33937.34,32904.81,41902,18460,44.0552,264,140
+CAMP-00585,Managed zero tolerance application,Influencer,Brand Awareness,Google Ads,SMB,North,2023-12-28,2024-01-17,20,48607.0,36731.42,257544,42790,16.6146,157,123
+CAMP-00586,Integrated zero administration circuit,Trade Show,Lead Generation,Marketo,Enterprise,Central,2026-07-05,2026-07-18,13,10323.38,8959.42,1168746,49255,4.2143,227,29
+CAMP-00587,Persevering hybrid concept,Paid Search,Customer Retention,Facebook,Mid-Market,Central,2026-01-01,2026-03-30,88,22176.57,22982.82,176874,9414,5.3224,316,228
+CAMP-00588,Switchable client-server customer loyalty,Influencer,Product Launch,Marketo,Mid-Market,North,2024-12-24,2025-02-06,44,13538.53,14732.13,909197,49991,5.4984,294,150
+CAMP-00589,Innovative fault-tolerant artificial intelligence,Direct Mail,Brand Awareness,Salesforce,Enterprise,North,2026-03-31,2026-04-09,9,3786.49,2684.49,1111026,49801,4.4824,68,40
+CAMP-00590,Expanded intermediate array,Direct Mail,Product Launch,Google Ads,Enterprise,Central,2024-02-26,2024-05-17,81,47272.71,37015.75,664020,46191,6.9563,361,82
+CAMP-00591,Distributed systemic open architecture,Trade Show,Customer Retention,Marketo,SMB,North,2025-10-08,2025-12-04,57,48105.73,47480.91,210886,37123,17.6033,106,90
+CAMP-00592,Multi-layered 24hour matrices,Trade Show,Customer Retention,Marketo,SMB,North,2026-02-19,2026-05-19,89,8602.03,8695.13,97057,24735,25.485,116,22
+CAMP-00593,Cross-platform methodical neural-net,Influencer,Product Launch,Salesforce,Mid-Market,North,2024-01-29,2024-04-13,75,12748.23,10408.04,166586,13685,8.215,199,6
+CAMP-00594,Total didactic leverage,Email,Product Launch,Facebook,SMB,Central,2025-08-29,2025-10-24,56,9245.96,6113.11,717692,35802,4.9885,380,323
+CAMP-00595,Persistent tertiary encryption,Direct Mail,Lead Generation,Twitter,SMB,Central,2025-08-08,2025-08-29,21,21522.39,17669.38,78272,10951,13.991,172,3
+CAMP-00596,Cross-platform human-resource capacity,Webinar,Product Launch,Marketo,Enterprise,Central,2025-11-20,2025-12-06,16,32453.76,34770.83,369789,19751,5.3412,456,50
+CAMP-00597,Devolved impactful throughput,Influencer,Brand Awareness,HubSpot,Mid-Market,North,2024-07-21,2024-08-29,39,40956.27,28738.93,21173,1792,8.4636,249,207
+CAMP-00598,Horizontal systematic superstructure,Direct Mail,Lead Generation,HubSpot,SMB,Central,2024-07-31,2024-10-27,88,49847.57,54111.87,757495,27936,3.6879,394,14
+CAMP-00599,Right-sized hybrid monitoring,Trade Show,Product Launch,Twitter,Mid-Market,South,2026-03-20,2026-05-15,56,35500.47,24622.5,158843,29749,18.7286,285,96
+CAMP-00600,Pre-emptive static support,Social Media,Brand Awareness,Google Ads,SMB,West,2023-10-25,2023-11-10,16,574.04,630.69,35125,18311,52.131,382,201
+CAMP-00601,Assimilated directional portal,Webinar,Product Launch,Facebook,SMB,East,2026-07-05,2026-08-15,41,30879.07,26929.91,490702,27846,5.6747,37,13
+CAMP-00602,Front-line holistic hierarchy,Email,Customer Retention,Facebook,Enterprise,Central,2024-02-19,2024-03-09,19,23980.47,19811.94,231656,20051,8.6555,36,20
+CAMP-00603,Adaptive reciprocal policy,Paid Search,Brand Awareness,Salesforce,Mid-Market,East,2024-08-14,2024-09-11,28,10958.79,10832.02,481392,26016,5.4043,179,16
+CAMP-00604,Compatible secondary emulation,Influencer,Customer Retention,Marketo,SMB,South,2025-11-08,2025-11-29,21,27704.48,20034.95,157694,4457,2.8264,384,65
+CAMP-00605,Ergonomic 6thgeneration data-warehouse,Webinar,Customer Retention,Salesforce,Enterprise,North,2024-01-06,2024-03-31,85,31868.43,24793.88,951909,31948,3.3562,388,80
+CAMP-00606,Cross-group global info-mediaries,Social Media,Customer Retention,Facebook,Enterprise,West,2024-07-03,2024-09-25,84,2726.57,1930.86,38585,35985,93.2616,439,405
+CAMP-00607,Optimized coherent forecast,Social Media,Upsell,LinkedIn,Mid-Market,South,2025-07-24,2025-09-03,41,39084.63,41534.45,292921,11933,4.0738,130,102
+CAMP-00608,Synergistic mission-critical alliance,Paid Search,Product Launch,Facebook,SMB,West,2024-07-13,2024-08-19,37,47856.75,30295.83,399049,48020,12.0336,473,184
+CAMP-00609,Operative context-sensitive complexity,Social Media,Lead Generation,Google Ads,SMB,East,2024-05-19,2024-06-14,26,18201.11,11962.29,698394,33985,4.8662,356,301
+CAMP-00610,Programmable bi-directional Local Area Network,Trade Show,Brand Awareness,LinkedIn,SMB,Central,2024-10-17,2024-11-30,44,1191.22,906.66,127998,28637,22.373,124,56
+CAMP-00611,Monitored systemic superstructure,Social Media,Upsell,LinkedIn,Mid-Market,East,2026-01-06,2026-03-01,54,25351.4,15968.52,97832,16038,16.3934,370,356
+CAMP-00612,Open-architected 24/7 complexity,Influencer,Upsell,LinkedIn,SMB,South,2023-11-27,2023-12-12,15,12883.45,10520.2,22829,6908,30.2598,273,211
+CAMP-00613,Re-engineered motivating info-mediaries,Influencer,Product Launch,Salesforce,Enterprise,South,2024-07-22,2024-08-10,19,2744.2,2567.73,106520,19838,18.6237,323,268
+CAMP-00614,Advanced mobile projection,Influencer,Lead Generation,Facebook,Mid-Market,West,2025-08-28,2025-11-25,89,27621.84,28144.62,299389,43127,14.405,73,54
+CAMP-00615,Open-architected interactive throughput,Paid Search,Customer Retention,Marketo,Enterprise,North,2026-06-24,2026-07-26,32,1105.75,681.83,949759,33012,3.4758,94,24
+CAMP-00616,Optimized empowering support,Webinar,Lead Generation,LinkedIn,Mid-Market,East,2023-10-06,2023-10-30,24,8825.88,8565.08,28683,1889,6.5858,49,18
+CAMP-00617,Robust local middleware,Social Media,Upsell,Google Ads,Enterprise,West,2025-07-02,2025-08-10,39,16328.05,14604.0,288417,26432,9.1645,72,2
+CAMP-00618,Phased transitional groupware,Direct Mail,Brand Awareness,LinkedIn,Mid-Market,South,2024-09-19,2024-10-13,24,14254.83,8777.46,135144,38576,28.5444,163,59
+CAMP-00619,Multi-lateral bifurcated toolset,Social Media,Customer Retention,HubSpot,Mid-Market,West,2026-02-17,2026-03-13,24,32923.24,21327.77,54736,5049,9.2243,339,314
+CAMP-00620,Optimized national task-force,Influencer,Brand Awareness,Google Ads,Enterprise,Central,2024-02-19,2024-03-25,35,29005.87,20194.51,156397,33983,21.7287,328,89
+CAMP-00621,Synergistic attitude-oriented collaboration,Trade Show,Product Launch,Facebook,Mid-Market,Central,2024-09-30,2024-11-08,39,17108.99,17621.56,111637,14293,12.8031,347,145
+CAMP-00622,Triple-buffered optimizing firmware,Direct Mail,Lead Generation,Marketo,SMB,North,2023-08-15,2023-10-17,63,21695.74,13071.43,103925,12769,12.2867,135,131
+CAMP-00623,Seamless upward-trending knowledgebase,Trade Show,Customer Retention,Google Ads,SMB,South,2024-03-11,2024-04-18,38,22144.64,18311.59,316329,15992,5.0555,343,242
+CAMP-00624,Persistent executive analyzer,Influencer,Customer Retention,HubSpot,Enterprise,North,2024-11-26,2025-01-01,36,18132.46,18448.32,414186,25242,6.0944,47,21
+CAMP-00625,Pre-emptive logistical hierarchy,Trade Show,Product Launch,Twitter,Mid-Market,East,2023-12-19,2024-02-26,69,38319.51,30465.67,169057,42015,24.8526,80,47
+CAMP-00626,Right-sized systemic hub,Social Media,Customer Retention,Twitter,Mid-Market,South,2023-10-01,2023-11-11,41,23900.26,26202.08,815986,38216,4.6834,112,31
+CAMP-00627,Mandatory systematic frame,Social Media,Upsell,HubSpot,Mid-Market,West,2024-05-10,2024-07-11,62,36124.12,33720.48,1756002,45892,2.6134,173,53
+CAMP-00628,Assimilated needs-based flexibility,Email,Customer Retention,Twitter,Enterprise,West,2025-11-24,2025-12-20,26,14836.99,15411.4,195060,38922,19.9539,362,198
+CAMP-00629,Multi-channeled intangible adapter,Paid Search,Customer Retention,Google Ads,SMB,North,2024-02-19,2024-05-18,89,23154.5,21358.42,990983,48920,4.9365,478,214
+CAMP-00630,Innovative scalable alliance,Email,Product Launch,Marketo,SMB,West,2024-12-09,2025-02-06,59,27652.17,23507.27,53244,1812,3.4032,219,63
+CAMP-00631,Multi-channeled upward-trending alliance,Direct Mail,Lead Generation,Twitter,Enterprise,North,2025-05-21,2025-07-04,44,28492.58,25504.25,1700982,49836,2.9298,121,78
+CAMP-00632,Object-based dynamic conglomeration,Direct Mail,Product Launch,LinkedIn,Enterprise,West,2025-03-11,2025-04-15,35,33853.64,28777.17,446449,33868,7.5861,51,25
+CAMP-00633,Cross-platform clear-thinking superstructure,Email,Customer Retention,HubSpot,SMB,South,2023-11-08,2023-11-17,9,25106.59,17677.79,49658,45394,91.4133,66,48
+CAMP-00634,Proactive intermediate focus group,Email,Brand Awareness,LinkedIn,Mid-Market,South,2024-01-13,2024-03-21,68,47966.83,50457.17,243546,25436,10.444,9,8
+CAMP-00635,Persevering system-worthy process improvement,Influencer,Brand Awareness,Marketo,SMB,West,2024-08-20,2024-09-21,32,29811.59,22326.65,312761,21288,6.8065,395,226
+CAMP-00636,Upgradable multi-tasking open system,Webinar,Brand Awareness,Marketo,SMB,Central,2024-05-01,2024-06-26,56,42201.17,31577.82,126807,12634,9.9632,384,207
+CAMP-00637,Compatible fresh-thinking hub,Email,Brand Awareness,Marketo,Mid-Market,South,2024-12-21,2025-03-18,87,45014.28,27263.98,393780,43677,11.0917,202,146
+CAMP-00638,Robust uniform productivity,Trade Show,Brand Awareness,Google Ads,Mid-Market,West,2023-09-18,2023-11-01,44,28574.27,18407.99,46466,1776,3.8221,209,115
+CAMP-00639,Cross-platform homogeneous migration,Webinar,Brand Awareness,HubSpot,SMB,North,2026-01-13,2026-04-06,83,5991.41,3909.03,67311,37535,55.7635,199,27
+CAMP-00640,Configurable global productivity,Direct Mail,Product Launch,Salesforce,Mid-Market,West,2026-07-16,2026-10-05,81,2177.42,2127.72,267604,17919,6.6961,99,28
+CAMP-00641,Optimized impactful adapter,Direct Mail,Lead Generation,LinkedIn,Mid-Market,South,2025-11-05,2025-12-17,42,26907.22,17494.95,138323,45408,32.8275,23,18
+CAMP-00642,User-friendly eco-centric success,Influencer,Lead Generation,LinkedIn,Mid-Market,West,2024-02-25,2024-05-18,83,11217.25,7144.9,3503,783,22.3523,128,23
+CAMP-00643,Configurable intermediate budgetary management,Email,Lead Generation,HubSpot,SMB,East,2025-07-22,2025-08-02,11,7950.85,7003.99,150585,7903,5.2482,451,213
+CAMP-00644,Re-engineered empowering framework,Trade Show,Customer Retention,Google Ads,Enterprise,West,2025-12-24,2026-01-31,38,14952.91,9883.83,350046,32995,9.4259,432,394
+CAMP-00645,Quality-focused dynamic solution,Influencer,Upsell,LinkedIn,Enterprise,Central,2025-06-12,2025-07-29,47,10275.35,8351.12,298721,44094,14.7609,356,244
+CAMP-00646,Multi-layered object-oriented leverage,Social Media,Brand Awareness,Salesforce,SMB,East,2025-12-29,2026-02-22,55,3408.65,2597.26,36172,5762,15.9294,246,25
+CAMP-00647,Optional even-keeled synergy,Social Media,Upsell,HubSpot,SMB,East,2024-03-30,2024-06-19,81,34251.34,36412.99,24504,19987,81.5663,418,8
+CAMP-00648,Enterprise-wide even-keeled middleware,Webinar,Lead Generation,Salesforce,SMB,West,2025-08-31,2025-10-14,44,5054.77,3367.79,91379,19700,21.5586,273,235
+CAMP-00649,Robust impactful contingency,Email,Brand Awareness,HubSpot,Enterprise,East,2025-08-12,2025-10-13,62,24083.62,20592.42,345492,28195,8.1608,251,97
+CAMP-00650,Future-proofed 24hour installation,Social Media,Brand Awareness,Marketo,Enterprise,East,2025-08-19,2025-11-15,88,25216.19,22879.48,158188,8102,5.1218,56,42
+CAMP-00651,Operative stable capacity,Email,Product Launch,HubSpot,SMB,South,2024-03-21,2024-05-11,51,14555.96,9082.08,195887,22088,11.2759,363,121
+CAMP-00652,Persistent radical utilization,Direct Mail,Customer Retention,LinkedIn,Enterprise,West,2024-06-03,2024-07-03,30,19732.53,15850.35,281770,21279,7.5519,129,88
+CAMP-00653,Intuitive bandwidth-monitored definition,Trade Show,Upsell,Facebook,SMB,Central,2026-07-11,2026-10-07,88,18482.57,15585.97,1169016,30675,2.624,414,33
+CAMP-00654,Triple-buffered fresh-thinking definition,Trade Show,Customer Retention,Twitter,Mid-Market,North,2024-04-10,2024-06-01,52,21582.98,19473.34,9051,2107,23.2792,259,113
+CAMP-00655,Horizontal upward-trending structure,Direct Mail,Lead Generation,Twitter,Enterprise,South,2023-10-16,2023-12-13,58,10806.26,8450.83,346748,12173,3.5106,258,151
+CAMP-00656,Persevering optimizing instruction set,Email,Lead Generation,LinkedIn,Mid-Market,North,2025-06-05,2025-08-02,58,7096.82,6576.66,87629,25185,28.7405,207,93
+CAMP-00657,Managed needs-based info-mediaries,Email,Upsell,Twitter,Enterprise,East,2025-07-03,2025-07-24,21,42022.2,25320.34,164358,27689,16.8468,419,193
+CAMP-00658,Realigned 24/7 Graphical User Interface,Influencer,Lead Generation,Twitter,Enterprise,Central,2025-01-09,2025-01-16,7,48436.52,52807.08,75254,3966,5.2702,210,104
+CAMP-00659,Monitored leadingedge collaboration,Direct Mail,Brand Awareness,Google Ads,Enterprise,West,2024-08-14,2024-09-08,25,881.53,708.59,215888,8076,3.7408,98,64
+CAMP-00660,User-friendly modular database,Influencer,Brand Awareness,HubSpot,Enterprise,North,2024-12-25,2025-03-12,77,7830.12,5383.17,360913,18300,5.0705,79,36
+CAMP-00661,Down-sized systematic info-mediaries,Webinar,Upsell,Salesforce,Enterprise,West,2025-03-12,2025-06-04,84,29757.24,22275.68,609685,47698,7.8234,0,0
+CAMP-00662,Automated stable orchestration,Influencer,Customer Retention,Google Ads,Mid-Market,South,2024-05-13,2024-07-06,54,44550.39,28997.4,260355,43813,16.8282,59,59
+CAMP-00663,Self-enabling mobile open architecture,Email,Customer Retention,Twitter,SMB,East,2026-07-02,2026-07-27,25,8654.23,7975.43,10079,601,5.9629,303,67
+CAMP-00664,Configurable demand-driven synergy,Paid Search,Lead Generation,HubSpot,Mid-Market,North,2026-07-21,2026-10-12,83,38078.96,32827.7,1614,1226,75.9603,14,2
+CAMP-00665,Multi-layered exuding frame,Paid Search,Product Launch,HubSpot,Mid-Market,South,2026-07-21,2026-08-28,38,15413.47,13974.35,171255,33558,19.5953,446,388
+CAMP-00666,Organized systematic Local Area Network,Trade Show,Upsell,Google Ads,Enterprise,South,2025-11-07,2025-12-20,43,36771.81,33624.29,1455907,42145,2.8948,281,18
+CAMP-00667,Secured optimal concept,Webinar,Upsell,HubSpot,Enterprise,West,2023-09-09,2023-10-14,35,37922.43,32190.87,31532,1734,5.4992,467,286
+CAMP-00668,Re-contextualized intermediate instruction set,Trade Show,Lead Generation,Facebook,Mid-Market,Central,2025-06-21,2025-07-10,19,11484.97,10684.77,328411,15799,4.8107,371,367
+CAMP-00669,Ameliorated web-enabled forecast,Email,Upsell,Salesforce,Mid-Market,West,2026-08-02,2026-09-19,48,47912.17,50666.32,825627,20158,2.4415,401,190
+CAMP-00670,Pre-emptive disintermediate implementation,Direct Mail,Customer Retention,Facebook,Enterprise,Central,2025-04-08,2025-06-27,80,44792.24,26890.19,139644,37222,26.6549,214,154
+CAMP-00671,De-engineered homogeneous portal,Webinar,Brand Awareness,Google Ads,Mid-Market,North,2026-05-12,2026-08-04,84,40149.63,32704.9,466359,25561,5.481,193,17
+CAMP-00672,Decentralized bandwidth-monitored infrastructure,Social Media,Product Launch,Marketo,SMB,East,2026-06-11,2026-08-04,54,22480.58,13974.28,270117,27256,10.0904,204,81
+CAMP-00673,Customizable object-oriented frame,Social Media,Product Launch,Marketo,Mid-Market,Central,2024-04-03,2024-05-18,45,29593.42,25921.42,19816,1443,7.282,71,45
+CAMP-00674,Diverse zero administration time-frame,Paid Search,Lead Generation,HubSpot,Mid-Market,West,2024-02-19,2024-05-14,85,8456.09,7664.89,408456,30235,7.4023,203,75
+CAMP-00675,Open-architected neutral installation,Email,Product Launch,Marketo,Enterprise,North,2026-07-20,2026-08-26,37,37325.36,39209.43,1533,412,26.8754,89,27
+CAMP-00676,Extended intangible policy,Paid Search,Customer Retention,Twitter,Mid-Market,Central,2024-08-27,2024-09-17,21,36147.24,27869.67,147314,7178,4.8726,482,447
+CAMP-00677,Visionary high-level product,Webinar,Lead Generation,Google Ads,Enterprise,West,2024-06-08,2024-06-18,10,19516.55,19849.27,114999,18289,15.9036,288,193
+CAMP-00678,Synergized scalable task-force,Direct Mail,Upsell,Salesforce,Enterprise,Central,2023-12-01,2023-12-26,25,31218.84,24006.31,99115,14664,14.7949,307,149
+CAMP-00679,Profit-focused national monitoring,Direct Mail,Upsell,HubSpot,Enterprise,South,2025-07-04,2025-08-29,56,11704.81,8658.83,221363,28613,12.9258,466,424
+CAMP-00680,Open-architected modular system engine,Email,Product Launch,Twitter,SMB,West,2024-10-10,2024-11-06,27,5410.83,4045.92,28480,8686,30.4986,80,76
+CAMP-00681,Organized cohesive conglomeration,Influencer,Lead Generation,Twitter,Enterprise,West,2024-12-27,2025-01-18,22,18279.54,13168.01,463925,13857,2.9869,90,51
+CAMP-00682,Adaptive national groupware,Paid Search,Upsell,Salesforce,Mid-Market,East,2024-10-19,2024-12-10,52,37700.45,40927.16,34057,10382,30.4842,62,53
+CAMP-00683,Streamlined context-sensitive software,Social Media,Brand Awareness,Facebook,SMB,West,2025-11-20,2025-12-20,30,7985.58,6460.28,712098,37878,5.3192,343,299
+CAMP-00684,Networked optimal projection,Direct Mail,Customer Retention,Twitter,Enterprise,South,2026-04-27,2026-07-05,69,30407.67,19533.17,20583,1520,7.3847,31,0
+CAMP-00685,Operative incremental core,Direct Mail,Customer Retention,Facebook,SMB,North,2024-11-07,2024-12-02,25,9618.19,7408.47,167132,32358,19.3607,366,346
+CAMP-00686,Secured directional challenge,Influencer,Brand Awareness,Google Ads,SMB,West,2025-07-04,2025-07-11,7,36491.16,32465.59,399954,18820,4.7055,318,73
+CAMP-00687,Profit-focused attitude-oriented policy,Paid Search,Product Launch,Facebook,Mid-Market,North,2025-06-05,2025-06-22,17,48137.47,44548.57,184477,35127,19.0414,239,119
+CAMP-00688,Open-source 3rdgeneration Graphic Interface,Direct Mail,Upsell,Marketo,Enterprise,East,2025-04-23,2025-05-31,38,22474.93,22276.83,460352,49706,10.7974,60,39
+CAMP-00689,Down-sized non-volatile product,Direct Mail,Product Launch,Marketo,Mid-Market,East,2025-06-05,2025-08-08,64,48714.73,39651.55,27100,3928,14.4945,215,182
+CAMP-00690,Cross-group holistic adapter,Trade Show,Lead Generation,Twitter,SMB,East,2025-01-05,2025-01-28,23,1811.88,1608.5,542517,42567,7.8462,283,44
+CAMP-00691,Streamlined human-resource neural-net,Webinar,Lead Generation,Twitter,SMB,South,2025-10-29,2026-01-23,86,3463.77,2306.95,1466673,41129,2.8042,35,7
+CAMP-00692,Ergonomic cohesive knowledgebase,Paid Search,Upsell,Google Ads,Enterprise,West,2025-02-17,2025-05-15,87,21665.11,16631.22,314639,31969,10.1605,69,19
+CAMP-00693,Front-line context-sensitive leverage,Email,Customer Retention,Salesforce,Enterprise,Central,2024-09-15,2024-11-09,55,41027.4,35218.26,58490,14561,24.8949,145,131
+CAMP-00694,Exclusive fresh-thinking capacity,Influencer,Upsell,HubSpot,SMB,West,2026-05-30,2026-07-15,46,10031.97,6220.03,320900,22162,6.9062,480,382
+CAMP-00695,Assimilated demand-driven orchestration,Trade Show,Product Launch,Twitter,SMB,West,2024-06-23,2024-07-31,38,35300.43,22471.36,1352975,39384,2.9109,73,33
+CAMP-00696,Fully-configurable systemic portal,Influencer,Product Launch,Twitter,Mid-Market,Central,2024-12-24,2025-01-16,23,48559.49,47466.07,466301,43295,9.2848,274,132
+CAMP-00697,Front-line context-sensitive Local Area Network,Paid Search,Lead Generation,Salesforce,Mid-Market,North,2024-12-05,2024-12-21,16,44178.04,34035.36,57324,6276,10.9483,107,67
+CAMP-00698,Customizable real-time groupware,Influencer,Brand Awareness,Twitter,Enterprise,North,2025-02-05,2025-03-04,27,35166.3,28008.54,47890,14539,30.3592,94,55
+CAMP-00699,Diverse dynamic Local Area Network,Paid Search,Product Launch,HubSpot,Mid-Market,South,2026-03-19,2026-05-05,47,47181.82,33513.42,846659,24048,2.8403,413,127
+CAMP-00700,Cloned 24hour synergy,Direct Mail,Customer Retention,Salesforce,Enterprise,East,2025-10-06,2025-11-15,40,26682.27,22830.81,320330,18363,5.7325,301,218
+CAMP-00701,Synergistic incremental model,Webinar,Upsell,Facebook,Enterprise,West,2023-09-12,2023-10-28,46,20636.4,13806.68,723039,37290,5.1574,2,1
+CAMP-00702,Networked asynchronous toolset,Trade Show,Brand Awareness,Marketo,Mid-Market,East,2026-08-02,2026-08-15,13,43385.22,42645.84,422760,46693,11.0448,384,229
+CAMP-00703,Fundamental transitional monitoring,Email,Customer Retention,Twitter,SMB,North,2024-11-06,2025-01-30,85,22322.06,22072.34,42597,4880,11.4562,131,68
+CAMP-00704,Vision-oriented real-time project,Paid Search,Customer Retention,Twitter,SMB,Central,2023-12-18,2023-12-25,7,9709.3,9648.24,71515,45291,63.3308,149,126
+CAMP-00705,Universal 4thgeneration intranet,Webinar,Lead Generation,Google Ads,Enterprise,Central,2026-07-26,2026-09-30,66,42969.49,28723.82,154776,45851,29.6241,59,55
+CAMP-00706,Up-sized analyzing frame,Direct Mail,Brand Awareness,Marketo,Enterprise,Central,2025-01-15,2025-03-30,74,7130.74,5321.69,350974,12752,3.6333,284,73
+CAMP-00707,Up-sized zero administration analyzer,Webinar,Brand Awareness,Twitter,SMB,West,2026-01-12,2026-02-22,41,16174.48,15509.45,72574,47931,66.0443,202,124
+CAMP-00708,Universal multimedia product,Social Media,Brand Awareness,LinkedIn,Enterprise,Central,2024-09-08,2024-10-02,24,42510.77,42166.93,935,384,41.0695,413,266
+CAMP-00709,Optimized zero tolerance capability,Influencer,Brand Awareness,Twitter,Mid-Market,Central,2025-07-19,2025-09-01,44,25417.3,18661.66,250226,35695,14.2651,198,64
+CAMP-00710,Fundamental well-modulated paradigm,Direct Mail,Brand Awareness,Twitter,Enterprise,North,2023-11-29,2024-01-23,55,1635.58,1627.39,212709,32787,15.414,85,69
+CAMP-00711,Customizable uniform concept,Trade Show,Customer Retention,Twitter,Mid-Market,Central,2025-11-10,2026-02-06,88,34020.33,30730.39,51977,39381,75.7662,146,111
+CAMP-00712,Switchable global circuit,Social Media,Customer Retention,LinkedIn,SMB,East,2024-09-12,2024-09-25,13,6129.37,4253.16,250164,6232,2.4912,133,94
+CAMP-00713,Polarized demand-driven firmware,Direct Mail,Lead Generation,HubSpot,Enterprise,West,2026-05-03,2026-05-19,16,5859.92,4488.12,1483843,34873,2.3502,200,28
+CAMP-00714,Stand-alone system-worthy archive,Email,Lead Generation,Facebook,Enterprise,North,2023-11-22,2024-02-04,74,36820.55,32716.48,353357,18832,5.3295,387,372
+CAMP-00715,Triple-buffered mobile system engine,Social Media,Upsell,Marketo,SMB,East,2024-12-21,2025-01-27,37,3661.78,2939.8,391341,45130,11.5321,457,260
+CAMP-00716,Fundamental global frame,Email,Upsell,Marketo,Enterprise,East,2024-05-01,2024-06-12,42,25995.05,18420.63,84904,33240,39.1501,158,117
+CAMP-00717,Managed zero tolerance knowledge user,Email,Lead Generation,HubSpot,Enterprise,West,2025-08-31,2025-10-28,58,26057.82,19774.77,579650,29643,5.1139,144,114
+CAMP-00718,Re-contextualized even-keeled policy,Social Media,Product Launch,Marketo,Enterprise,South,2025-09-12,2025-11-17,66,39620.34,36788.63,1511611,36718,2.4291,207,155
+CAMP-00719,Devolved client-server model,Email,Upsell,HubSpot,Mid-Market,South,2023-09-16,2023-10-04,18,5781.8,4960.66,270611,34005,12.566,199,108
+CAMP-00720,Face-to-face holistic open system,Webinar,Lead Generation,Marketo,Mid-Market,East,2024-06-18,2024-08-20,63,18134.27,17552.55,45005,10574,23.4952,266,103
+CAMP-00721,Implemented fault-tolerant structure,Trade Show,Customer Retention,Twitter,Mid-Market,South,2024-09-08,2024-10-27,49,48497.51,42103.35,182734,42280,23.1375,191,48
+CAMP-00722,Sharable fault-tolerant leverage,Influencer,Upsell,Google Ads,Mid-Market,West,2024-01-28,2024-02-23,26,27498.9,19894.27,1282183,38012,2.9646,487,122
+CAMP-00723,Synergistic explicit collaboration,Email,Lead Generation,Marketo,Mid-Market,Central,2025-09-26,2025-11-21,56,20308.9,13627.54,618425,31686,5.1237,239,231
+CAMP-00724,Team-oriented clear-thinking circuit,Social Media,Upsell,Facebook,Enterprise,West,2025-10-30,2025-12-10,41,46487.01,37834.78,433,381,87.9908,248,154
+CAMP-00725,Networked eco-centric productivity,Paid Search,Lead Generation,Marketo,Mid-Market,East,2025-06-03,2025-08-08,66,9349.09,9133.83,309959,42524,13.7192,220,151
+CAMP-00726,Extended optimal framework,Trade Show,Product Launch,Salesforce,Enterprise,East,2024-04-13,2024-05-11,28,16336.79,16947.69,68410,15733,22.9981,189,76
+CAMP-00727,Advanced empowering hierarchy,Webinar,Product Launch,Twitter,Mid-Market,East,2024-01-17,2024-04-01,75,45846.83,48686.07,189789,14764,7.7792,64,1
+CAMP-00728,User-friendly multi-state initiative,Trade Show,Product Launch,Google Ads,Enterprise,Central,2025-10-05,2025-10-27,22,44001.58,37429.12,1416439,48104,3.3961,71,40
+CAMP-00729,Down-sized grid-enabled project,Paid Search,Brand Awareness,Google Ads,Mid-Market,North,2025-01-11,2025-01-25,14,926.7,976.46,458979,9377,2.043,74,9
+CAMP-00730,Profit-focused foreground model,Webinar,Product Launch,LinkedIn,SMB,South,2024-01-25,2024-04-03,69,11222.01,10536.4,1420546,31781,2.2372,26,11
+CAMP-00731,Pre-emptive secondary concept,Paid Search,Product Launch,Twitter,Mid-Market,South,2024-09-20,2024-10-12,22,34053.86,30351.6,957832,46615,4.8667,243,27
+CAMP-00732,Polarized context-sensitive matrices,Influencer,Customer Retention,LinkedIn,Enterprise,Central,2026-03-18,2026-05-01,44,2514.25,2274.64,90855,15470,17.0271,348,193
+CAMP-00733,Advanced static architecture,Social Media,Product Launch,HubSpot,Enterprise,West,2026-04-16,2026-06-08,53,8040.79,8588.24,808774,44301,5.4775,429,144
+CAMP-00734,Integrated demand-driven definition,Webinar,Lead Generation,Facebook,SMB,North,2024-08-16,2024-09-08,23,41970.53,37342.34,68840,40979,59.5279,389,132
+CAMP-00735,Robust zero-defect superstructure,Email,Customer Retention,LinkedIn,SMB,East,2024-01-19,2024-03-27,68,33752.21,27361.79,281760,42078,14.934,390,58
+CAMP-00736,Streamlined dedicated help-desk,Social Media,Product Launch,Facebook,SMB,Central,2025-12-19,2025-12-31,12,3927.52,3748.5,6398,2113,33.0259,465,77
+CAMP-00737,Re-contextualized scalable access,Paid Search,Customer Retention,HubSpot,SMB,West,2025-02-04,2025-03-09,33,33636.52,34388.22,267933,36558,13.6445,465,172
+CAMP-00738,Progressive discrete support,Email,Customer Retention,Twitter,Enterprise,Central,2026-02-12,2026-04-05,52,24853.83,16021.51,624334,26505,4.2453,95,13
+CAMP-00739,Synchronized 5thgeneration initiative,Webinar,Brand Awareness,Salesforce,SMB,South,2024-03-16,2024-05-14,59,49255.08,39092.25,4605,1603,34.81,145,61
+CAMP-00740,Managed motivating architecture,Social Media,Product Launch,Marketo,Enterprise,North,2025-06-23,2025-08-23,61,18560.92,18363.06,332434,21928,6.5962,72,39
+CAMP-00741,Public-key user-facing monitoring,Webinar,Lead Generation,LinkedIn,Mid-Market,South,2024-05-31,2024-06-07,7,2450.19,1512.24,45145,9356,20.7243,450,376
+CAMP-00742,Centralized local open system,Webinar,Brand Awareness,Marketo,Enterprise,West,2026-03-20,2026-03-29,9,16321.66,14601.59,69539,9487,13.6427,286,173
+CAMP-00743,Fully-configurable eco-centric website,Email,Lead Generation,LinkedIn,SMB,East,2025-03-02,2025-04-08,37,16353.28,13252.77,60299,46811,77.6315,335,111
+CAMP-00744,Team-oriented solution-oriented encryption,Direct Mail,Lead Generation,Salesforce,Mid-Market,Central,2025-10-25,2026-01-15,82,3094.55,3126.66,268143,29156,10.8733,301,120
+CAMP-00745,Universal logistical conglomeration,Trade Show,Upsell,Salesforce,Enterprise,Central,2024-04-14,2024-04-26,12,9087.76,8377.54,106208,18363,17.2897,485,118
+CAMP-00746,Robust encompassing neural-net,Webinar,Lead Generation,Google Ads,Mid-Market,South,2023-09-21,2023-10-04,13,31271.06,22360.61,916452,41607,4.54,472,134
+CAMP-00747,User-friendly content-based superstructure,Webinar,Upsell,LinkedIn,Mid-Market,Central,2024-06-06,2024-07-04,28,26922.58,24805.08,342107,9085,2.6556,262,42
+CAMP-00748,Cloned clear-thinking model,Email,Lead Generation,LinkedIn,Mid-Market,Central,2026-02-02,2026-03-19,45,39100.59,40940.85,484849,22872,4.7173,131,117
+CAMP-00749,Expanded discrete encryption,Trade Show,Upsell,Facebook,Enterprise,East,2024-07-04,2024-08-07,34,33879.99,32892.08,483010,13390,2.7722,4,4
+CAMP-00750,Reduced mission-critical Local Area Network,Webinar,Customer Retention,Marketo,Enterprise,East,2025-05-10,2025-07-27,78,29434.21,19497.1,537254,39841,7.4157,157,35
+CAMP-00751,Business-focused foreground utilization,Social Media,Upsell,HubSpot,Enterprise,South,2023-11-23,2024-01-20,58,40708.58,33119.3,943454,31473,3.3359,353,50
+CAMP-00752,Exclusive mission-critical budgetary management,Influencer,Brand Awareness,Twitter,Mid-Market,West,2025-07-02,2025-08-08,37,21905.89,18904.4,1710948,47856,2.797,340,183
+CAMP-00753,Phased dedicated attitude,Trade Show,Brand Awareness,Twitter,SMB,South,2024-12-03,2025-02-23,82,8366.31,6798.1,68866,45393,65.915,222,113
+CAMP-00754,Extended radical matrix,Direct Mail,Upsell,HubSpot,Enterprise,South,2025-03-23,2025-04-09,17,47505.32,52006.7,1459726,42097,2.8839,166,43
+CAMP-00755,Advanced optimal Internet solution,Trade Show,Product Launch,Twitter,Mid-Market,West,2024-07-01,2024-08-14,44,29248.62,21085.88,98480,8985,9.1237,162,144
+CAMP-00756,Customizable uniform intranet,Direct Mail,Upsell,LinkedIn,Mid-Market,East,2026-03-07,2026-05-08,62,16474.45,14853.87,423381,36082,8.5223,253,97
+CAMP-00757,Ergonomic optimizing workforce,Webinar,Upsell,HubSpot,Enterprise,Central,2025-12-06,2025-12-22,16,45963.57,49208.38,93685,7267,7.7568,148,31
+CAMP-00758,Versatile logistical ability,Trade Show,Upsell,Twitter,Enterprise,East,2025-07-03,2025-07-18,15,47693.17,31932.37,123404,26083,21.1363,490,485
+CAMP-00759,Open-source radical flexibility,Trade Show,Brand Awareness,Facebook,Mid-Market,Central,2024-05-09,2024-06-24,46,26516.32,16431.87,14726,2956,20.0733,446,333
+CAMP-00760,Enhanced full-range middleware,Social Media,Lead Generation,Salesforce,Enterprise,Central,2025-01-28,2025-04-26,88,9456.88,10156.19,194668,30446,15.64,287,251
+CAMP-00761,Horizontal secondary framework,Trade Show,Product Launch,Salesforce,SMB,East,2025-01-18,2025-02-19,32,1391.88,905.89,6237,964,15.4561,449,76
+CAMP-00762,Public-key dynamic Graphical User Interface,Social Media,Brand Awareness,Google Ads,Enterprise,West,2024-05-23,2024-08-01,70,14124.23,12511.39,764988,42248,5.5227,496,11
+CAMP-00763,Realigned motivating function,Influencer,Product Launch,Marketo,Enterprise,East,2024-06-04,2024-08-02,59,30434.04,30751.16,12906,11119,86.1537,324,287
+CAMP-00764,Customizable web-enabled contingency,Direct Mail,Upsell,Twitter,Mid-Market,West,2025-06-23,2025-07-17,24,40713.12,40417.88,163937,27852,16.9895,463,197
+CAMP-00765,Intuitive multimedia leverage,Email,Customer Retention,Facebook,Mid-Market,Central,2025-01-22,2025-03-30,67,47286.94,45744.84,745421,21506,2.8851,147,6
+CAMP-00766,Enhanced asymmetric task-force,Webinar,Brand Awareness,Facebook,SMB,North,2025-01-31,2025-03-26,54,45113.93,42368.51,1185538,47309,3.9905,465,253
+CAMP-00767,Innovative bandwidth-monitored intranet,Trade Show,Product Launch,Facebook,SMB,West,2024-11-23,2025-01-01,39,47017.34,33355.74,1194325,43046,3.6042,169,16
+CAMP-00768,Synergized national contingency,Webinar,Brand Awareness,Salesforce,Mid-Market,South,2024-08-16,2024-09-26,41,25580.49,25408.45,596850,23245,3.8946,287,117
+CAMP-00769,Customer-focused well-modulated emulation,Influencer,Product Launch,Twitter,Mid-Market,Central,2024-03-06,2024-04-09,34,21991.74,17501.43,53659,10209,19.0257,153,132
+CAMP-00770,Profit-focused fault-tolerant functionalities,Trade Show,Brand Awareness,Marketo,SMB,North,2024-03-28,2024-06-03,67,726.48,620.37,1322165,42727,3.2316,311,148
+CAMP-00771,Phased bi-directional software,Email,Customer Retention,Facebook,Enterprise,North,2025-11-24,2026-01-08,45,12570.83,13673.27,128530,35199,27.3858,220,152
+CAMP-00772,Seamless demand-driven orchestration,Social Media,Customer Retention,Google Ads,SMB,West,2024-07-01,2024-07-12,11,29996.1,25976.8,4386,636,14.5007,205,118
+CAMP-00773,Inverse cohesive core,Paid Search,Customer Retention,Marketo,SMB,East,2025-08-12,2025-10-30,79,2761.08,2301.97,174408,9398,5.3885,116,94
+CAMP-00774,Down-sized cohesive pricing structure,Email,Brand Awareness,Marketo,SMB,East,2025-11-24,2025-12-31,37,28330.29,17402.98,116003,23113,19.9245,215,35
+CAMP-00775,Inverse multi-state leverage,Email,Brand Awareness,Twitter,SMB,North,2025-08-02,2025-09-16,45,49626.63,30350.65,132844,13844,10.4212,94,71
+CAMP-00776,Operative zero-defect success,Social Media,Brand Awareness,Marketo,Mid-Market,Central,2025-07-23,2025-08-28,36,41306.03,40285.7,105937,47387,44.7313,317,169
+CAMP-00777,Fundamental methodical framework,Trade Show,Product Launch,Salesforce,SMB,South,2024-05-28,2024-06-07,10,14101.18,14587.23,186517,30293,16.2414,205,91
+CAMP-00778,Integrated full-range superstructure,Social Media,Upsell,Marketo,SMB,North,2024-09-17,2024-10-17,30,40403.16,31190.15,586802,32599,5.5554,354,26
+CAMP-00779,User-friendly foreground knowledge user,Trade Show,Brand Awareness,Facebook,Enterprise,East,2024-08-29,2024-10-19,51,14981.5,16139.27,209154,39659,18.9616,132,110
+CAMP-00780,Re-contextualized hybrid task-force,Webinar,Lead Generation,Salesforce,Mid-Market,West,2024-07-10,2024-09-16,68,33445.33,35504.89,767032,44943,5.8593,176,91
+CAMP-00781,Virtual impactful approach,Email,Brand Awareness,Salesforce,Enterprise,North,2024-11-06,2025-01-12,67,9730.61,9950.53,433070,29084,6.7158,212,116
+CAMP-00782,Multi-channeled secondary workforce,Influencer,Product Launch,LinkedIn,SMB,North,2026-07-03,2026-09-08,67,19040.31,15452.91,62524,16964,27.132,369,85
+CAMP-00783,Persevering zero administration focus group,Email,Product Launch,HubSpot,Enterprise,East,2024-01-08,2024-03-22,74,6367.15,6926.53,41751,1025,2.455,335,226
+CAMP-00784,Triple-buffered dedicated database,Webinar,Product Launch,LinkedIn,Mid-Market,North,2023-08-29,2023-11-21,84,41696.77,30032.08,116607,39271,33.6781,404,120
+CAMP-00785,Function-based explicit hub,Direct Mail,Product Launch,Twitter,Enterprise,East,2025-08-01,2025-08-12,11,35757.71,34347.13,377339,8294,2.198,420,302
+CAMP-00786,Optimized homogeneous Graphic Interface,Email,Customer Retention,HubSpot,Mid-Market,East,2023-09-02,2023-10-01,29,47637.28,33710.83,1147633,34900,3.041,400,117
+CAMP-00787,User-centric dedicated website,Email,Brand Awareness,HubSpot,Enterprise,West,2025-04-10,2025-05-24,44,32685.54,20545.87,410421,26362,6.4232,189,155
+CAMP-00788,Profit-focused leadingedge focus group,Trade Show,Lead Generation,LinkedIn,SMB,North,2024-03-30,2024-04-19,20,12692.67,8456.58,348592,30676,8.8,185,94
+CAMP-00789,Fully-configurable cohesive Graphic Interface,Social Media,Customer Retention,Google Ads,Mid-Market,Central,2023-12-02,2024-01-15,44,29728.27,28962.57,191075,5675,2.97,321,132
+CAMP-00790,Up-sized optimizing leverage,Webinar,Product Launch,LinkedIn,SMB,East,2025-10-07,2025-11-30,54,11638.68,11612.76,317216,10374,3.2703,453,19
+CAMP-00791,Balanced zero-defect protocol,Webinar,Customer Retention,Salesforce,Enterprise,South,2026-06-15,2026-08-02,48,1282.08,863.53,296055,30751,10.3869,299,58
+CAMP-00792,Triple-buffered mobile encryption,Direct Mail,Upsell,Twitter,Enterprise,Central,2024-10-08,2024-11-11,34,42933.04,36691.3,68452,40364,58.9669,431,218
+CAMP-00793,Robust optimizing implementation,Social Media,Product Launch,Twitter,Mid-Market,East,2024-06-09,2024-07-05,26,8258.18,7406.36,63068,5049,8.0056,126,50
+CAMP-00794,Centralized scalable Graphical User Interface,Paid Search,Upsell,Marketo,SMB,East,2023-10-11,2023-10-21,10,18269.75,16121.96,641476,29071,4.5319,349,231
+CAMP-00795,Multi-layered leadingedge forecast,Influencer,Product Launch,Marketo,SMB,West,2024-06-05,2024-07-29,54,43237.74,27163.67,20317,11737,57.7694,140,81
+CAMP-00796,Devolved value-added archive,Email,Brand Awareness,HubSpot,Mid-Market,Central,2023-12-07,2024-02-23,78,24971.18,22635.35,383433,20395,5.3191,454,109
+CAMP-00797,Vision-oriented upward-trending installation,Paid Search,Product Launch,Marketo,SMB,South,2024-07-28,2024-09-24,58,22903.16,18283.6,44901,17938,39.9501,121,83
+CAMP-00798,Distributed optimizing framework,Email,Lead Generation,LinkedIn,Enterprise,Central,2026-01-26,2026-03-18,51,15231.07,9662.65,1086921,27884,2.5654,364,74
+CAMP-00799,Realigned background intranet,Webinar,Lead Generation,LinkedIn,SMB,North,2025-04-27,2025-05-20,23,22597.16,14368.08,163299,16070,9.8408,446,384
+CAMP-00800,Re-engineered needs-based task-force,Influencer,Upsell,Marketo,Enterprise,East,2024-05-02,2024-05-29,27,7870.41,5110.02,23833,15569,65.3254,274,86
+CAMP-00801,Realigned multi-tasking frame,Trade Show,Lead Generation,Marketo,SMB,South,2025-07-31,2025-09-25,56,26387.11,25379.98,9497,692,7.2865,326,210
+CAMP-00802,Devolved zero administration throughput,Webinar,Product Launch,Google Ads,Enterprise,East,2025-09-01,2025-10-09,38,37044.83,33344.66,1065804,46396,4.3531,238,191
+CAMP-00803,Total transitional support,Email,Product Launch,Google Ads,Mid-Market,Central,2023-10-21,2023-10-30,9,18002.62,11528.81,91023,31156,34.2287,357,51
+CAMP-00804,Multi-lateral zero administration knowledge user,Social Media,Product Launch,LinkedIn,SMB,North,2024-07-16,2024-09-07,53,43632.4,26781.23,68378,21113,30.8769,334,272
+CAMP-00805,Extended contextually-based Graphic Interface,Paid Search,Customer Retention,Twitter,SMB,South,2025-11-03,2025-11-20,17,38355.02,39930.5,421594,42212,10.0125,299,41
+CAMP-00806,Persevering high-level groupware,Email,Brand Awareness,Twitter,Mid-Market,East,2025-01-01,2025-01-26,25,31033.35,23959.56,552553,29821,5.3969,199,29
+CAMP-00807,Triple-buffered empowering extranet,Social Media,Product Launch,Salesforce,Mid-Market,South,2024-03-12,2024-05-22,71,25273.56,24642.78,135051,23324,17.2705,433,217
+CAMP-00808,Ameliorated client-driven capability,Influencer,Upsell,Twitter,SMB,North,2025-05-29,2025-08-13,76,11328.56,6940.21,77915,6551,8.4079,186,126
+CAMP-00809,Optimized hybrid workforce,Email,Customer Retention,Facebook,Mid-Market,South,2025-07-11,2025-07-23,12,8710.73,5835.27,848555,50000,5.8924,351,335
+CAMP-00810,Business-focused multi-tasking approach,Influencer,Product Launch,Twitter,Enterprise,North,2025-01-21,2025-02-19,29,24964.83,17535.22,82210,44662,54.3267,111,0
+CAMP-00811,Profound holistic adapter,Trade Show,Product Launch,Google Ads,Mid-Market,North,2026-05-03,2026-06-01,29,31497.37,20508.98,215513,7485,3.4731,95,37
+CAMP-00812,Automated motivating website,Trade Show,Product Launch,LinkedIn,Enterprise,South,2025-04-18,2025-06-25,68,1847.05,1339.34,659120,37152,5.6366,160,96
+CAMP-00813,Public-key mobile forecast,Trade Show,Brand Awareness,Twitter,SMB,West,2024-07-31,2024-10-16,77,28157.27,30428.03,372552,14510,3.8948,1,0
+CAMP-00814,Sharable asymmetric support,Direct Mail,Brand Awareness,Twitter,Enterprise,South,2025-04-28,2025-05-15,17,38392.64,34105.2,284697,46430,16.3086,92,18
+CAMP-00815,Cross-group next generation time-frame,Trade Show,Lead Generation,LinkedIn,SMB,South,2023-10-29,2023-12-17,49,30116.35,22288.5,657600,48781,7.418,22,8
+CAMP-00816,Diverse multimedia array,Email,Product Launch,Marketo,SMB,South,2023-12-09,2024-01-06,28,6849.98,4647.29,10227,1438,14.0608,245,31
+CAMP-00817,Persistent reciprocal projection,Paid Search,Upsell,Twitter,Mid-Market,Central,2025-04-27,2025-07-26,90,3144.7,3187.76,1423967,47882,3.3626,171,114
+CAMP-00818,Versatile asynchronous throughput,Email,Lead Generation,Facebook,SMB,South,2026-07-30,2026-10-23,85,22715.39,20446.89,73203,8935,12.2058,161,41
+CAMP-00819,Grass-roots maximized knowledge user,Email,Product Launch,LinkedIn,Mid-Market,West,2025-08-25,2025-10-13,49,49398.32,38430.56,249051,35131,14.1059,377,48
+CAMP-00820,User-centric coherent projection,Social Media,Lead Generation,Google Ads,SMB,South,2026-04-07,2026-07-03,87,40139.04,41225.92,122978,16041,13.0438,443,361
