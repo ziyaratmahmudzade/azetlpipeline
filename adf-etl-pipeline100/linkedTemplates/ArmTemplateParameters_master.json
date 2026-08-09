@@ -8,8 +8,14 @@
 		"ls_adls_gen2_accountKey": {
 			"value": ""
 		},
+		"ls_databricks_accessToken": {
+			"value": ""
+		},
 		"ls_adls_gen2_properties_typeProperties_url": {
 			"value": "https://saetlpipeline100.dfs.core.windows.net/"
+		},
+		"ls_databricks_properties_typeProperties_existingClusterId": {
+			"value": "0806-132516-bu9nbi80"
 		},
 		"containerUri": {
 			"value": ""
