@@ -11,25 +11,26 @@ A fully automated, production-grade ETL pipeline on Microsoft Azure. Ingests fou
 ---
 
 ## Architecture
-CSV / XLSX / JSON → Azure Data Factory → ADLS Gen2 (raw/)
-↓
-Azure Databricks
-nb_clean.py
-↓
-ADLS Gen2 (cleaned/)
-↓
-Azure Databricks
-nb_transform.py
-↓
-ADLS Gen2 (curated/)
-↓
-Synapse Serverless SQL views
-↓
-Power BI · 6 dashboards
+```
+CSV / XLSX / JSON  →  Azure Data Factory  →  ADLS Gen2 (raw/)
+                                                    ↓
+                                            Azure Databricks
+                                            nb_clean.py
+                                                    ↓
+                                          ADLS Gen2 (cleaned/)
+                                                    ↓
+                                            Azure Databricks
+                                            nb_transform.py
+                                                    ↓
+                                          ADLS Gen2 (curated/)
+                                                    ↓
+                                     Synapse Serverless SQL views
+                                                    ↓
+                                       Power BI · 6 dashboards
+```
 
 
 ### Medallion Architecture — Bronze → Silver → Gold
-
 | Layer | Zone | Folder | What happens |
 |---|---|---|---|
 | Bronze | Raw | `raw/` | Original files land here unchanged via ADF daily at 06:00 UTC |
@@ -39,7 +40,6 @@ Power BI · 6 dashboards
 ---
 
 ## Technology Stack
-
 | Layer | Service |
 |---|---|
 | Orchestration | Azure Data Factory |
@@ -54,52 +54,50 @@ Power BI · 6 dashboards
 ---
 
 ## Repository Structure
-
+```
 azetlpipeline/
 │
 ├── .github/
-│ └── workflows/
-│ └── deploy.yml # CI/CD — auto-deploys notebooks on push to main
+│   └── workflows/
+│       └── deploy.yml              # CI/CD — auto-deploys notebooks on push to main
 │
-├── adf/ # Azure Data Factory definitions
-│ ├── dataset/ # Source and sink dataset JSON
-│ ├── linkedService/ # ADLS and Databricks linked services
-│ ├── pipeline/ # Pipeline JSON definitions
-│ └── trigger/ # Schedule trigger definitions
+├── adf/                            # Azure Data Factory definitions
+│   ├── dataset/
+│   ├── linkedService/
+│   ├── pipeline/
+│   └── trigger/
 │
-├── notebooks/ # Databricks PySpark notebooks
-│ ├── nb_ingest.py # Reads all 4 source files from Bronze zone
-│ ├── nb_clean.py # Bronze → Silver: cleans and validates
-│ ├── nb_transform.py # Silver → Gold: joins, enriches, writes
-│ ├── nb_validate.py # 19 automated data quality checks on Gold
-│ └── nb_mount_adls.py # ADLS Gen2 mount utility
+├── notebooks/
+│   ├── nb_ingest.py                # Reads all 4 source files from Bronze zone
+│   ├── nb_clean.py                 # Bronze → Silver: cleans and validates
+│   ├── nb_transform.py             # Silver → Gold: joins, enriches, writes
+│   ├── nb_validate.py              # 19 automated data quality checks on Gold
+│   └── nb_mount_adls.py            # ADLS Gen2 mount utility
 │
-├── synapse/ # Synapse Analytics SQL scripts
-│ └── create_views.sql # Creates 5 views over Gold Delta tables
+├── synapse/
+│   └── create_views.sql            # Creates 5 views over Gold Delta tables
 │
 ├── data/
-│ └── sample test data/ # Synthetic sample data files
-│ ├── sales_transactions.csv # 900 rows, 18 columns
-│ ├── master_data.xlsx # 100 customers + 20 products
-│ ├── support_tickets.json # 850 records, 16 fields
-│ └── marketing_campaigns.csv # 820 rows, 17 columns
+│   └── sample test data/
+│       ├── sales_transactions.csv
+│       ├── master_data.xlsx
+│       ├── support_tickets.json
+│       └── marketing_campaigns.csv
 │
-├── tests/ # Unit tests
+├── tests/
 ├── .gitignore
 └── README.md
-
-
+```
 ---
+## Data Sources — Bronze Layer (`raw/`)
+These files are ingested daily by Azure Data Factory into the Bronze zone.
 
-## Data Sources
-
-| File | Format | Rows | Columns |
-|---|---|---|---|
-| `sales_transactions.csv` | CSV | 900 | 18 |
-| `master_data.xlsx` | XLSX | 100 + 20 | 17 / 15 |
-| `support_tickets.json` | JSON | 850 | 16 |
-| `marketing_campaigns.csv` | CSV | 820 | 17 |
-
+| File | Format | Rows | Columns | Zone |
+|---|---|---|---|---|
+| `sales_transactions.csv` | CSV | 900 | 18 | `raw/sales/` |
+| `master_data.xlsx` | XLSX | 100 + 20 | 17 / 15 | `raw/master/` |
+| `support_tickets.json` | JSON | 850 | 16 | `raw/support/` |
+| `marketing_campaigns.csv` | CSV | 820 | 17 | `raw/marketing/` |
 ---
 
 ## Delta Tables by Layer
@@ -121,27 +119,21 @@ azetlpipeline/
 | `products` | Product catalogue with margin metrics |
 | `support` | Support analytics ready for Power BI |
 | `marketing` | Campaign performance ready for Power BI |
-
 ---
 
 ## CI/CD
-
 Every push to `main` triggers GitHub Actions which deploys all notebooks in `notebooks/` to `/Shared/etl-pipeline/` in Databricks automatically.
 
 **Required secrets:**
-
 | Secret | Description |
 |---|---|
 | `DATABRICKS_HOST` | Databricks workspace URL |
 | `DATABRICKS_TOKEN` | Databricks personal access token |
 | `AZURE_CREDENTIALS` | Service principal JSON |
-
 ---
 
 ## Power BI Dashboard
-
 6 pages covering the full business picture:
-
 | Page | Key insights |
 |---|---|
 | Sales Overview | Revenue by region, channel, trend over time |
@@ -163,7 +155,6 @@ Scheduled refresh daily at 07:00 UTC via Synapse Serverless SQL.
 - Power BI Desktop
 
 ### 1. Azure Infrastructure
-
 | Resource | Name | Notes |
 |---|---|---|
 | Resource Group | `rg-etl-pipeline` | All resources in same region |
@@ -174,7 +165,6 @@ Scheduled refresh daily at 07:00 UTC via Synapse Serverless SQL.
 | Synapse Analytics | `synw-etl-pipeline` | Linked to storage account |
 
 ### 2. Permissions
-
 - Grant `Storage Blob Data Contributor` to ADF and Databricks managed identities
 - Grant `Storage Blob Data Reader` to Synapse managed identity
 
@@ -187,11 +177,9 @@ Run synapse/create_views.sql in Synapse Studio
 Connect Power BI to Synapse Serverless endpoint
 
 ### 4. Monitoring
-
 Create Azure Monitor alert on ADF — condition `Failed pipeline runs > 0` — with email notification via Action Group.
 
 ---
 
 ## License
-
 MIT
