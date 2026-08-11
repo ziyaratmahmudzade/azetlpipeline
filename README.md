@@ -6,8 +6,22 @@
 ![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
 ![Power BI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)
 
-A fully automated, production-grade ETL pipeline on Microsoft Azure. Ingests four source files daily, transforms them through a 3-layer Medallion Architecture, and delivers clean business data to Power BI dashboards — zero manual intervention.
+> A fully automated, production-grade ETL pipeline on Microsoft Azure following the **Medallion Architecture** — from raw files to live Power BI dashboards with zero manual intervention.
 
+---
+## Screenshots
+
+### Azure Infrastructure
+![Azure Infrastructure](screenshots/azure_infrastructure.png)
+### ADLS Gen2 — Medallion Architecture Zones
+![ADLS Zones](screenshots/adls_medallion_zones.png)
+### Power BI Dashboards
+![Sales Overview](screenshots/powerbi_dashboards/sales_overview.png)
+![Customer Intelligence](screenshots/powerbi_dashboards/customer_intelligence.png)
+![Product Performance](screenshots/powerbi_dashboards/product_performance.png)
+![Support Analytics](screenshots/powerbi_dashboards/support_analytics.png)
+![Marketing Performance](screenshots/powerbi_dashboards/marketing_performance.png)
+![Executive Summary](screenshots/powerbi_dashboards/executive_summary.png)
 ---
 
 ## Architecture
@@ -28,18 +42,15 @@ CSV / XLSX / JSON  →  Azure Data Factory  →  ADLS Gen2 (raw/)
                                                     ↓
                                        Power BI · 6 dashboards
 ```
-
-
-### Medallion Architecture — Bronze → Silver → Gold
-| Layer | Zone | Folder | What happens |
-|---|---|---|---|
-| Bronze | Raw | `raw/` | Original files land here unchanged via ADF daily at 06:00 UTC |
-| Silver | Clean | `cleaned/` | Cleaned, validated, typed correctly by nb_clean.py |
-| Gold | Curated | `curated/` | Joined, enriched, business-ready Delta tables by nb_transform.py |
+| Layer | Folder | What happens |
+|---|---|---|
+| Bronze | `raw/` | ADF copies 4 source files here daily |
+| Silver | `cleaned/` | nb_clean.py cleans, validates, types |
+| Gold | `curated/` | nb_transform.py joins, enriches, segments |
 
 ---
 
-## Technology Stack
+## Stack
 | Layer | Service |
 |---|---|
 | Orchestration | Azure Data Factory |
@@ -52,133 +63,41 @@ CSV / XLSX / JSON  →  Azure Data Factory  →  ADLS Gen2 (raw/)
 | Monitoring | Azure Monitor |
 
 ---
-
-## Repository Structure
-```
-azetlpipeline/
-│
-├── .github/
-│   └── workflows/
-│       └── deploy.yml              # CI/CD — auto-deploys notebooks on push to main
-│
-├── adf/                            # Azure Data Factory definitions
-│   ├── dataset/
-│   ├── linkedService/
-│   ├── pipeline/
-│   └── trigger/
-│
-├── notebooks/
-│   ├── nb_ingest.py                # Reads all 4 source files from Bronze zone
-│   ├── nb_clean.py                 # Bronze → Silver: cleans and validates
-│   ├── nb_transform.py             # Silver → Gold: joins, enriches, writes
-│   ├── nb_validate.py              # 19 automated data quality checks on Gold
-│   └── nb_mount_adls.py            # ADLS Gen2 mount utility
-│
-├── synapse/
-│   └── create_views.sql            # Creates 5 views over Gold Delta tables
-│
-├── data/
-│   └── sample test data/
-│       ├── sales_transactions.csv
-│       ├── master_data.xlsx
-│       ├── support_tickets.json
-│       └── marketing_campaigns.csv
-│
-├── tests/
-├── .gitignore
-└── README.md
-```
 ---
+
 ## Data Sources — Bronze Layer (`raw/`)
-These files are ingested daily by Azure Data Factory into the Bronze zone.
+| File | Format | Rows | Columns |
+|---|---|---|---|
+| `sales_transactions.csv` | CSV | 900 | 18 |
+| `master_data.xlsx` | XLSX | 120 | 15–17 |
+| `support_tickets.json` | JSON | 850 | 16 |
+| `marketing_campaigns.csv` | CSV | 820 | 17 |
 
-| File | Format | Rows | Columns | Zone |
-|---|---|---|---|---|
-| `sales_transactions.csv` | CSV | 900 | 18 | `raw/sales/` |
-| `master_data.xlsx` | XLSX | 100 + 20 | 17 / 15 | `raw/master/` |
-| `support_tickets.json` | JSON | 850 | 16 | `raw/support/` |
-| `marketing_campaigns.csv` | CSV | 820 | 17 | `raw/marketing/` |
----
-
-## Delta Tables by Layer
-
-### Silver — `cleaned/`
-| Table | Rows | Description |
-|---|---|---|
-| `transactions` | ~701 | Cleaned sales — negatives, nulls, cancellations removed |
-| `customers` | ~81 | Active customers only — typed and standardised |
-| `products` | 20 | Products with calculated margin percentage |
-| `support` | 850 | Tickets with typed dates and standardised severity |
-| `marketing` | 820 | Campaigns with calculated ROI percentage |
-
-### Gold — `curated/`
-| Table | Description |
-|---|---|
-| `transactions` | Enriched with customer segment, total spend, joined to master data |
-| `customers` | Business-ready customer profiles |
-| `products` | Product catalogue with margin metrics |
-| `support` | Support analytics ready for Power BI |
-| `marketing` | Campaign performance ready for Power BI |
 ---
 
 ## CI/CD
-Every push to `main` triggers GitHub Actions which deploys all notebooks in `notebooks/` to `/Shared/etl-pipeline/` in Databricks automatically.
-
-**Required secrets:**
+Push to `main` → GitHub Actions deploys all 5 notebooks to `/Shared/etl-pipeline/` in Databricks automatically.
 | Secret | Description |
 |---|---|
 | `DATABRICKS_HOST` | Databricks workspace URL |
-| `DATABRICKS_TOKEN` | Databricks personal access token |
+| `DATABRICKS_TOKEN` | Personal access token |
 | `AZURE_CREDENTIALS` | Service principal JSON |
+
 ---
 
-## Power BI Dashboard
-6 pages covering the full business picture:
-| Page | Key insights |
-|---|---|
-| Sales Overview | Revenue by region, channel, trend over time |
-| Customer Intelligence | Segments, industries, countries, credit limits |
-| Product Performance | Margins, stock levels, supplier revenue |
-| Support Analytics | Ticket severity, resolution time, satisfaction scores |
-| Marketing Performance | ROI by campaign type, leads by platform |
-| Executive Summary | CEO-level KPIs with region, date, segment slicers |
+## Power BI — 6 Dashboard Pages
+Sales Overview · Customer Intelligence · Product Performance · Support Analytics · Marketing Performance · Executive Summary
 
 Scheduled refresh daily at 07:00 UTC via Synapse Serverless SQL.
-
 ---
 
-## Setup
-
-### Prerequisites
-- Azure subscription (Owner or Contributor role)
-- GitHub account
-- Power BI Desktop
-
-### 1. Azure Infrastructure
-| Resource | Name | Notes |
-|---|---|---|
-| Resource Group | `rg-etl-pipeline` | All resources in same region |
-| Storage Account | `saetlpipeline` | Hierarchical namespace ON · 3 zones: raw/, cleaned/, curated/ |
-| Key Vault | `kv-etl-pipeline` | Store `adls-storage-key` secret |
-| Data Factory | `adf-etl-pipeline` | Connect to this GitHub repo |
-| Databricks | `dbw-etl-pipeline` | Runtime 13.3 LTS · link Key Vault as `kv-scope` |
-| Synapse Analytics | `synw-etl-pipeline` | Linked to storage account |
-
-### 2. Permissions
-- Grant `Storage Blob Data Contributor` to ADF and Databricks managed identities
-- Grant `Storage Blob Data Reader` to Synapse managed identity
-
-### 3. Run the Pipeline
-Upload source files to ADLS raw zone
-ADF pipeline pl_ingest_files runs daily at 06:00 UTC
-Notebooks run in order automatically:
-nb_clean.py → nb_transform.py → nb_validate.py
-Run synapse/create_views.sql in Synapse Studio
-Connect Power BI to Synapse Serverless endpoint
-
-### 4. Monitoring
-Create Azure Monitor alert on ADF — condition `Failed pipeline runs > 0` — with email notification via Action Group.
-
+## Quick Setup
+1. Provision Azure services — Resource Group, ADLS Gen2, Key Vault, ADF, Databricks, Synapse
+2. Grant managed identity permissions on ADLS
+3. Upload source files to `raw/` zone
+4. Run `pl_ingest_files` in ADF — triggers full pipeline automatically
+5. Run `synapse/create_views.sql` in Synapse Studio
+6. Connect Power BI to Synapse Serverless endpoint
 ---
 
 ## License
